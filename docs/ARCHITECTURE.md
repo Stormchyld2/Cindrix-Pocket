@@ -52,7 +52,9 @@ Put the useful part of the Cindrix library on a phone so it can be read with no 
 
 ## 7. Open questions
 
-1. Which book formats must the reader open on day one (the Hub shelf holds more than one type)?
+1. ~~Which book formats must the reader open on day one?~~ **Decided (owner, 2026-11-08): the same formats as the Windows version.** Today that is PDF, Markdown (`.md`) and plain text (`.txt`). Pocket keeps no list of its own: when the Windows Shelf gains a format, Pocket gains it.
+
+Also decided (owner, 2026-11-08): **the phone carries the full emergency contact card**, not a trimmed one. Ops must put it in the bundle for a trusted phone (the Family page is host-only today). Pocket stores it on the phone only, never in a shared or guest-readable place, and the Hub's erase order wipes it with everything else Cindrix keeps there.
 2. Do cards and checklists reach Pocket as the same files Ops displays, or as a lighter export?
 3. Does Pocket also receive Ops-written `.cmap` maps, or does that stay with the map viewer?
 4. Framework choice. AirLink is built from LocalSend (Flutter). Reusing it would let Pocket share pairing and transfer code.

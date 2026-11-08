@@ -13,8 +13,9 @@ Offline emergency cards, checklists and books on your phone. Works with no serve
 The Cindrix Ops Hub is a server, and in a bad day it may not be in reach. Pocket keeps a copy of what matters on the phone itself:
 
 - emergency cards (first aid, water treatment, navigation and the rest)
+- the full emergency contact card for the family
 - checklists
-- the books and manuals you marked for download
+- the books and manuals you marked for download (PDF, Markdown and text, the same formats as the Windows version)
 
 Once filled, it needs no network at all.
 
