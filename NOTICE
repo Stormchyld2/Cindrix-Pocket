@@ -1,0 +1,10 @@
+Cindrix Pocket (field tools are built from Cindrix Scan, same licenses)
+
+Heading font: TeX Gyre Heros Condensed Bold, copyright GUST e-foundry, used under the
+GUST Font License. See licenses/GUST-FONT-LICENSE.txt.
+
+Barcode decoding: ZXing ("Zebra Crossing"), Apache License 2.0.
+Other libraries: AndroidX, Jetpack Compose and CameraX, Apache License 2.0.
+
+Pocket logo: the CindrixOps logo, from Cindrix Ops.
+GPS: the phone's own location service (android.location.LocationManager). No Google Play services, no network.
