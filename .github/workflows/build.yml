@@ -8,6 +8,9 @@ on:
       - "docs/**"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -50,3 +53,15 @@ jobs:
         with:
           name: CindrixPocket-android
           path: dist/*.apk
+
+      # a release page gives one plain download link that works from the phone itself
+      - name: Publish the APK as a release
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          TAG="pocket-${VERSION}-build-${GITHUB_RUN_NUMBER}"
+          gh release create "$TAG" dist/*.apk --target "$GITHUB_SHA" --prerelease \
+            --title "Cindrix Pocket ${VERSION} (build ${GITHUB_RUN_NUMBER})" \
+            --notes "Field tools: scanner, new item from a scan, GPS tracking, outbox. Built by CI from ${GITHUB_SHA::7}. Not yet run on a real phone by the builder."
