@@ -132,6 +132,8 @@ fun HomeScreen(
     onDiscard: (String) -> Unit,
     onStock: () -> Unit,
     onTrack: () -> Unit,
+    onCards: () -> Unit,
+    onAcademy: () -> Unit,
 ) {
     val hasItems = state.batch.isNotEmpty()
     Column(Modifier.fillMaxSize().padding(16.dp)) {
@@ -145,6 +147,11 @@ fun HomeScreen(
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Btn("SCAN", onScan, Modifier.weight(1f))
             Btn("ADD BY HAND", onManual, Modifier.weight(1f), outlined = true)
+        }
+        Spacer(Modifier.height(8.dp))
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Btn("CARDS", onCards, Modifier.weight(1f))
+            Btn("ACADEMY", onAcademy, Modifier.weight(1f))
         }
         Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {

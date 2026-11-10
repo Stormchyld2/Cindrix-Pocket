@@ -36,6 +36,8 @@ sealed class Screen {
     object Stock : Screen()
     object Track : Screen()
     object Settings : Screen()
+    object Cards : Screen()
+    object Academy : Screen()
     data class Form(val item: BatchItem, val isNew: Boolean, val known: Boolean, val fromScan: Boolean) : Screen()
 }
 
@@ -63,6 +65,7 @@ class MainActivity : ComponentActivity() {
 fun App(state: AppState) {
     val context = LocalContext.current
     var screen by remember { mutableStateOf<Screen>(Screen.Home) }
+    val library = rememberLibrary()
     var confirmClear by remember { mutableStateOf(false) }
 
     fun toast(text: String) {
@@ -174,6 +177,8 @@ fun App(state: AppState) {
                 onDiscard = { name -> state.discard(name) },
                 onStock = { screen = Screen.Stock },
                 onTrack = { screen = Screen.Track },
+                onCards = { screen = Screen.Cards },
+                onAcademy = { screen = Screen.Academy },
             )
 
             is Screen.Scan -> ScanScreen(
@@ -248,6 +253,10 @@ fun App(state: AppState) {
                 },
                 onBack = { screen = Screen.Home },
             )
+
+            Screen.Cards -> CardsScreen(cards = library.cards, onBack = { screen = Screen.Home })
+
+            Screen.Academy -> AcademyScreen(courses = library.courses, progress = library.progress, onBack = { screen = Screen.Home })
 
             Screen.Stock -> InStockScreen(
                 state = state,

@@ -64,4 +64,4 @@ jobs:
           TAG="pocket-${VERSION}-build-${GITHUB_RUN_NUMBER}"
           gh release create "$TAG" dist/*.apk --target "$GITHUB_SHA" --prerelease \
             --title "Cindrix Pocket ${VERSION} (build ${GITHUB_RUN_NUMBER})" \
-            --notes "Field tools: scanner, new item from a scan, GPS tracking, outbox. Built by CI from ${GITHUB_SHA::7}. Not yet run on a real phone by the builder."
+            --notes "Field view: cards, Academy with quizzes, scanner, new item from a scan, GPS tracking, outbox. Built by CI from ${GITHUB_SHA::7}. Not yet run on a real phone by the builder."

@@ -12,8 +12,8 @@ android {
         applicationId = "com.cindrix.pocket"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.2.0"
     }
 
     // Signing: if the build provides a release keystore (GitHub Actions secrets), use it.
