@@ -6,7 +6,7 @@ Offline emergency cards, checklists and books on your phone. Works with no serve
 |---|---|
 | Android app ID | `com.cindrix.pocket` |
 | Platform | Android first |
-| Status | Planning. No app code yet. |
+| Status | Built on branch `field-tools` (version 0.2.0): scanner, stock list, GPS tracks, outbox, emergency cards, Academy with quizzes, and joining the Hub by invite QR. Built by CI, not yet run on a real phone. |
 
 ## What it is
 

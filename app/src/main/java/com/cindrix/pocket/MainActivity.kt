@@ -14,11 +14,18 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -37,6 +44,9 @@ sealed class Screen {
     object Track : Screen()
     object Settings : Screen()
     object Cards : Screen()
+    object Hub : Screen()
+    object HubScan : Screen()
+    object Erased : Screen()
     object Academy : Screen()
     data class Form(val item: BatchItem, val isNew: Boolean, val known: Boolean, val fromScan: Boolean) : Screen()
 }
@@ -66,6 +76,7 @@ fun App(state: AppState) {
     val context = LocalContext.current
     var screen by remember { mutableStateOf<Screen>(Screen.Home) }
     val library = rememberLibrary()
+    var hubInvite by remember { mutableStateOf<String?>(null) }
     var confirmClear by remember { mutableStateOf(false) }
 
     fun toast(text: String) {
@@ -179,6 +190,7 @@ fun App(state: AppState) {
                 onTrack = { screen = Screen.Track },
                 onCards = { screen = Screen.Cards },
                 onAcademy = { screen = Screen.Academy },
+                onHub = { screen = Screen.Hub },
             )
 
             is Screen.Scan -> ScanScreen(
@@ -253,6 +265,31 @@ fun App(state: AppState) {
                 },
                 onBack = { screen = Screen.Home },
             )
+
+            Screen.Hub -> HubScreen(
+                state = state,
+                onScanQr = { screen = Screen.HubScan },
+                onErased = { screen = Screen.Erased },
+                invite = hubInvite,
+                onInviteUsed = { hubInvite = null },
+                onBack = { screen = Screen.Home },
+            )
+
+            Screen.HubScan -> HubScanScreen(
+                onInvite = { text ->
+                    hubInvite = text
+                    screen = Screen.Hub
+                },
+                onBack = { screen = Screen.Hub },
+            )
+
+            Screen.Erased -> Column(Modifier.fillMaxSize().padding(24.dp), verticalArrangement = Arrangement.Center) {
+                Text("This phone was erased by the Hub.", fontFamily = HeadingFont, fontSize = 22.sp)
+                Spacer(Modifier.height(8.dp))
+                Text("Its cards progress, outbox and saved settings are gone. To use it with the Hub again, ask for a new invite.")
+                Spacer(Modifier.height(16.dp))
+                Btn("OK", { screen = Screen.Home }, Modifier.fillMaxWidth())
+            }
 
             Screen.Cards -> CardsScreen(cards = library.cards, onBack = { screen = Screen.Home })
 

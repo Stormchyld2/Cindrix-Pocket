@@ -96,7 +96,7 @@ fun TrackScreen(state: AppState, onSaved: (String) -> Unit, onBack: () -> Unit) 
             problem = "There are not enough points to make a track yet. Walk a little further."
             return
         }
-        val device = TrackSheet.deviceCode(state.callsign)
+        val device = state.deviceCode()
         val id = TrackSheet.trackId(device, points.first().t)
         val name = TrackSheet.fileName(device, points.first().t)
         val text = TrackSheet.build(device, state.source(), Instant.now(), id, "", points)

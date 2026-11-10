@@ -36,6 +36,34 @@ class AppState(private val store: Store) {
     /** Files saved and waiting to be delivered, oldest first. */
     val stock = mutableStateListOf<StockLine>()
 
+    var hubBase by mutableStateOf(store.hubBase)
+        private set
+    var hubToken by mutableStateOf(store.hubToken)
+        private set
+
+    /** True after the invite QR has been used: the phone then has the Hub's own code for it. */
+    val linked: Boolean get() = hubBase != null && hubToken != null
+
+    fun link(base: String, token: String) {
+        store.hubBase = base; store.hubToken = token
+        hubBase = base; hubToken = token
+    }
+
+    fun unlink() {
+        store.hubBase = null; store.hubToken = null
+        hubBase = null; hubToken = null
+    }
+
+    /** The phone's code on reports: the Hub's own once joined (the Hub refuses any other), otherwise made from the callsign. */
+    fun deviceCode(): String = hubToken?.let { HubLink.deviceId(it) } ?: TrackSheet.deviceCode(callsign)
+
+    /** The Hub told this phone to erase itself. */
+    fun wipeEverything() {
+        store.wipeEverything()
+        unlink()
+        batch.clear(); stock.clear(); outbox.clear()
+    }
+
     val outbox = mutableStateListOf<String>()
     val outboxStore = Outbox(store.dir)
 

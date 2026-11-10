@@ -11,6 +11,21 @@ import java.io.File
  */
 class Store(val dir: File, private val prefs: SharedPreferences) {
 
+    /** The Hub this phone joined with an invite, and its sign-in. Both stay on the phone. */
+    var hubBase: String?
+        get() = prefs.getString("hub_base", null)
+        set(value) { prefs.edit().putString("hub_base", value).apply() }
+
+    var hubToken: String?
+        get() = prefs.getString("hub_token", null)
+        set(value) { prefs.edit().putString("hub_token", value).apply() }
+
+    /** The Hub's erase order: remove everything Cindrix keeps on this phone. */
+    fun wipeEverything() {
+        prefs.edit().clear().apply()
+        dir.listFiles()?.forEach { it.deleteRecursively() }
+    }
+
     var callsign: String
         get() {
             val saved = prefs.getString("callsign", null)
