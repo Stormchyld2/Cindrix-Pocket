@@ -15,7 +15,7 @@ class ContactCardTest {
     @Test
     fun anEmptyOrMissingCardIsEmpty() {
         assertTrue(ContactCardStore.decode("").isEmpty)
-        val dir = File.createTempFile("cc", "").let { it.delete(); it.mkdirs(); it }
+        val dir = File.createTempFile("ccard", "").let { it.delete(); it.mkdirs(); it }
         val s = ContactCardStore(dir)
         assertTrue(s.load().isEmpty)
         assertTrue(s.save(ContactCard("A", "B", "C")))
