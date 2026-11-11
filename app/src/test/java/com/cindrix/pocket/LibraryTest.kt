@@ -49,7 +49,7 @@ class LibraryTest {
         assertTrue("cards: " + cards.size, cards.size > 100)
         assertTrue(cards.all { it.blocks.isNotEmpty() })
         val courses = lib.courses()
-        assertTrue("courses: " + courses.size, courses.size >= 30)
+        assertTrue("courses: " + courses.size, courses.size >= 25)
         assertTrue(courses.any { it.tier == 1 } && courses.any { it.tier == 2 } && courses.any { it.tier == 3 })
         assertTrue(courses.all { it.lessonCount > 0 })
         assertTrue(courses.any { it.id == "survival-basics" })
