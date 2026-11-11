@@ -45,6 +45,8 @@ sealed class Screen {
     object Track : Screen()
     object Settings : Screen()
     object Cards : Screen()
+    object Books : Screen()
+    object Contact : Screen()
     object Count : Screen()
     object Checkin : Screen()
     object Hub : Screen()
@@ -195,6 +197,8 @@ fun App(state: AppState) {
                 onAcademy = { screen = Screen.Academy },
                 onHub = { screen = Screen.Hub },
                 onCount = { screen = Screen.Count },
+                onBooks = { screen = Screen.Books },
+                onContact = { screen = Screen.Contact },
                 onCheckin = { screen = Screen.Checkin },
             )
 
@@ -307,6 +311,10 @@ fun App(state: AppState) {
                 onSaved = { name -> toast("Saved to the outbox: " + name); screen = Screen.Home },
                 onBack = { screen = Screen.Home },
             )
+
+            Screen.Books -> BooksScreen(state = state, onBack = { screen = Screen.Home })
+
+            Screen.Contact -> ContactCardScreen(state = state, onBack = { screen = Screen.Home })
 
             Screen.Cards -> CardsScreen(cards = library.cards, onBack = { screen = Screen.Home })
 

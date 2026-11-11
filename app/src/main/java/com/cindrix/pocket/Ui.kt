@@ -136,6 +136,8 @@ fun HomeScreen(
     onAcademy: () -> Unit,
     onHub: () -> Unit,
     onCount: () -> Unit,
+    onBooks: () -> Unit,
+    onContact: () -> Unit,
     onCheckin: () -> Unit,
 ) {
     val hasItems = state.batch.isNotEmpty()
@@ -155,6 +157,11 @@ fun HomeScreen(
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Btn("CARDS", onCards, Modifier.weight(1f))
             Btn("ACADEMY", onAcademy, Modifier.weight(1f))
+        }
+        Spacer(Modifier.height(8.dp))
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Btn("BOOKS", onBooks, Modifier.weight(1f), outlined = true)
+            Btn("CONTACT CARD", onContact, Modifier.weight(1f), outlined = true)
         }
         Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {

@@ -101,4 +101,40 @@ object HubLink {
     } catch (e: Exception) {
         Result.failure(Exception(e.message ?: "no answer"))
     }
+
+    /** The Hub's shelf, keeping only the kinds Pocket can open (PDF, Markdown, plain text). */
+    fun shelfList(base: String, token: String): Result<List<ShelfBook>> = try {
+        val (code, text) = post(base, token, "/api/shelf_list", "{}")
+        if (code !in 200..299) Result.failure(Exception("The Hub did not give its book list."))
+        else {
+            val arr = org.json.JSONArray(text)
+            val out = ArrayList<ShelfBook>()
+            for (i in 0 until arr.length()) {
+                val o = arr.getJSONObject(i)
+                val kind = o.optString("kind").lowercase()
+                if (kind in Books.OPENABLE) out.add(ShelfBook(o.optString("id"), o.optString("title"), o.optString("author"), kind))
+            }
+            Result.success(out)
+        }
+    } catch (e: Exception) {
+        Result.failure(Exception("Could not read the Hub's book list. (" + (e.message ?: "no answer") + ")"))
+    }
+
+    /** Downloads one book into `dest` (written to a temporary file first, so a broken download is never kept). */
+    fun shelfRead(base: String, token: String, id: String, dest: java.io.File): Result<Unit> = try {
+        val c = open("$base/api/shelf_read?id=" + URLEncoder.encode(id, "UTF-8"), "GET")
+        c.readTimeout = 120000
+        c.setRequestProperty("Cookie", "cx=$token")
+        if (c.responseCode !in 200..299) {
+            c.disconnect()
+            Result.failure(Exception("The Hub could not give that book."))
+        } else {
+            val tmp = java.io.File(dest.parentFile, dest.name + ".part")
+            c.inputStream.use { input -> tmp.outputStream().use { input.copyTo(it) } }
+            c.disconnect()
+            if (tmp.renameTo(dest)) Result.success(Unit) else Result.failure(Exception("The book could not be saved."))
+        }
+    } catch (e: Exception) {
+        Result.failure(Exception("The download stopped. (" + (e.message ?: "no answer") + ")"))
+    }
 }

@@ -64,6 +64,9 @@ class AppState(private val store: Store) {
         batch.clear(); stock.clear(); outbox.clear()
     }
 
+    val books = Books(store.dir)
+    val contactCard = ContactCardStore(store.dir)
+
     val outbox = mutableStateListOf<String>()
     val outboxStore = Outbox(store.dir)
 

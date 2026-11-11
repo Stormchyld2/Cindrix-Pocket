@@ -160,3 +160,40 @@ fun CheckinScreen(state: AppState, onSaved: (String) -> Unit, onBack: () -> Unit
 }
 
 private fun mutableStateListOfLines() = androidx.compose.runtime.mutableStateListOf<CheckinLine>()
+
+/** The emergency contact card: written on this phone, kept only on this phone. */
+@Composable
+fun ContactCardScreen(state: AppState, onBack: () -> Unit) {
+    BackHandler(onBack = onBack)
+    val saved = remember { state.contactCard.load() }
+    var contacts by remember { mutableStateOf(saved.contacts) }
+    var plan by remember { mutableStateOf(saved.plan) }
+    var people by remember { mutableStateOf(saved.people) }
+    var editing by remember { mutableStateOf(saved.isEmpty) }
+    var note by remember { mutableStateOf("") }
+    Column(Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            TextButton(onClick = onBack) { Text("BACK", fontFamily = HeadingFont) }
+            Text("Emergency contact card", fontFamily = HeadingFont, fontSize = 18.sp)
+        }
+        if (editing) {
+            Text("Kept only on this phone, in the app's private storage. It is erased if the Hub orders this phone erased.", color = Muted, fontSize = 13.sp)
+            OutlinedTextField(value = contacts, onValueChange = { contacts = it }, label = { Text("Emergency contacts (names and numbers)") }, modifier = Modifier.fillMaxWidth())
+            OutlinedTextField(value = plan, onValueChange = { plan = it }, label = { Text("Our plan (where we meet, who calls whom)") }, modifier = Modifier.fillMaxWidth())
+            OutlinedTextField(value = people, onValueChange = { people = it }, label = { Text("Each person: doctor, allergies, conditions") }, modifier = Modifier.fillMaxWidth())
+            Btn("SAVE THE CARD", {
+                if (state.contactCard.save(ContactCard(contacts, plan, people))) { editing = false; note = "Saved on this phone." }
+                else note = "The card could not be saved."
+            }, Modifier.fillMaxWidth())
+        } else {
+            Text("EMERGENCY CONTACTS", fontFamily = HeadingFont, color = Blue)
+            Text(contacts.ifBlank { "(none)" }, fontSize = 17.sp)
+            Text("OUR PLAN", fontFamily = HeadingFont, color = Blue, modifier = Modifier.padding(top = 8.dp))
+            Text(plan.ifBlank { "(none)" }, fontSize = 17.sp)
+            Text("EACH PERSON", fontFamily = HeadingFont, color = Blue, modifier = Modifier.padding(top = 8.dp))
+            Text(people.ifBlank { "(none)" }, fontSize = 17.sp)
+            Btn("EDIT", { editing = true }, Modifier.fillMaxWidth(), outlined = true)
+        }
+        if (note.isNotBlank()) Text(note, color = Muted)
+    }
+}
