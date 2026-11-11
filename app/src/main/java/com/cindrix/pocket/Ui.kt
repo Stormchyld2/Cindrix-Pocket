@@ -135,6 +135,8 @@ fun HomeScreen(
     onCards: () -> Unit,
     onAcademy: () -> Unit,
     onHub: () -> Unit,
+    onCount: () -> Unit,
+    onCheckin: () -> Unit,
 ) {
     val hasItems = state.batch.isNotEmpty()
     Column(Modifier.fillMaxSize().padding(16.dp)) {
@@ -153,6 +155,11 @@ fun HomeScreen(
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Btn("CARDS", onCards, Modifier.weight(1f))
             Btn("ACADEMY", onAcademy, Modifier.weight(1f))
+        }
+        Spacer(Modifier.height(8.dp))
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Btn("COUNT STOCK", onCount, Modifier.weight(1f), outlined = true)
+            Btn("CHECK IN", onCheckin, Modifier.weight(1f), outlined = true)
         }
         Spacer(Modifier.height(8.dp))
         Btn(if (state.linked) "HUB VIEW (JOINED)" else "HUB: JOIN WITH QR", onHub, Modifier.fillMaxWidth(), outlined = true)

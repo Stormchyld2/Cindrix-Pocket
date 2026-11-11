@@ -44,6 +44,8 @@ sealed class Screen {
     object Track : Screen()
     object Settings : Screen()
     object Cards : Screen()
+    object Count : Screen()
+    object Checkin : Screen()
     object Hub : Screen()
     object HubScan : Screen()
     object Erased : Screen()
@@ -191,6 +193,8 @@ fun App(state: AppState) {
                 onCards = { screen = Screen.Cards },
                 onAcademy = { screen = Screen.Academy },
                 onHub = { screen = Screen.Hub },
+                onCount = { screen = Screen.Count },
+                onCheckin = { screen = Screen.Checkin },
             )
 
             is Screen.Scan -> ScanScreen(
@@ -290,6 +294,18 @@ fun App(state: AppState) {
                 Spacer(Modifier.height(16.dp))
                 Btn("OK", { screen = Screen.Home }, Modifier.fillMaxWidth())
             }
+
+            Screen.Count -> CountScreen(
+                state = state,
+                onSaved = { name -> toast("Saved to the outbox: " + name); screen = Screen.Home },
+                onBack = { screen = Screen.Home },
+            )
+
+            Screen.Checkin -> CheckinScreen(
+                state = state,
+                onSaved = { name -> toast("Saved to the outbox: " + name); screen = Screen.Home },
+                onBack = { screen = Screen.Home },
+            )
 
             Screen.Cards -> CardsScreen(cards = library.cards, onBack = { screen = Screen.Home })
 

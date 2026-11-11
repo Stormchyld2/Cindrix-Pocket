@@ -124,13 +124,15 @@ fun HubScreen(state: AppState, onScanQr: () -> Unit, onErased: () -> Unit, invit
             var problem: String? = null
             for (name in state.outboxStore.list().filter { it.endsWith(".txt") }) {
                 val text = state.outboxStore.read(name) ?: continue
-                if (!name.startsWith("$code-")) { skipped++; continue }
-                val r = withContext(Dispatchers.IO) { HubLink.upload(base, token, name, text) }
+                // files made before joining carry a code made from the callsign; the Hub takes only its own
+                val (sendName, sendText) = Sheets.rebrand(name, text, code)
+                if (!sendName.startsWith("$code-")) { skipped++; continue }
+                val r = withContext(Dispatchers.IO) { HubLink.upload(base, token, sendName, sendText) }
                 if (r.isSuccess) { state.delivered(name); sent++ } else { problem = r.exceptionOrNull()?.message; break }
             }
             busy = false
             status = (if (sent > 0) "Sent $sent report${if (sent == 1) "" else "s"} to the Hub. They wait there until the host accepts them. " else "") +
-                (if (skipped > 0) "$skipped older file${if (skipped == 1) "" else "s"} made before joining stay in the outbox (they carry another code). " else "") +
+                (if (skipped > 0) "$skipped file${if (skipped == 1) "" else "s"} could not be sent because the name is not one the Hub takes. " else "") +
                 (problem ?: "") + (if (sent == 0 && skipped == 0 && problem == null) "Nothing was waiting to send." else "")
         }
     }

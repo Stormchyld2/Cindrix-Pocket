@@ -10,6 +10,8 @@ data class StockLine(
     val useBy: String,
     val category: String,
     val updated: String,
+    /** The line's own id in the Hub's Inventory. Empty in older lists, and then the line cannot be counted. */
+    val uid: String = "",
 )
 
 /** Reads `#cindrix-stock-list v1` files. Scan never edits the list; changes go back as import files. */
@@ -50,7 +52,7 @@ object StockList {
             val f = splitLine(line)
             fun get(n: String) = col(n).let { if (it >= 0) f.getOrNull(it) ?: "" else "" }
             val q = f.getOrNull(cQty)?.toDoubleOrNull() ?: continue
-            out.add(StockLine(f.getOrNull(cName) ?: continue, get("barcode"), get("unit"), get("location"), q, get("use_by"), get("category"), get("updated")))
+            out.add(StockLine(f.getOrNull(cName) ?: continue, get("barcode"), get("unit"), get("location"), q, get("use_by"), get("category"), get("updated"), get("uid")))
         }
         return out
     }
