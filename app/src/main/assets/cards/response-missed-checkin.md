@@ -5,20 +5,30 @@ status: draft
 reviewer:
 reviewed:
 ---
-**DRAFT. Not yet reviewed by a qualified person.**
+**A missed check-in is a reason to verify, not to panic or assume the worst. If phones work and someone may be hurt, call 911.**
+1. **Wait the agreed grace time,** then try again on the main and back-up channels.
+2. **Try another way:** a different radio, a message, an agreed signal, a pair sent to the last known place.
+3. **Check the simple causes:** flat battery, wrong channel, out of range, radio off.
+4. **Tell the watch lead** and write down the time of the last contact and the next planned one.
 
-**A missed check-in is a reason to verify, not to panic or assume the worst. Call 911 if you have reason to think someone is hurt or in danger.**
+## If no help is coming
 
-1. **Wait the agreed grace time**, then try again on the main channel and the back-up channel.
-2. **Try another way:** a different radio, a phone message, a signal agreed ahead of time, a person sent in a pair to the last known place.
-3. **Check the simple causes:** flat battery, wrong channel, out of range, a radio switched off.
-4. **Tell the watch lead** and write down the time of the last contact and the planned next one.
-5. **Still nothing after the second attempt:** treat it as **Someone is overdue or missing** and follow that card.
-6. **If the whole network is down,** move to the paper plan: a fixed time and place to meet, and runners in pairs.
-7. **When contact returns,** tell everyone, note it in the Security log, and find out why it failed so it can be fixed.
+- **Still nothing after the second try:** treat it as "Someone is overdue or missing" and follow that card.
+- **Whole network down:** go to the paper plan: a fixed time and place to meet, and runners in pairs.
+- **Never send one searcher alone.** See "Someone is overdue or missing".
+- **When contact returns,** tell everyone, note it in the Security log, and find out why it failed.
+- **Fix the cause:** spare batteries, a check-in schedule, and a back-up channel.
 
-**Call 911 for:** any sign of injury, threat or fire, or someone missing with no reason found.
+## Know more
 
-Source: Cindrix starter procedure (an example for your family to edit), built on common radio check-in practice (see the Radio reference). Change the grace times to fit your group.
+### Grace times
+Set them by how far people go. Short for nearby, longer for far trips.
 
-Reference only, not medical or legal advice. In an emergency, call 911.
+### Simple causes first
+Most missed contacts are batteries or the wrong channel.
+
+**Train:** Academy course "Communications".
+
+Source: Cindrix starter procedure (an example for your family to edit), built on common radio check-in practice. Change the grace times to fit your group.
+
+Reference only, not medical or legal advice. Where help can be reached, call 911.

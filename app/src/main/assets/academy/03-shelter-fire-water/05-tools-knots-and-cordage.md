@@ -1,9 +1,12 @@
 ---
 title: Tools, knots and cordage
-minutes: 10
+minutes: 14
 status: complete
-source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; CDC; Boy Scouts of America Handbook knots; FM 21-76 chapter on tools; Leave No Trace
+readiness: 3
+source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; Boy Scouts of America Handbook knots; FM 21-76 chapter on tools; Leave No Trace
 ---
+[video] Tools, knots and cordage
+
 A few simple tools and knots solve many problems: shelter, repairs, carrying and rescue.
 
 ## Carry these (the basic tool kit)
@@ -59,11 +62,38 @@ Also useful: the **figure-eight** stopper and the **trucker's hitch** for tighte
 - **Store** safely, away from children.
 
 ## Checklist
-- A knife, cord, multi-tool, lighter and headlamp in the kit
-- Can tie the square knot, bowline, clove hitch and two half hitches
-- Know knife and axe safety
+- [ ] A knife, cord, multi-tool, lighter and headlamp in the kit
+- [ ] Can tie the square knot, bowline, clove hitch and two half hitches
+- [ ] Know knife and axe safety
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Skill matters more than the tool
+A good knife in untrained hands is a hazard, and a cheap knife in trained hands is a tool. Learn to use, sharpen and carry what you own, and practice often.
+
+## Knife safety rules
+1. Cut away from your body and away from others.
+2. Keep your free hand out of the cutting path.
+3. Keep blades sharp, since dull ones slip.
+4. Carry and pass tools safely, handle first.
+5. Close or sheathe a tool when you are not using it.
+6. Do not cut toward your legs when sitting.
+7. Never throw tools or use them as pry bars.
+
+## Practice the six knots
+Tie each until you can do it with eyes closed and cold hands.
+- **Square knot** for joining two ropes of equal size.
+- **Bowline** for a fixed loop that does not slip.
+- **Clove hitch** for fastening to a post.
+- **Taut-line hitch** for adjustable tension.
+- **Two half hitches** for tying to an anchor.
+- **Trucker's hitch** for a tight line.
+
+## Cordage care
+Keep cord dry, coil it neatly, check for fraying and carry at least 50 feet of paracord. Make more in an emergency from strips of cloth, plant fibers or inner bark, twisted or braided.
+
+## Axe and saw safety
+Clear the area, keep a firm stance, chop away from your legs, and keep others at a safe distance of at least twice the length of the tool. Use a saw for large branches, and cut at a safe height.
 
 ## Check yourself
 ? Which direction should you cut with a knife?

@@ -1,131 +1,113 @@
 ---
-title: P.A.C.E Plan For Water Supply
-minutes: 4
+title: PACE plan for water supply
+minutes: 16
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross; CDC; EPA
+readiness: 4
+source: FEMA and Ready.gov (Water; Make a Plan); CDC (Emergency Water Supply; Private Wells in an Emergency); EPA (Rainwater Harvesting; Drinking Water Emergencies); American Red Cross (Water and Food in a Disaster); state laws on rainwater collection (check yours)
 ---
-You need to have a PACE plan for your family when it comes to water. As a reminder, PACE stands for: Primary, Alternative, Contingency, Emergency. PACE is all about the key preparedness principle of Redundancy.
+[video] Your water PACE plan
 
-As an overview, your PACE plan for water is:
-- Primary: What comes from your tap
-- Alternate: Means to treat your water supply to make it safe
-- Contingency: Stored water on your property
-- Emergency: Small or handheld water treatment devices
+PACE stands for Primary, Alternate, Contingency and Emergency. It is the principle of redundancy applied to one need: if the first way fails, you already have a second, and a third, and a fourth. For water, the plan is a simple card that answers one question: if the tap stops, where does my water come from?
+
+Fill in the card at the end of this lesson and put it in the binder.
 
 ## Primary
-This is what you identified in the previous lesson - water that you get on tap. For most of us in North America or other first world countries, Primary is our faucet in our kitchen, supplied by a well or municipal water supply.
+Your everyday supply, from Lesson 3: the tap, supplied by a municipal utility or a private well. It is cheap, convenient and usually reliable, but it is a single point of failure.
 
 ## Alternate
-If your tap water stops working, or becomes unsafe, you need a plan before it happens. Your Alternate water source is what you rely on when your Primary system fails. This is where preparation makes all the difference.
+What you rely on when the tap fails or turns unsafe, and which you can reach quickly. This is a bridge between normal life and emergency conditions, not a long-term source.
 
-Your alternate plan isn't about convenience—it's about bridging the gap between normal life and emergency conditions.
+### If you have a well
+Your water depends on power and equipment. To stay operational:
+- Keep a **generator** big enough for the pump, with a transfer switch installed by a qualified electrician, and fuel. Never run it indoors or connect it by an improvised cord.
+- Consider a **hand pump or solar pump** that fits your well.
+- Keep a **pressure tank** in working order and know how much it holds.
+Without power, you have no water unless you plan ahead.
 
-## If your water comes from a well on your property
-Your water is dependent on power and equipment.
-
-To stay operational:
-- Install an emergency hand pump for manual access
-- Keep a generator capable of running your well pump
-
-→ No power = no water unless you plan ahead
-
-## If your water comes from a municipal water system
-Your system depends on infrastructure and pressure—and both can fail.
-
-To buy yourself time:
-- Use a WaterBOB (https://a.co/d/070qsKFk) to store water in your bathtub while water is still running
-- Tap into your water heater (typically 50–80 gallons) for short-term supply
-
-→ Act early; once pressure is gone, these options disappear
+### If you are on a municipal system
+Pressure and infrastructure can fail. To buy time:
+- **Fill containers immediately** when a storm or outage is forecast, and when you hear of a main break or contamination.
+- **Fill the bathtub** with a food-grade bladder, which holds about 100 gallons.
+- **Use your water heater,** which holds 30 to 80 gallons (see below).
+- **Close the main valve** to stop contaminated water entering your home if there is a notice.
+Act early. Once pressure is gone, these options are gone too.
 
 ## Contingency
-A simple solution for contingency water supply is to store safe drinking water in containers. This can be a ready source to get you and your family through a short-medium term crisis.
-
-For a family of 4, to get a 1 week emergency supply you should have 84 gallons of water.
-
-## Ways to store water
-- A case of Costco water bottles is just over five gallons.
-- Camping or sporting goods stores have 5-gallon water containers available.
-- Some companies specialize in different sized water containers.
-- A designated water-safe 55-gallon plastic drum can hold a lot, but is very heavy and you won't be able to move it.
-- A budget option is to just start saving up two-liter soda bottles or orange juice containers and use them to store your water.
+Stored water in containers: a ready supply that carries you through a short to medium crisis. For a family of four at three gallons a day, a one-week supply is 84 gallons. Choose from:
+- Bottled water in cases.
+- Stackable cubes or jugs.
+- 55-gallon barrels with a pump.
+- Water bricks and collapsible containers.
+Date and rotate it, store it cool and out of sunlight and plan how you will move it.
 
 ## Emergency
-You should scout out emergency sources of water in your Area of Operation...but we'll talk more about that in the Area Study skill module.
+The last layer: natural sources near you, which you have to treat. These could be streams, ponds, lakes, rivers, springs and rain. Locate them now, plan how to reach them safely and note the risks, such as upstream farms or sewage. All of this water must be treated, with the ladder from the last lesson.
 
-Possible sources of emergency water:
-- Lakes
-- Reservoirs
-- Rivers, creeks, or streams
-- Water storage tanks or towers
-- Melting snow in Arctic areas
-- Digging a "seep hole" in the ground.
+### Rainwater
+Rainwater collection is a good emergency and gardening source in many areas. Connect barrels to your downspouts, with a screen and an overflow, so the extra drains normally. Keep the water covered to stop mosquitoes. In normal times it waters your garden. Laws on collection differ by state and city, and some places limit the volume or require permits, so check your local rules. Treat rainwater before drinking, because it picks up bacteria, bird droppings and roof residue.
 
-Locate these sources **now** so that in the worst case scenario you will be ahead of the curve!
-All of these sources will need treatment as previously mentioned.
+## The water PACE card
+Fill in the blanks and put the card in your binder.
+- **PRIMARY:** Tap water from ________ (municipal utility or well).
+- **ALTERNATE:** If the tap fails: ________ (bathtub bladder, water heater, hand pump or generator for the well).
+- **CONTINGENCY:** Stored water: ____ gallons in ________ (containers and locations). It lasts ____ days for ____ people.
+- **EMERGENCY:** Closest natural sources: ________ and ________ (distance and route). Treatment: filter ________ and chemicals ________.
 
-## Water Barrels
-Rainwater catchment is a great emergency source in many areas. The containers are connected to your downspouts and once the tank is full the extra overflows out as normal. Plus, this water is great for watering gardens during times of normalcy!
+## Triggers: when to step down the plan
+Write these on the card.
+- **Boil notice or do-not-drink notice:** go to Alternate and Contingency at once.
+- **Low pressure or discolored water:** fill containers.
+- **Forecast storm, freeze or fire:** fill the tub and containers before it hits.
+- **Stored water below the last-week mark:** begin treating Emergency sources.
+- **No safe source:** this is a trigger to leave. Revisit the bug-out decision tree.
 
-> Rainwater requires treatment before drinking, as it can contain: Roof contaminants, Bird droppings, and/or Debris.
-
-Please check your local laws for rainwater collection in your state or city, restrictions have relaxed but some rules may still be in place.
-
-You may be required (or strongly encouraged) to:
-- Use covered containers (to prevent mosquitoes)
-- Install overflow systems (so water drains safely)
-- Keep barrels secured and stable
-
-## In summary
-
-## Checklist
-- Alternate: Determine the backup plan for your water source type
-- Contingency: Store 1 weeks worth of water
-- Emergency: Identify the closest, reliable source of water that can be cleaned for drinking
-- Obtain water treatment chemicals
-- Obtain a water filter
-
-## Going deeper: writing your water PACE card
-Put this card in your binder. Fill in the blanks for your home.
-
-**PRIMARY:** Tap water from ________ (municipal utility or well).
-**ALTERNATE:** If the tap fails: ________ (WaterBOB filled early, water heater tank, hand pump or generator for the well).
-**CONTINGENCY:** Stored water: ________ gallons in ________ (containers and locations). Lasts ________ days for ________ people.
-**EMERGENCY:** Closest natural sources: ________ and ________ (distance and route). Treatment: filter ________ and chemicals ________.
-
-### Triggers: when to move down the plan
-- **Boil-water notice or discoloration:** move to Alternate (treat the tap water).
-- **Pressure drops or the water stops:** use Alternate (water heater, WaterBOB) and start Contingency.
-- **Contingency under a week left:** begin scouting and treating Emergency sources.
-- **Stored water is gone and no source:** consider relocation.
-
-### Using the water heater
+## Using the water heater
 1. **Turn off** the power or gas to the heater.
 2. **Turn off** the cold-water inlet valve.
-3. **Open** a hot water faucet in the house to let air in.
+3. **Open** a hot-water tap in the house to let air in.
 4. **Open** the drain valve at the bottom and fill containers. The first water may carry sediment.
 5. **Treat** the water if the tank is old or the utility has issued a notice.
 
-### Bathtub storage
-A WaterBOB or a similar bladder holds about 100 gallons in a clean tub. Fill it as soon as a storm or outage is forecast. Use for washing and flushing, and for drinking after treatment.
+## Bathtub storage
+A bladder such as a WaterBOB, placed in a clean tub, holds about 100 gallons. Fill it as soon as a storm or outage is forecast. Use it for washing and flushing, and for drinking after treatment.
 
-### Well owners
-- **Hand pump:** install a pitcher pump or a deep-well hand pump that fits your well casing.
-- **Generator:** a generator that can run the pump, with a safe connection and fuel stored.
-- **Solar pump:** an option for long-term independence.
-- **Storage tank:** a cistern and gravity feed.
+## Practice
+Once a year, run a drill: turn off the water and live on your Contingency for a day. Test the filter, drain the water heater into buckets, and replace your chemicals. Update the card.
 
-### Rainwater
-- **Barrels:** food-grade, covered, with a screen and an overflow.
-- **First flush diverter:** discards the first dirty water from the roof.
-- **Treat** before drinking.
-- **Check laws.**
+## Five principles
+The card is **preparedness,** and the layers are **mitigation** of single-point failure. The triggers drive **response,** and rainwater and natural sources are part of your **recovery** capacity.
 
-### Practice
-Every year, run a drill: turn off the water and live on your Contingency for a day. Test the filter and the water heater drain. Replace chemicals.
+- [ ] Fill in the water PACE card | Put it in the binder
+- [ ] Choose an Alternate | Bladder, water heater, hand pump or generator | gear
+- [ ] Store a Contingency supply | At least one week, building toward two | gear
+- [ ] Scout Emergency sources | Walk to them and note the risks
+- [ ] Learn to drain your water heater | Practice with buckets
+- [ ] Check your local rainwater rules | And set up a barrel if allowed | gear
+- [ ] Write the triggers on the card | Notice, pressure, forecast, low stock
+- [ ] Run a yearly drill | Live on stored water for a day
 
-### Checklist
-- A written PACE card in the binder
-- One week of stored water
-- A filter and chemicals
-- The nearest emergency sources scouted
+## Check yourself
+? What does PACE stand for?
++ Primary, Alternate, Contingency, Emergency
+- Plan, Act, Check, End
+- Prepare, Aim, Conserve, Evacuate
+- Pause, Ask, Choose, Eat
+> It is a layered backup plan.
+? What does a well owner need to plan for?
+- Nothing
++ Power for the pump, since no power means no water
+- Free water
+- Snow
+> A generator, hand pump or stored water solves it.
+? When should you fill containers on a municipal system?
+- After pressure is gone
++ As soon as a storm or outage is forecast, before pressure drops
+- Never
+- When thirsty
+> Alternate options vanish once pressure is lost.
+? What must you do with water from emergency natural sources?
+- Drink it as is
++ Treat it with filtering and then boiling or chemicals
+- Freeze it
+- Sell it
+> All such water needs treatment.

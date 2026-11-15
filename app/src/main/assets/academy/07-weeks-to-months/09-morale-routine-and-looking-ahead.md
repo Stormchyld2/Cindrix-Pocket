@@ -1,9 +1,12 @@
 ---
 title: Morale, routine and looking ahead
-minutes: 10
+minutes: 14
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; American Psychological Association; SAMHSA; Sphere Handbook; research on disaster recovery
+readiness: 2
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; American Psychological Association; SAMHSA; Sphere Handbook; research on disaster recovery
 ---
+[video] Morale and routine
+
 Long emergencies test patience. Routine, purpose and connection keep people well.
 
 ## Routine
@@ -62,6 +65,36 @@ Signs of depression or serious distress: loss of interest, withdrawal, hopelessn
 > Routine, purpose and people. These keep you going when the supplies run low.
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Keep going
+Long emergencies wear people down. Routine, purpose, connection and rest keep morale up. Keep a daily schedule, give everyone a job, make time for play and humor and keep in touch with loved ones.
+
+## Looking ahead
+Plan for recovery. Keep records, watch for assistance programs and keep your goals in view. This is the end of the Survival basics course. Move on to the specialist courses as your skills grow.
+
+## Why morale decides outcomes
+Long emergencies are won or lost on morale. Households that keep a routine, share jobs and stay connected cope better than those that drift. Morale is not a mood. It is a set of habits.
+
+## Daily routine that works
+Wake at a set time. Eat three meals at regular times. Assign chores, school or study, exercise and rest. Set a family time in the evening for talk, games or reading. Keep a regular bedtime. Make time each day to go outside if safe.
+
+## Purpose and connection
+Give everyone a meaningful role. Teach, share skills and help neighbors. Keep in touch with family and friends by letter, radio or phone. Celebrate birthdays and small victories.
+
+## Care for yourself and children
+Eat, drink and sleep. Take breaks. Talk about worries. For children, keep routines, explain things honestly, let them play and give them small jobs.
+
+## Watch for trouble
+Signs of struggling include withdrawal, anger, sleeplessness, hopelessness and changes in appetite. Check on each other and seek help early.
+
+## Looking ahead
+Plan for recovery, keep records, apply for aid when it is available and think about how to be better prepared next time.
+
+- [ ] Set a daily routine
+- [ ] Give everyone a meaningful job
+- [ ] Plan one fun activity each week
+- [ ] Keep a journal
+- [ ] Plan your next course
 
 ## Check yourself
 ? What helps morale in a long emergency?

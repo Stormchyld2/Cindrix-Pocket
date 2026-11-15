@@ -1,65 +1,94 @@
 ---
-title: Your Water Source
-minutes: 3
+title: Your water source
+minutes: 14
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross; EPA
+readiness: 3
+source: EPA (Drinking Water; Private Drinking Water Wells; Consumer Confidence Reports); CDC (Private Wells; Emergency Water); FEMA and Ready.gov (Water); American Red Cross (Water Safety after a Disaster)
 ---
-## Identify water source
-Do you know where your water comes from? Some people have no idea where the water flowing out of their tap originates.
+[video] Knowing your water source
 
-Is it from a mountain reservoir?  A community well?  Your own yard?
+Do you know where your water comes from? Many people have no idea what is behind the tap: a mountain reservoir, a river, a community well, or a pump in the back yard. Yet the answer decides how your water can fail and what you can do about it. You cannot build a reliable backup for a system you do not understand.
 
-Understanding your water source is a key part of preparedness because different sources fail in different ways. If you don't know how your water gets to your house, you won't know what to do when something goes wrong.
+## The common sources
+- **Municipal supply.** A city or district takes water from a reservoir, river or wells, treats it and sends it through pipes under pressure. It fails when power fails at a plant or pump, when mains break, when treatment fails or when pressure drops.
+- **Private well.** A pump brings water from a drilled well. It usually runs on electricity, so **no power means no water** unless you have a plan. Wells can also be contaminated by floods, septic systems, chemicals or an aging seal.
+- **Shared or small system.** A community well or a small water company, often serving a mobile home park, a village or a housing association. They are managed by small teams and may be less resilient.
+- **Surface water or hauled water.** Spring, creek, cistern or delivery by truck.
 
-## Common sources
-- **Municipal water** systems depend on power, infrastructure, and treatment facilities. If any part of that system fails, your water could stop flowing or become unsafe.
-- **Private wells** rely on electricity and pump systems. A power outage can shut off your water completely—even if the water is still in the ground.
-- **Surface-fed systems** (reservoirs, rivers) are more vulnerable to contamination, weather events, or supply disruptions.
+Your plan depends on your source.
 
-→ Bottom line: Your plan depends on your source. You can't build a reliable backup if you don't understand the primary system.
+## How to find out
+1. **Check your water bill.** If you receive a monthly bill from a utility, you are likely on a municipal or shared system.
+2. **Look for a wellhead.** If you have no water bill, and there is a metal cap or pipe sticking out of the ground and you hear a pump start when you use water, you probably have a private well.
+3. **Ask.** Ask your landlord, your homeowners association or your neighbors. Search your city or county website for "water utility" or "water district."
+4. **Check your home inspection report,** which usually names the source.
+5. **Read the annual water quality report.** Municipal systems publish a Consumer Confidence Report each year with the source and test results.
 
-## How to identify your water source
-If you're not sure where your water comes from, here's how to figure it out quickly:
+## Municipal water: what to learn
+- The utility's name, emergency phone number and website.
+- How to sign up for alerts and boil-water notices.
+- Where your main shutoff valve and your meter are, and how to close the valve.
+- How long outages have lasted in the past.
+- Whether your area has backup power at pumping stations.
+- How the utility tells customers when water is unsafe.
 
-1. Check your water bill: If you receive a monthly water bill → you're on a municipal system
-2. Look for a well on your property: No water bill + visible well head (a pipe sticking out of the ground) → likely a private well You may also hear a pump kick on when using water
-3. Ask or look it up: Ask your landlord, HOA, or neighbors Search your city or county website (look for "water utility" or "water district")
-4. Check your home inspection report: If you bought your home, this usually lists the water source
+## Private wells: what to learn
+- The type of pump and where it is, and the electrical breaker for it.
+- The depth and age of the well, and who maintains it.
+- Whether you have a generator, and whether it can run the pump safely.
+- A hand pump option for emergency use.
+- Test the water yearly for bacteria and nitrates, and after any flood or work on the well. Your local health department can help.
+- Flooding can contaminate a well. After a flood, treat the water and have it tested before drinking.
 
-## Checklist
-- Identify your home's water source
-- Write it down in a place accessible by your family
+## Shared and surface systems
+Find out who runs the system, how to reach them and what backup they have. For surface water and springs, learn the access, the seasonal flow and the risks upstream, such as farms, mines, sewage and wildlife.
 
-We'll discuss the PACE plan (backups) for each type of water source in a following lesson.
+## Weak points: write them down
+For your source, list:
+- **What could break it:** power, pipes, drought, contamination, flood, fire, freeze.
+- **How long** it would take to fix, from past experience.
+- **How much stored water** covers that time.
+Compare the two lists. Any gap between how long the outage could last and how long your stored water lasts is your priority.
 
-## Going deeper: your source and its weak points
-### Municipal water: what to learn
-- **Name of the utility** and its emergency phone number.
-- **Where the water comes from:** a reservoir, river, groundwater wells or a regional system.
-- **Where the treatment plant is** and what it depends on (power, chemicals, staff).
-- **How to sign up** for alerts and boil-water notices.
-- **Where the main shutoff valve** to your home is. Turn it off during a contamination event or a broken line to protect what is in your water heater and pipes.
-- **Backup power:** some utilities have generators, but fuel is limited.
-- **Read** the annual Consumer Confidence Report, which every utility publishes. It lists what is in your water.
+## Natural sources near you
+List the closest natural sources: streams, lakes, ponds, ditches and reservoirs. Walk to them now, in good weather, and note how to reach them, who owns the land and whether the access is safe. Mark them on your map and add them to your area study. These are your Emergency layer in the next lesson, and everything from them must be treated.
 
-### Private wells: what to learn
-- **Depth and age** of the well.
-- **Type of pump:** electric submersible, jet or other.
-- **Power backup:** generator size and a transfer switch, or a hand pump.
-- **Testing:** test yearly for bacteria and nitrates, and every few years for other contaminants. After floods, test and disinfect.
-- **Location:** keep it clear of septic, chemicals and animals.
-- **Wellhead:** keep it sealed and in good repair.
+## Keep the information
+Put a page in your binder with your source, the utility's number, the shutoff locations and the list of natural sources, and tell your household. A teenager who can find the valve is worth a plumber at midnight.
 
-### Surface and shared systems
-- **Cisterns, springs and rainwater** need treatment.
-- **Community wells** need group planning.
-- **Hauled water** needs safe containers and reliable delivery.
+## Five principles
+Finding your source and its weak points is **hazard assessment.** Writing it down and learning the shutoff is **preparedness.** Closing the valve during a notice is **response.** Testing a well is **mitigation,** and flushing after a notice is **recovery.**
 
-### Weak points to write down
-For your source, list: **what could break it** (power, pipes, drought, contamination, flood, fire), and **how long** it would take to fix. Compare with your stored water.
+- [ ] Find out your water source | Bill, wellhead or ask the utility
+- [ ] Save the utility's emergency number and alert sign-up | In your phone and on paper
+- [ ] Locate and label your main shutoff | And test that it turns
+- [ ] Write the weak points for your source | What could break it and how long
+- [ ] If you have a well, find the pump breaker | And plan power for it
+- [ ] Map natural water sources near home | Streams, lakes and ponds
+- [ ] Put a water source page in the binder | And brief the household
 
-### Local sources near you
-List the closest natural sources: streams, lakes, ponds, ditches and reservoirs. Walk to them now and note access, safety and ownership. Add them to your Area Study (see the Area Studies course).
-
-### Keep the information
-Put this page in your binder, and tell your household.
+## Check yourself
+? How can you tell if you are on municipal water?
+- You have a garden
++ You receive a regular bill from a water utility
+- You have a bath
+- You have a tap
+> A bill from a utility usually means a municipal or shared system.
+? What is the main weakness of many private wells in an outage?
+- They freeze
++ They depend on electric pumps, so no power means no water
+- They are too deep
+- They taste bad
+> Plan a generator, hand pump or stored water.
+? Why map natural water sources before an emergency?
+- To go fishing
++ So you know where to find water in the worst case, and can plan to treat it
+- To trespass
+- It is not useful
+> Locate them now, and treat anything you collect.
+? What should you do about a well after a flood?
+- Drink it as normal
++ Treat the water and have it tested before drinking
+- Nothing
+- Add sugar
+> Floods can contaminate wells.

@@ -1,4 +1,4 @@
 ---
-title: Intro & Your 3 Day Go Bag
-summary: The most critical items to get you far more prepared than the average person. We'll focus on your Go-Bag and one ally in under a week.
+title: Your 3-day go-bag
+summary: Why three days, and how to pack a bag for each person so you can leave in minutes.
 ---

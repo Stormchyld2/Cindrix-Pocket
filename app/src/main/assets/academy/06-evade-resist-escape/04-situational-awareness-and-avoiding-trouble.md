@@ -1,9 +1,12 @@
 ---
 title: Situational awareness and avoiding trouble
-minutes: 10
+minutes: 14
 status: complete
+readiness: 2
 source: U.S. Army FM 21-76 and SERE principles for civilians; FEMA; FBI and DHS public safety guidance (Run, Hide, Fight); Cooper color-code awareness model; law enforcement personal-safety guidance; FBI public guidance
 ---
+[video] Situational awareness
+
 Most trouble can be avoided if you notice it early. Awareness is a habit, not paranoia.
 
 ## The color code of awareness
@@ -66,12 +69,46 @@ You do not need to be anxious. Just stay in yellow.
 - **Check** privacy settings.
 
 ## Checklist
-- Live at awareness level yellow in public
-- Know exits
-- Leave early if something feels wrong
-- Know how to de-escalate
+- [ ] Live at awareness level yellow in public
+- [ ] Know exits
+- [ ] Leave early if something feels wrong
+- [ ] Know how to de-escalate
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Awareness is a skill, and a habit
+Situational awareness is knowing what is going on around you and noticing when something changes. It is not paranoia. It is a relaxed habit of looking up, looking around and trusting your instincts.
+
+## The color code
+- **White:** unaware and distracted, such as looking at a phone while walking. Avoid this in unfamiliar places.
+- **Yellow:** relaxed but alert. This is your normal state in public.
+- **Orange:** something has caught your attention. You are assessing and planning.
+- **Red:** a threat is real, and you act on your plan, usually by leaving.
+
+## Daily practice
+Notice exits on entering a building, look at people's hands and behavior, sit facing the door in a restaurant and keep your phone down while you walk. Practice a minute at a time until it feels natural.
+
+## When something feels wrong
+Create distance, change your route, go to a busy place, ask for help and call 911 if needed. Do not wait for proof.
+
+## Build awareness with games
+Awareness is a muscle. Try these exercises in ordinary life. **The room scan:** on entering a place, find the exits, the people and anything odd within ten seconds. Then close your eyes and recite what you saw. **The baseline game:** notice what is normal for a place, such as how people walk, how loud it is and what they carry. Then spot the exceptions. **The phone fast:** walk for ten minutes without looking at your phone.
+
+## Warning signs of trouble
+A person who is out of place for the setting, such as someone in a heavy jacket in summer. Someone who is watching rather than doing. People who seem to be coordinating. Anyone who tries to block your path, crowd you or separate you from your group. A sudden quiet or a crowd rapidly moving away. Trust the feeling that something is wrong and act first.
+
+## What to do, in order
+1. **Leave.** Increase the distance and change direction.
+2. **Go to people.** Move to a busy, lit place such as a shop or a station.
+3. **Make noise** if you are followed, such as calling out or using an alarm.
+4. **Call 911** and describe what you see.
+5. **Defend yourself** only as a last resort, and with the aim of escaping.
+
+## De-escalation
+Lower your voice, keep your hands open and relaxed, give space, avoid arguments and stay calm. Say something like "I do not want any trouble" and leave. Winning an argument is not worth being hurt.
+
+## Awareness online and at home
+Do not post your location, your travel plans or photos of your supplies. Use strong passwords and be careful with strangers online. At home, lock doors, know who is at the door and keep your lights and alarms in order.
 
 ## Check yourself
 ? Which color level is best to live at in public?

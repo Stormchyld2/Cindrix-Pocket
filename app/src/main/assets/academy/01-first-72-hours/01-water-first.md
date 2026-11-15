@@ -1,9 +1,12 @@
 ---
 title: Water comes first
-minutes: 10
+minutes: 14
 status: complete
+readiness: 3
 source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; CDC and EPA emergency disinfection of drinking water
 ---
+[video] Water comes first
+
 Most people can live about three days without water, but clear thinking fails sooner when you are short of it. In most home emergencies, water is the first thing to secure.
 
 ## How much
@@ -36,6 +39,31 @@ Do not ration drinking water during the first days. Drink what you need, because
 > Store treated water in clean, covered containers and label them with the date.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Plan it before it happens
+The best time to fix a water problem is a quiet Saturday. Walk through your home with a notepad and answer four things: where is the main shutoff, how many gallons are stored, what could I treat water with tonight, and who in the house knows where all of this is. Most households find that the answers are "I am not sure", "not many", "bleach, maybe" and "just me". Fix those four and you are ahead of most of your neighbors.
+
+## Count, do not guess
+Write the number of people and pets, multiply by one gallon per day, then multiply by the days you want to cover. A family of four with a dog and a cat, for three days, needs about 12 gallons for people plus a little over a gallon for the animals. For two weeks, plan on 56 gallons for the people alone. A single 55 gallon drum or a dozen 5 gallon jugs covers that. Hot weather, illness and hard work raise the numbers, so add a margin.
+
+## Test your treatment method
+Treat a bucket of tap water with your filter, your tablets and your boiling pot, one at a time, and taste each. Write down how long each took. Knowing that boiling a gallon takes fifteen minutes and a lot of fuel, or that tablets need thirty minutes, helps you plan the evening instead of discovering it at midnight.
+
+## Common mistakes
+- Storing water in thin, cracked or sun-faded containers that leak when moved.
+- Forgetting a funnel, a clean scoop, or a clean cup for pouring.
+- Assuming a water heater can be drained without turning off its power or gas first, which can ruin the heater.
+- Drinking from a flooded tap before the utility says it is safe.
+- Rationing drinking water while keeping more for washing.
+- Never rotating stored water, so it sits for years.
+
+- [ ] Count people and pets and work out three days of water
+- [ ] Fill and label containers with the date
+- [ ] Find and test the main water shutoff
+- [ ] Buy or locate a filter, tablets and plain unscented bleach
+- [ ] Treat a test bucket with each method
+- [ ] Learn how to drain the water heater safely
+- [ ] Write down where the water is and tell everyone
 
 ## Check yourself
 ? About how long can a person last without water?

@@ -1,9 +1,12 @@
 ---
 title: Finding and treating water outdoors
-minutes: 11
+minutes: 15
 status: complete
-source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; CDC; CDC and EPA water treatment; Wilderness Medical Society
+readiness: 3
+source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; CDC and EPA water treatment; Wilderness Medical Society
 ---
+[video] Finding and treating water outdoors
+
 Without water you weaken quickly, especially in heat. Outdoors, finding and treating water is a priority.
 
 ## How much
@@ -54,6 +57,27 @@ A bottle with the bottom cut off, filled with layers of cloth, charcoal, sand an
 > Clear is not clean. Boil, filter, or treat every time.
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Think like water
+Water flows downhill and collects in low places. Look in valleys, at the base of cliffs, along game trails and where green plants thrive. Birds fly to water at dawn and dusk. Rainwater caught in a tarp is the cleanest source in the field. In dry country, dig in the outside bend of a dry stream bed.
+
+## Treat everything
+Clear-looking water is not safe. Streams and ponds carry bacteria, protozoa and viruses, and water near farms, mines and towns can carry chemicals. Always treat: pre-filter, filter and then boil or use chemicals.
+
+## A pre-filter you can build
+Cut a bottle's bottom off and invert it. Layer, from top to bottom, cloth, grass, sand, charcoal and gravel, and pour water through. This removes sediment only. It does not make water safe. You must still boil or treat the result.
+
+## Stay hydrated
+Drink small amounts often. Watch your urine: pale means hydrated, dark means drink. In heat, rest in shade during the day and travel at dusk and dawn. Eat little when water is short, because digesting food uses water.
+
+## If you cannot find water
+Stay put and signal if rescue is likely. Collect dew with a cloth in the early morning. Make a solar still only if you have plastic and time, and know it yields little. Never drink urine or seawater, which dehydrate you.
+
+- [ ] Carry a filter and backup tablets
+- [ ] Carry two water containers
+- [ ] Learn to read the landscape for water
+- [ ] Build and test a pre-filter
+- [ ] Practice treating stream water on a day hike
 
 ## Check yourself
 ? Which method is surest for killing germs in water?

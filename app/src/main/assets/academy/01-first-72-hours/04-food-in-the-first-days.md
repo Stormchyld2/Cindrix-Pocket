@@ -1,9 +1,12 @@
 ---
 title: Food in the first days
-minutes: 9
+minutes: 13
 status: complete
-source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; FoodSafety.gov; USDA; American Red Cross
+readiness: 3
+source: FEMA/Ready.gov; American Red Cross; FoodSafety.gov; USDA; American Red Cross
 ---
+[video] Food in the first days
+
 You can go many days without food, but you will feel better, think better and stay warmer if you eat regularly.
 
 ## What to eat first
@@ -48,6 +51,34 @@ Start with three days, then add a week, then two weeks. See the Weeks to Months 
 > Eat the perishables first, keep the cans for later, and cook outdoors.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Plan the first 72 hours as a menu
+Decide the order in which you will eat: first the food that will spoil, then the food in the freezer as it thaws, then pantry items, and last your emergency supplies. Write the plan on a card. Knowing that you will not run out on day two removes a lot of worry.
+
+## Eating well on little
+- Aim for about 2,000 calories for an adult and appropriate amounts for children, with protein, fat and carbohydrates.
+- Eat regularly, three meals and snacks, to keep energy and morale up.
+- Mix cold food and hot food. A hot drink or soup lifts spirits even on a bad day.
+- Include some comfort food: sweets, coffee, tea or a family favorite.
+
+## Cooking and clean-up
+- Cook outdoors with a camp stove or grill, never inside.
+- Keep a small amount of water set aside for washing hands and dishes.
+- Use paper plates and cups to save water.
+- Keep a bucket and a bag for food waste, and seal it, so pests are not attracted.
+
+## Food safety checks
+Wash your hands before preparing food. Keep raw meat away from ready-to-eat food. Cook meat fully. Do not eat food from damaged cans or from anything touched by floodwater, unless it is in an undamaged, sealed can that has been washed and sanitized. Throw out any food that smells, looks or tastes wrong.
+
+## Look after special diets
+Infants, children, older people, people with allergies and people with medical conditions need their own plan. Keep formula and baby food, and any foods required for medical reasons, labeled and in a separate bin. Ask your clinician how to keep a safe supply. This course does not give medicine amounts.
+
+- [ ] Write a first-72-hours eating order on a card
+- [ ] Stock three days of no-cook food
+- [ ] A manual can opener, plates and utensils
+- [ ] A camp stove and fuel for outdoor cooking
+- [ ] A food thermometer or a cooler thermometer
+- [ ] Separate food for infants and special diets
 
 ## Check yourself
 ? What should you eat first when the power goes out?

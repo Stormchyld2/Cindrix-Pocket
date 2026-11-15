@@ -1,9 +1,12 @@
 ---
 title: Severe bleeding and shock
-minutes: 11
+minutes: 15
 status: complete
-source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; Stop the Bleed principles; see the Stop the Bleed and Medical courses for full detail
+readiness: 4
+source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); Stop the Bleed principles; see the Stop the Bleed and Medical courses for full detail
 ---
+[video] Severe bleeding and shock
+
 > **Call 911 or your local emergency number first if you can.** This lesson is a reminder of basics, not a replacement for a hands-on class.
 
 ## Severe bleeding
@@ -40,6 +43,30 @@ In a larger incident, check everyone for hidden bleeding. People often do not no
 > Get trained. A short Stop the Bleed or first aid class is worth far more than reading.
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Seconds count
+A person can bleed to death from a major wound in a few minutes. Your first aid skills matter most in this one area, and they are simple to learn. Take a Stop the Bleed class, which takes about two hours and is offered locally and online.
+
+## The steps
+1. **Check the scene** is safe, and put on gloves if you have them.
+2. **Call 911** or send someone to.
+3. **Apply direct pressure** with a clean cloth or gauze, pressing hard on the wound with both hands.
+4. **Pack the wound** with gauze if the bleeding is deep and does not stop, and press firmly.
+5. **Use a tourniquet** for severe limb bleeding that does not stop, or when you cannot keep pressing. Place it two to three inches above the wound, not over a joint, and tighten until the bleeding stops. Note the time. Do not remove it.
+6. **Treat for shock:** lay the person down, keep them warm and raise the legs if there is no head, neck or back injury.
+7. **Stay with them** and watch breathing until help arrives.
+
+## Signs of shock
+Pale, cool, clammy skin, fast weak pulse, fast breathing, confusion, weakness and thirst. Shock is life-threatening. Lay the person down, keep them warm and still and do not give food or drink.
+
+## Practise
+Practise with a training tourniquet on your own arm and leg. Know where your kit is, and keep it where you can reach it quickly.
+
+- [ ] Take a Stop the Bleed class
+- [ ] Carry a tourniquet and gauze in every kit
+- [ ] Practise tourniquet placement on yourself
+- [ ] Learn the signs of shock
+- [ ] Practise with a partner in a scenario
 
 ## Check yourself
 ? What is the first thing to do for heavy bleeding?

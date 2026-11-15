@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copies the cards and the Academy from a Cindrix-Ops checkout into the app's assets.
+# Copies the cards, the Academy, the skills list and the wild-food seasons from a Cindrix-Ops checkout into the app's assets.
 # Usage: scripts/sync-content.sh /path/to/Cindrix-Ops
 # Only plain text files are carried (pictures and templates are left out).
 set -e
@@ -15,4 +15,6 @@ done
   mkdir -p "$DEST/academy/$(dirname "$f")"
   cp "$f" "$DEST/academy/$f"
 done)
-echo "cards: $(ls "$DEST/cards" | wc -l)  academy files: $(find "$DEST/academy" -type f | wc -l)"
+cp "$OPS/content/skills.csv" "$DEST/skills.csv"
+cp "$OPS/content/forage-seasons.csv" "$DEST/forage-seasons.csv"
+echo "cards: $(ls "$DEST/cards" | wc -l)  academy files: $(find "$DEST/academy" -type f | wc -l)  skills: $(($(wc -l < "$DEST/skills.csv") - 1))  seasons: $(($(wc -l < "$DEST/forage-seasons.csv") - 1))"

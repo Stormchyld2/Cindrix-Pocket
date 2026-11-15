@@ -1,9 +1,12 @@
 ---
 title: Making decisions under pressure
-minutes: 10
+minutes: 14
 status: complete
+readiness: 2
 source: U.S. Army FM 21-76 Survival; Laurence Gonzales, Deep Survival; American Red Cross; Boyd OODA loop as taught in emergency management; Gary Klein, Sources of Power; CERT decision-making guidance
 ---
+[video] Deciding under pressure
+
 Good decisions in a crisis are a skill. You can practice it before you need it.
 
 ## The decision loop: Observe, Orient, Decide, Act
@@ -54,12 +57,42 @@ Keep this on paper:
 Run **scenario drills** with your group. Read a short story of a problem, and have each person answer the card. Compare answers.
 
 ## Checklist
-- Know the OODA loop
-- Know common traps
-- Have triggers written for your household
-- Used a decision card in a drill
+- [ ] Know the OODA loop
+- [ ] Know common traps
+- [ ] Have triggers written for your household
+- [ ] Used a decision card in a drill
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Fast, good-enough choices
+Under pressure you rarely have time for the perfect decision. Experts in emergencies use a loop: observe, orient, decide and act, and then repeat. The group that cycles through the loop faster and learns from each pass usually wins. Do not wait for complete information, but do not act blindly either.
+
+## The loop in action
+1. **Observe:** what is happening right now? Collect facts.
+2. **Orient:** what does it mean for my goals and my people?
+3. **Decide:** choose one action, with a clear trigger for changing course.
+4. **Act:** do it, then watch the result and return to Observe.
+
+## Common traps
+- **Anchoring** on the first plan even when facts change.
+- **Sunk cost:** continuing because of effort already spent.
+- **Group think:** agreeing to keep the peace.
+- **Get-there-itis:** pressing on to reach a goal despite danger.
+- **Overconfidence** after early success.
+- **Paralysis** when overwhelmed by options.
+
+## Quick tests for risky choices
+- What is the worst realistic outcome, and can we survive it?
+- Is there a safer way that gets most of the benefit?
+- Can we undo this if it goes wrong?
+- Would I be comfortable explaining this decision to a friend?
+- Are we tired, hungry, cold or rushed? If so, wait.
+
+## A decision card
+Write on a card: the decision, the options, the pros and cons, the trigger to change, who decides and the time by which to decide. Use it for the big choices such as leaving a shelter.
+
+## Practise
+Run small drills. Ask a family member to throw you a scenario such as "the car will not start, it is raining, and your phone is at 10 percent." Talk it through using the loop.
 
 ## Check yourself
 ? What does the OODA loop stand for?

@@ -1,9 +1,12 @@
 ---
 title: Fire: tinder, kindling, fuel
-minutes: 11
+minutes: 15
 status: complete
-source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; CDC; FM 21-76 chapter on fire; Leave No Trace fire guidance; NPS fire safety
+readiness: 3
+source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; FM 21-76 chapter on fire; Leave No Trace fire guidance; NPS fire safety
 ---
+[video] Fire: tinder, kindling, fuel
+
 Fire gives warmth, light, a way to cook, a way to treat water, a signal and a lift in morale. It also burns people and forests, so use it carefully.
 
 ## Check first
@@ -65,6 +68,38 @@ Backpacking stoves, alcohol stoves and solid-fuel tablets are safer and cleaner 
 > Gather three piles first, build with air gaps, never leave it, and drown it when done.
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Prepare before you strike
+Most failed fires fail because the builder was in a hurry. Collect three piles before you light anything: tinder (fine, dry, fluffy material), kindling (pencil-thin to thumb-thick sticks) and fuel (wrist-thick and larger wood). Gather at least three times more than you think you need. Have your fire kit ready: lighter, matches in a waterproof case, a ferro rod and a little commercial tinder.
+
+## Build a good fire
+1. **Clear** a 10 foot circle of anything that burns, down to bare soil. Keep water or dirt nearby.
+2. **Make a base** of dry sticks or stones, off wet ground.
+3. **Place tinder** in the center, and lean kindling around it in a teepee or a log-cabin square, leaving a gap for air.
+4. **Light the tinder** at the windward side, shield it from wind and feed it gently.
+5. **Add kindling** slowly, then fuel, as the fire grows.
+6. **Do not smother** it. Fire needs air as well as fuel.
+
+## Wet conditions
+Look for dry wood: standing dead wood, the underside of branches, the inside of split logs. Shave thin curls off dry sticks as tinder. Use pine resin, birch bark, dry grass and commercial tinder. Build a platform of sticks to keep your fire off wet ground, and shelter it with a tarp or a rock wall.
+
+## Fire safety
+- Never leave a fire unattended.
+- Follow local fire rules and burn bans.
+- Keep a bucket of water and a shovel at hand.
+- Never use gasoline or other accelerants.
+- Do not burn in or near a tent, tarp or vehicle.
+- Never cook or heat indoors with an open fire.
+
+## Put it out completely
+Pour water, stir the ashes and pour again until cool to the touch. Do not bury a hot fire, because it can smolder and flare up.
+
+- [ ] Carry a lighter, matches and a ferro rod
+- [ ] Carry tinder that lights when damp
+- [ ] Practice the three piles: tinder, kindling and fuel
+- [ ] Light a fire with a ferro rod
+- [ ] Light a fire in rain or wet wood
+- [ ] Learn local burn rules and put the fire out fully
 
 ## Check yourself
 ? What are the three things fire needs?

@@ -1,9 +1,12 @@
 ---
 title: Leading and working in a group
-minutes: 11
+minutes: 15
 status: complete
+readiness: 2
 source: U.S. Army FM 21-76 Survival; Laurence Gonzales, Deep Survival; American Red Cross; FEMA Incident Command System basics; CERT Unit 7; team leadership practice
 ---
+[video] Leading and working in a group
+
 Most survival stories involve groups: families, neighbors, coworkers, strangers. Groups survive better when they work together.
 
 ## Pick a leader, quickly
@@ -69,6 +72,37 @@ Even a family of four can use this.
 > Clear roles, honest talk and kindness hold a group together.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Groups survive better, if they work
+A cooperative group can do more than the same people alone. A divided group does worse than individuals. What matters is clear leadership, shared goals, honest communication and trust.
+
+## Choose a leader quickly
+In an emergency choose a leader early, based on skill and calm, not rank or volume. Make the choice clear. The leader's job is to decide, delegate and keep the group safe, not to do everything. Rotate leadership if the leader tires.
+
+## Basic roles
+Assign a few simple roles: leader, medic, navigator, water and food, shelter and fire, and watch or lookout. Each person should know their task and who backs them up. Cross-train so that no one is irreplaceable.
+
+## Communicate well
+Use short, clear messages. Repeat back orders. Hold brief check-ins at set times. Share bad news early and plainly. Invite disagreement before decisions and unite after.
+
+## Build trust
+Keep promises. Share workload and hardship fairly. Credit effort. Resolve conflicts quickly and privately. Respect different skills and ages.
+
+## Common problems
+- Silent members who hide fear or injury.
+- Dominant members who override others.
+- Blame and rumor.
+- Unequal work.
+Address these by naming the problem calmly and returning to the mission.
+
+## Teach the team
+Cross-train basic skills: first aid, water treatment, fire, navigation and radio. Practise together so that the plan works when you need it.
+
+- [ ] Agree on who leads in an emergency
+- [ ] Assign roles and backups
+- [ ] Hold a ten-minute team check-in drill
+- [ ] Cross-train two skills
+- [ ] Write the group plan on one page
 
 ## Check yourself
 ? Why assign roles?

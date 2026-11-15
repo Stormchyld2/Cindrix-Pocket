@@ -1,62 +1,78 @@
 ---
-title: Go Farther Together
-minutes: 3
+title: Go farther together
+minutes: 14
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross; Project 22:3 community material supplied by the owner
+readiness: 2
+source: FEMA and Ready.gov (Make a Plan; Plan for Pets; Kids and Disasters); American Red Cross (Make a Plan; Pet Disaster Preparedness); CDC (Preparing Your Family)
 ---
-"If you want to go fast, go alone. If you want to go far, go together."
+A go-bag keeps one person safe. A plan keeps a household together. Most of what goes wrong in a real evacuation is not missing gear. It is people who cannot find each other, do not know who is doing what, or make different decisions because nobody agreed on one ahead of time. This lesson adds the people side: allies, roles, meeting points and the things children and pets need.
 
-Your Go-Bag gets you through 3 days. A prepared community gets you through everything after that. Project 22:3 started this way: training sessions at a small church that grew into a community of prepared members.
+## Start with one ally
+You do not need a big group. You need **one person you trust** who lives near you, knows your plan and can help you, and whom you can help in return. This might be a neighbor, a relative, a friend from work or someone from your congregation. Pairs matter because two people can do things one cannot: carry more, watch each other's backs, split a first-aid task from a driving task, and notice when the other is making a mistake from stress or fatigue.
 
-Not sure where to start? There are many different flavors of community to consider:
+Talk to your ally this week. Share what you are preparing for and ask what they are doing. You do not need to share every detail of your supplies. Agree on three things: how you will contact each other, where you will meet if you cannot, and what each of you can bring that the other cannot, such as a vehicle, tools, medical training or a generator.
 
-- **CERT teams:** FEMA-sponsored volunteer training in disaster response for your neighborhood or workplace.
-- **Mutual Aid Groups (MAGs):** voluntary, peer-to-peer networks that share resources and skills.
-- **Extended family:** near or far, track each other's progress and stay in touch when things get spicy.
-- **Church, neighborhood, or HOA groups:** any group with shared values, ideally close enough to meet in person.
+## Give everyone a job
+In a crisis, a group that decides roles ahead of time moves faster and argues less. Even a small family can assign:
+- **Leader or decision maker.** One person who calls the final decision when seconds count. Everyone else may speak up, but when the leader says go, you go.
+- **Navigator or driver.** Knows the routes, watches the fuel and keeps the vehicle ready.
+- **Medical lead.** Carries or knows where the first-aid kit is and has the training to use it.
+- **Communicator.** Keeps the radio and phone, relays messages and watches for alerts.
+- **Kids and pets lead.** Keeps small children and animals calm, accounted for and moving.
 
-CindrixOps is built to help prepared communities. These tools support planning and coordination in your group:
+Rotate the roles in practice so everyone learns more than one. Write them on the plan so nobody has to remember in a hurry.
 
-- **Calendar:** schedule trainings and meet ups
-- **Hub sharing:** share your library, maps, cards and courses with nearby devices using a PIN
-- **To-do list and projects:** keep track of who is doing what
-- **Family page:** write down the people in your household and what they can do
+## Meeting points and the out-of-area contact
+Plan three places to meet:
+1. **Right outside your home,** for sudden emergencies such as a fire. A mailbox or a tree works.
+2. **Away from the neighborhood,** in case you cannot return, such as a library, a school, a church or a friend's house.
+3. **Out of town,** a place you can reach if the whole area is closed. Pick a relative or friend's home.
 
-## Checklist
-- Find your local CERT Program
-- Invite one person (family member, neighbor, or friend) to prepare with you
-- Join a community organization or start your own group
+Also choose an **out-of-area contact,** a person far away who can be the hub. In a regional emergency local phone lines jam, but a call or text to a distant number often gets through. Everyone in the family carries that number **on paper** in their wallet or bag, because a dead phone cannot show it. Agree that everyone calls or texts that person with where they are and whether they are safe.
 
-Brent Weir started Project 22:3 for this specific mission. To hear more of Brent's story and insights, check out the podcast:
+## Children
+Even young children can have a small bag. Put in a comfort item, a flashlight, a whistle, a card with the family contact numbers, a change of clothes, a few snacks and a small activity such as a card game. Teach them simple rules: stay with your adult, do not hide, and what to say if you get separated. Practice with them, calmly and with some fun. Children who have rehearsed an emergency are less afraid in a real one. Write their names, allergies and your phone number inside the bag in case they are separated.
 
-## Links and resources (open these when you have internet)
-- The Project 22:3 Podcast (https://www.project223.com/podcast)
+## Pets
+Pets are family, and many shelters do not accept them, so plan before you need to. Keep a **pet go-bag:** three days of food and water, bowls, a leash and harness, a carrier, waste bags, a copy of vaccination records, a recent photo of you with the animal, and any medications with instructions from your vet. Make sure collars carry current tags and the animal is microchipped with your current number. Find out ahead of time which hotels, friends or boarding places accept animals.
 
-## Going deeper: what a prepared community looks like
-A group does not have to be large or formal. A prepared community of five households can share:
-- **Skills:** a nurse, a mechanic, a cook, an electrician, a ham radio operator.
-- **Equipment:** a generator, a chainsaw, a wheelbarrow, a water filter that serves many people.
-- **Watch and care:** check-in on older neighbors, share childcare and look after each other's homes.
-- **Information:** one neighbor listens to the radio and shares news.
+## People who need extra help
+If someone in your home has a disability, depends on electricity for medical equipment, uses a wheelchair, or is elderly, plan specifically for their needs. Ask how they would get out of the house, and who will help. Register with your local emergency management office if they offer a special-needs registry. Keep extra batteries and a backup power plan for medical equipment, and keep a written list of what each person needs.
 
-## How to start a group
-1. **Find two or three people** you already trust.
-2. **Meet over a meal** and talk about what could happen.
-3. **Share what each person has and can do.** Use the Family page to write it down.
-4. **Agree on one small project,** such as a first aid class or a common radio channel.
-5. **Meet on a schedule,** monthly if possible, with notes and to-dos.
-6. **Grow slowly,** by invitation, while keeping the culture friendly and open.
+## Practice it
+A plan nobody has practiced is just a piece of paper. Hold a ten-minute drill twice a year. Pick a scenario, such as a fire at night or a flood warning, and walk through it. Time how long it takes to get everyone out with their bags. Note what slowed you down and fix it. Drills feel silly at first, and then they become routine, which is exactly what you want when you are frightened.
 
-## CERT: Community Emergency Response Team
-CERT is a free FEMA program, run by local emergency management offices, that teaches basic disaster response: fire safety, light search and rescue, first aid and triage, disaster psychology and team organization. Graduates can join local teams. Find your program at ready.gov/cert.
+- [ ] Choose your ally | A neighbor, relative or friend who lives close and knows your plan
+- [ ] Assign household roles | Leader, navigator, medical lead, communicator, kids and pets lead
+- [ ] Pick three meeting places | Outside your home, away from the neighborhood, and out of town
+- [ ] Choose an out-of-area contact | Write the number on paper for everyone in the household
+- [ ] Pack a small bag for each child | Comfort item, flashlight, whistle, contact card, clothes, snacks
+- [ ] Make a pet go-bag | Food, water, leash, carrier, records, photo, any medications from your vet
+- [ ] Write down special needs | Medical equipment, mobility, medicines, who helps whom
+- [ ] Hold your first ten-minute drill | Time it and write down one thing to fix
 
-## Mutual aid
-A mutual aid group asks for no payment and gives help to anyone nearby. It works because people give what they can and take what they need. Keep records of requests and offers, and be fair.
-
-## Rules that keep groups together
-- **Be honest and transparent** about supplies and decisions.
-- **Write down** roles and expectations.
-- **Deal with conflict early** and kindly.
-- **Do not boast** about what you have outside the group.
-- **Respect privacy.** Medical and family details stay private.
-- See the **Admin and Leadership** course for how to run a group.
+## Check yourself
+? What is the main reason to have at least one ally?
+- To borrow supplies
++ Two people can share tasks, cover for each other and catch each other's mistakes
+- To avoid making any plans yourself
+- Because the law requires it
+> A pair can carry more, split roles and notice stress-driven errors.
+? Why choose an out-of-area contact?
+- Because they will send you money
+- Because local lines are always closed
++ Because local phone lines may be jammed but distant calls and texts often get through
+- Because it replaces all other plans
+> A distant person works as a hub that everyone in the family can reach and report to.
+? Why should the contact number be written on paper?
+- Phones never work
++ A dead or lost phone cannot show it
+- It is required by FEMA
+- Paper is waterproof
+> Paper needs no battery or signal.
+? What should you do after you write a plan?
+- File it away
++ Practice it with a short drill and fix what slows you down
+- Share it on social media
+- Wait for a real emergency to test it
+> A practiced plan works under stress. An untested one usually does not.

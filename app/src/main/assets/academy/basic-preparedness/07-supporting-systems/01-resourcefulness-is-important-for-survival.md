@@ -1,77 +1,94 @@
 ---
 title: Resourcefulness is important for survival
-minutes: 3
+minutes: 13
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross
+readiness: 2
+source: FEMA and Ready.gov (Build a Kit; Prepare Your Family; Community Preparedness); American Red Cross (Be Red Cross Ready); CDC (Public Health Emergency Preparedness); Citizen Corps and CERT program materials
 ---
-Learn to take care of yourself without depending on others. This includes obtaining items like a basic tool kit, extra personal hygiene supplies, food supply, and more.
+[video] Resourcefulness
 
-## What we'll cover in this section
-"The prudent see danger and take refuge, but the simple keep going and pay the penalty." - Proverbs 22:3
+Everything so far has been about things: bags, bins, buckets and binders. This module is about the thing underneath the things, which is the ability to take care of yourself and solve problems with what you have. It is not extreme or dramatic. It is practical, and it is the quiet confidence of someone who prepared before anything went wrong.
 
-The ability to take care of yourself is a SUPERPOWER! The ability to take care of yourself and your family during uncertain times isn't extreme or dramatic - it's practical. It's the quiet confidence that comes from knowing you've prepared before something goes wrong. It's about reducing risk, increasing capability, and staying in control when others are not.
+An old proverb says that the prudent see danger and take refuge, while the simple keep going and pay the penalty. Prudence is not fear. It is reducing risk, increasing capability and staying in control while others are not.
 
-By making some simple preparations in advance you will be ready to face any challenge. In this section, we'll help you know what items you need to be resilient:
-- A basic tool kit
-- Extra personal hygiene supplies
-- Building financial strength
+This section is not about surviving three days on the move. It is the foundation for longer-term independence: staying healthy, solvent, safe and secure when life is disrupted for weeks or months.
 
-This section isn't about surviving 3 days on the move, its about the foundation for building longer term independence.
-
-## Going deeper: what resourcefulness looks like day to day
-Resourcefulness is a habit. It is the willingness to ask "what do I already have, and what can I make from it?" It is made of four things.
+## Resourcefulness is a habit
+It is the habit of asking "what do I already have, and what can I make from it?" before asking "what can I buy?" It has four parts.
 
 ### 1. Skills
-Learn skills that save money and solve problems:
-- Cooking from scratch and preserving food.
-- Basic repairs (plumbing, electrical safety, carpentry, sewing).
-- Gardening.
-- First aid and CPR.
-- Communications.
-- Navigation.
-- Bicycle and car maintenance.
-Choose one skill each quarter.
+Skills cost nothing to carry and cannot be stolen or lost. Pick skills that solve real problems and save money:
+- Basic first aid and CPR.
+- Cooking from scratch with basic ingredients.
+- Simple home and car repairs: changing a tire, jump-starting a battery, patching a roof, fixing a leak.
+- Sewing and mending.
+- Gardening and food preservation.
+- Navigation with a map and compass.
+- Fire building and water treatment.
+Choose **one new skill each quarter** and practise until it feels ordinary.
 
 ### 2. Tools and materials
-A small, organized supply of the common materials: tape, cord, fasteners, plastic sheeting, glue and spare parts.
+Keep a small, organized supply of common materials: duct tape, cord, zip ties, fasteners, plastic sheeting, glue, batteries, sewing kit and spare parts for the things that break often. A repair you can finish today is worth more than a replacement you cannot buy.
 
 ### 3. Knowledge
-Know where your resources are: neighbors with tools, local stores, water sources, shelter options and local authorities.
+Know where your resources are. Which neighbors have tools, a generator, a chainsaw or medical training? Where are the local hardware store, pharmacy and clinic? Where are your water sources, shelter options and emergency offices? Knowing who and where is half of any solution. Write it down.
 
 ### 4. Mindset
-- **Improvise.** A bucket becomes a toilet. A bottle becomes a funnel.
-- **Repair before replacing.**
-- **Reuse** before throwing away.
-- **Ask for help,** and offer it.
-- **Stay calm** and think.
+Mindset decides whether people act or freeze. Resourceful people:
+- Stay calm and think in small steps.
+- Accept the situation instead of arguing with it.
+- Improvise safely with what is at hand.
+- Ask for help and offer it.
+- Learn from failure rather than quit.
+Practice builds mindset: each small success makes the next challenge feel more manageable.
 
-### The three systems in this module
-- **The tool kit,** to repair and build.
-- **Hygiene supplies,** to stay healthy.
-- **Financial strength,** to have options.
-Then the **self-defense** and **home security** lessons round out the baseline.
+## The systems in this module
+This module covers five supporting systems that complete the baseline:
+1. **Resourcefulness** (this lesson).
+2. **Hygiene supply reserve:** staying clean and healthy when stores are empty.
+3. **Financial strength:** cash and savings to ride out a disruption.
+4. **Self-defense tools:** a responsible approach to personal protection.
+5. **Home security and safety:** fire safety, locks, lights and alarms.
+Each one is cheap compared with how much it protects.
 
-### Start small
-Pick one project this month: build the tool kit, learn to tie three knots, or fix something you have been putting off. Each success builds confidence.
+## Start small
+Pick one project this month. Build the tool kit. Learn three knots. Fix something you have been putting off. Each success builds confidence, and confidence is the point.
+
+## Community counts
+No one has every skill. A resourceful household knows its neighbors, trades skills and tools, and shares information. A street where five households each have a different strength is stronger than five households that each try to do everything. Introduce yourself to your neighbors now, while there is no crisis.
+
+## Five principles
+Skills and tools are **preparedness.** Knowing your hazards and resources is **hazard assessment.** Improvising safely is **response.** Mending and rebuilding is **recovery,** and small repairs made early are **mitigation.**
+
+- [ ] Choose one new skill for this quarter | And schedule practice
+- [ ] Assemble a small repair and materials box | Tape, cord, zip ties, fasteners, sheeting, glue, sewing kit | gear
+- [ ] Write a local resource list | Neighbors with skills and tools, stores, clinics, sources
+- [ ] Meet two neighbors | Swap numbers and skills
+- [ ] Complete one repair you have postponed | Notice what you learn
+- [ ] Take a first aid and CPR class | Or book one
 
 ## Check yourself
 ? What is resourcefulness?
 - Buying everything
-+ Making the most of what you have and learning skills to solve problems
-- Waiting for help
++ The habit of asking what you have and what you can make or fix before buying
 - Avoiding people
-> It is a habit of thinking.
-
-? Which is a good way to build skills?
-- Buy gadgets only
-+ Learn one new skill each quarter
-- Wait for an emergency
-- Learn nothing
-> Skills do not run out.
-
-? What are the supporting systems in this module?
-- Cars, boats and planes
-- Clothes only
-- Games and toys
-+ Tool kit, hygiene supplies, finances, defense and home security
-> They support the baseline.
+- Hoarding
+> It is a mix of skills, tools, knowledge and mindset.
+? Why is a skill valuable?
+- It is cheap
++ It cannot be stolen or lost and solves real problems
+- It is fashionable
+- It replaces supplies
+> Skills weigh nothing and help in many situations.
+? How often should you learn a new skill?
+- Never
++ About one new skill each quarter
+- Once a decade
+- Only in emergencies
+> Steady learning builds capability.
+? Why meet your neighbors before a crisis?
+- To gossip
++ A street of people with different skills and tools is stronger than isolated houses
+- It is required
+- To borrow things
+> Community multiplies resourcefulness.

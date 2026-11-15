@@ -1,88 +1,94 @@
 ---
-title: 2 Week Portable Food Supply
-minutes: 3
+title: Two-week portable food supply
+minutes: 14
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross
+readiness: 3
+source: FEMA and Ready.gov (Build a Kit; Evacuation); American Red Cross (Disaster Supplies Kit); USDA (FoodKeeper; Keeping Food Safe During an Emergency); CDC (Food Safety in an Emergency)
 ---
-## Food stores for on the go
-In a previous lesson, we covered the decision between Bugging In and Bugging Out. While staying home is usually the best option, there are situations where leaving becomes necessary - wildfires, severe storm damage, or civil unrest that makes your area unsafe.
+[video] Your two-week portable food supply
 
-When that happens, having ready-to-go food is critical.
+The decision tree says staying home is usually best. Sometimes you cannot: a wildfire, a severe storm or damage that makes the house unsafe. When that happens you want food that is ready to load into a car in minutes, or carry on your back if the car cannot go on. The two-week portable supply is that food.
 
-## Storage
-Store these items together in a clearly labeled, dry storage bin so they're ready when you need them - no scrambling.
+It is not the go-bag. The go-bag carries three days in a pack. This is a supplement for longer situations when you have a bit more time to load a vehicle. Think light, compact and non-perishable. Food meant to travel.
 
-We also recommend keeping your 3 Day Bag, other kits, and extra food like this in one dedicated spot in your home. When everything is in one place, it's much easier to grab what you need quickly when time matters.
+## What makes food portable
+- **Light for its calories.** Dry, dense foods beat canned ones. A can of vegetables is mostly water.
+- **Ready to eat, or needing only hot water.** Fuel and time may be short.
+- **Compact and sturdy.** It should stack, survive being thrown in a vehicle and not crush.
+- **Long shelf life.** At least a year, ideally two or more, with dates you can read.
+- **Food people will eat.** Pick what your family likes.
 
-## What type of food?
-This isn't just your 3-day bag - it's a supplement for longer situations when you have a bit more time to load up your vehicle. Think lightweight, compact, and non-perishable. This is food meant to travel.
+## How much
+For two weeks, one adult needs roughly 28,000 to 35,000 calories, which is 14 days at 2,000 to 2,500. As a rough rule, plan on 14 to 20 pounds of food per adult. Children need less, but teenagers and active adults need more. Add a few treats.
 
-Whatever you choose, keep it simple: compact, lightweight, and easy to grab. You should be able to toss it into your vehicle quickly—or carry it with you if you need to continue on foot.
+## Good choices
+- **Ready to eat:** energy and granola bars, nut and seed butters, crackers, trail mix, dried fruit, jerky, tuna or chicken pouches, and shelf-stable tortillas.
+- **Add hot water:** instant oatmeal, instant rice and noodle cups, instant potatoes, couscous, soup mixes, freeze-dried meals and instant coffee, tea and cocoa.
+- **Cook-in-a-pot staples:** pasta and quick-cook rice, with pouches of sauce, beans or meat.
+- **Morale food:** hard candy, chocolate that tolerates heat, spices and drink mixes.
+- **Babies and special diets:** formula, baby food and any medical foods, with the equipment to prepare them.
 
-## Checklist
-- Obtain a 2 week supply of portable meals
+## A sample two-week plan per adult
+This is only an example. Work it out for your household.
+- **Breakfast (14):** instant oatmeal or granola bars, with nut butter and dried fruit.
+- **Lunch (14):** crackers or tortillas with nut butter, tuna or chicken pouches, and trail mix.
+- **Dinner (14):** half freeze-dried or instant meals, half pasta or rice with a pouch of protein and sauce.
+- **Snacks and drinks:** bars, jerky, candy, tea, coffee and cocoa.
+Write the total on a list taped inside the bin.
 
-## Going deeper: choosing and packing portable food
-### What qualifies
-- **Light:** high in calories per ounce (nuts, nut butters, oils, dried fruit, bars).
-- **Compact:** fits in a bin or backpack.
-- **Shelf-stable:** lasts at least a year, ideally longer.
-- **Little or no cooking:** or cooking that needs only boiling water.
-- **Safe to eat cold,** in case you cannot cook.
-- **Familiar:** food your family will eat.
+## Pack and store
+1. **Choose a strong, lidded bin** for each person or each two people, labeled with a name and a date.
+2. **Pack by meal,** if you can, so you can grab a day's food in one handful.
+3. **Include a manual can opener** and utensils.
+4. **Add a cook kit:** a small camp stove, a lighter or two, fuel, a pot with a lid, a cup, a spoon and a little dish soap. Practice using them.
+5. **Keep it in one place,** next to the go-bags, so you can load everything in one trip.
+6. **Store cool and dry,** off the floor and out of a hot car or garage.
+7. **Rotate** by eating through the bin every six to twelve months and replacing items.
 
-### Good options
-- **Freeze-dried meals** (add hot water). Pricier, but light and long lasting.
-- **Dehydrated meals** and instant soups, rice and pasta sides.
-- **Instant oatmeal,** cereal and granola.
-- **Tuna and chicken pouches.**
-- **Peanut butter,** crackers and tortillas.
-- **Jerky,** nuts and trail mix.
-- **Energy bars** and **protein bars.**
-- **Dried fruit,** fruit leather.
-- **Shelf-stable milk** and drink mixes with electrolytes.
-- **Candy and chocolate** for morale.
-- **Coffee and tea.**
-- **Baby formula** and food, and pet food.
+## Safety
+- Never cook indoors with a camp stove, charcoal or a generator unless it is designed for indoor use. Carbon monoxide is invisible.
+- Wash your hands and utensils with treated water.
+- Do not eat food that has been exposed to floodwater unless it is in an undamaged sealed can, and then only after washing and sanitizing it.
+- Throw out anything bulging, leaking or smelling off.
+- Plan for infants, older people and anyone who is sick, whose needs are different.
 
-### How much
-For two weeks: 14 days times 2,000 calories equals 28,000 calories per person. A rough rule is about 14 to 20 pounds of food per adult.
+## Test it
+Choose a weekend and live off the bin for two days with the water off. You will learn what you hate, what needs more water and what you forgot, such as a can opener. Fix the list and repack.
 
-### A sample two-week plan per person
-- **Breakfast:** instant oatmeal or granola with powdered or shelf-stable milk.
-- **Lunch:** tuna or chicken pouch with crackers or a tortilla, or peanut butter and jelly.
-- **Dinner:** a freeze-dried or dehydrated meal, or rice and beans with a pouch of meat.
-- **Snacks:** nuts, bars, dried fruit and chocolate.
-- **Drinks:** coffee, tea and electrolyte powder.
+## Five principles
+Packing the bin is **preparedness.** Choosing hazards that make you leave is **hazard assessment.** Keeping it fresh is **mitigation.** Using it when you leave is **response,** and it supports **recovery** by feeding you away from home.
 
-### Pack and store
-- **Label** a bin with the contents and the date.
-- **Keep it** with your Go-Bags and other kits.
-- **Add** a stove, fuel, pot, cup, spoon and a manual can opener.
-- **Add** water treatment and containers.
-- **Check** every six months and rotate.
-
-### Cook kit
-A small camp stove, a lighter, a pot with a lid, a cup, a spoon, and a bottle of dish soap. Practice using them.
+- [ ] Choose a lidded bin for each person or pair | Label with name and date | gear
+- [ ] Buy ready-to-eat food | Bars, crackers, nut butter, jerky, pouches | gear
+- [ ] Buy add-hot-water food | Oatmeal, noodle cups, freeze-dried meals | gear
+- [ ] Add morale food | Candy, tea, coffee, spices
+- [ ] Pack a cook kit | Stove, fuel, lighter, pot, cup, spoon, manual can opener | gear
+- [ ] Store the bin next to the go-bags | Cool and dry
+- [ ] Do a two-day test | Eat from the bin only and note what is missing
+- [ ] Set a rotation reminder | Every six to twelve months
 
 ## Check yourself
-? What makes good portable food?
-- Fragile
-- Frozen
-- Fresh and heavy
-+ Light, compact, shelf-stable and easy to prepare
-> It must travel.
-
-? Where should the two-week bin be kept?
-- In a random closet
-- At a neighbor's house
-- In the garage in summer heat
-+ Together with your Go-Bags in one dedicated spot
-> Grab everything at once.
-
-? How often should you check the bin?
-- Every ten years
-+ About every six months
-- Only after use
-- Never
-> Rotate to keep it fresh.
+? What makes food portable?
+- It is heavy and canned
++ It is light for its calories, ready to eat, compact and long-lasting
+- It needs a refrigerator
+- It is fresh
+> Portable food is designed to travel.
+? About how much food does one adult need for two weeks?
+- A single bag
++ Roughly 28,000 to 35,000 calories, or 14 to 20 pounds
+- 5,000 calories
+- 100 pounds
+> Plan a little more for teenagers and active adults.
+? Where should you keep the portable food?
++ Next to the go-bags, in one labeled place
+- In the car trunk in summer
+- At a friend's house
+- Anywhere
+> Keeping it together lets you grab everything in one trip.
+? Why include a manual can opener?
+- It is a gift
++ Cans are useless without one and it works without power
+- It saves weight
+- It cooks
+> Small forgotten items cause big problems.

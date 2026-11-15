@@ -1,9 +1,12 @@
 ---
 title: STOP: think before you act
-minutes: 10
+minutes: 14
 status: complete
+readiness: 2
 source: U.S. Army FM 21-76 Survival; Laurence Gonzales, Deep Survival; American Red Cross; U.S. Army FM 21-76 chapter 1 (the word SURVIVAL); wilderness search and rescue practice
 ---
+[video] STOP and size up
+
 The first minutes decide whether a bad situation stays manageable or becomes a disaster. The most important tool is a calm mind.
 
 ## STOP
@@ -48,6 +51,38 @@ Do one small useful thing right away: put on a layer, drink water, mark where yo
 > Stop. Think. Observe. Plan. A calm five minutes can save the next five days.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Why stopping works
+In the first minutes of an emergency, adrenaline pushes you to act fast, and the first thing you do is often the wrong thing. Studies of lost hikers and disaster survivors show the same pattern: people who pause, think and then act do better than people who rush. Stopping costs a minute and can save a life.
+
+## STOP in practice
+- **S: Stop.** Stand still or sit down. Do not run, do not keep walking, do not grab things at random.
+- **T: Think.** Take slow breaths. What just happened? What is dangerous right now?
+- **O: Observe.** Look around: hazards, exits, resources, people, weather and time of day. Check yourself and others for injury.
+- **P: Plan.** Choose the first one or two small actions, and do them.
+
+## A size-up in sixty seconds
+1. **Threats:** fire, water, smoke, traffic, collapse, weather, people.
+2. **Injuries:** is anyone bleeding, not breathing or in shock?
+3. **Resources:** what do I have on me and nearby? Water, clothes, light, a phone, a bag.
+4. **Time:** how many hours of daylight are left?
+5. **Help:** who knows where I am, and can I signal or call?
+Write down what you see if you can. A note forces clear thinking.
+
+## Calm yourself on purpose
+Fear is normal and useful. It becomes a problem only when it takes over. Use box breathing (in for four, hold four, out for four, hold four) for a minute. Name your next small step out loud. Then do it. A first small win, such as putting on a jacket or finding water, breaks the freeze and builds momentum.
+
+## Common traps
+- Rushing to move when you should stay put.
+- Splitting up without a plan.
+- Ignoring injuries because you are busy.
+- Pretending it is not happening. This is called normalcy bias.
+
+- [ ] Memorize STOP: Stop, Think, Observe, Plan
+- [ ] Practice box breathing for one minute
+- [ ] Do a mock sixty-second size-up of your home
+- [ ] Write a size-up card for your go-bag
+- [ ] Teach STOP to every family member
 
 ## Check yourself
 ? What does STOP stand for?

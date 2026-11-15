@@ -1,9 +1,12 @@
 ---
 title: Wounds, burns and broken bones in the field
-minutes: 12
+minutes: 16
 status: complete
-source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; American Red Cross; Wilderness Medical Society; see the Medical for Everyday Citizens course
+readiness: 3
+source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); American Red Cross; Wilderness Medical Society; see the Medical for Everyday Citizens course
 ---
+[video] Wounds, burns and broken bones
+
 Far from help, small injuries can grow into big ones. This lesson covers field basics. The Medical course gives the full detail.
 
 ## Cuts and scrapes
@@ -64,6 +67,27 @@ Evacuate if: a life-threatening condition, a head, neck or back injury, an open 
 See the next lesson.
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## The basics of wound care
+Stop the bleeding first, then clean. Wash your hands, rinse the wound with clean, running water, remove visible dirt, cover it with a clean dressing and change it daily. Watch for infection: spreading redness, warmth, swelling, pus and fever. Seek medical care for deep, gaping, dirty or animal-bite wounds.
+
+## Burns
+Cool a burn with cool running water for at least 10 minutes. Do not use ice, butter or ointments. Remove rings and jewelry before swelling begins. Cover loosely with a clean dry dressing. Seek care for burns that are large, deep, on the face, hands, feet or genitals, or that blister widely.
+
+## Fractures and sprains
+Immobilize in the position found with a splint padded and tied above and below the injury. Check circulation, feeling and movement beyond the splint. Treat sprains with rest, ice, compression and elevation. Do not try to straighten a broken bone.
+
+## Head injuries
+Any head injury with loss of consciousness, vomiting, confusion or worsening headache needs medical care. Keep the person still and watch.
+
+## When to evacuate
+If the injury is severe, if the person is getting worse or if you cannot treat it with what you have, get help.
+
+- [ ] Carry a field first aid kit
+- [ ] Learn to splint a limb
+- [ ] Learn how to clean and dress a wound
+- [ ] Know burn first aid
+- [ ] Take a wilderness first aid course
 
 ## Check yourself
 ? How should you splint a suspected broken arm?

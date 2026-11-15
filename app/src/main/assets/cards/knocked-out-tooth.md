@@ -5,20 +5,35 @@ status: draft
 reviewer:
 reviewed:
 ---
-**DRAFT. Not yet reviewed by a qualified person.**
+1. Find the tooth. Press clean gauze on the bleeding.
+2. Pick the tooth up by the **crown** (the chewing part), never the root.
+3. Rinse gently in tap water. **Do not scrub** it.
+4. An **adult tooth:** push it back into the socket if you can and bite on gauze.
+5. If you cannot, keep it in **milk**.
 
-1. Find the tooth and press clean gauze on the bleeding.
-2. Pick the tooth up by the **crown** (the chewing part), never by the root.
-3. Rinse it gently in tap water. **Do not scrub it** or remove any tissue stuck to it.
-4. For an **adult tooth,** gently push it back into the socket if you can. Bite on gauze to hold it.
-5. If you cannot put it back, keep it in **milk.** If there is no milk, use tap water, or a tooth-saver solution if you have one. An adult or older child may hold it between the cheek and gum, taking care not to swallow it.
-6. **Never** store it in salt water, alcohol or mouthwash.
-7. **Get to a dentist or emergency room right away** and bring the tooth. The best chance of saving it is within 30 minutes. After 2 hours, it is unlikely to work.
+**If phones work, call 911** for a head or neck injury, heavy bleeding that will not stop, or a confused or drowsy person. Otherwise get to a dentist within 30 minutes if possible.
 
-**Baby teeth** should not be put back. Stop the bleeding and have a dentist look at it.
+## If no help is coming
 
-**Call 911** if there is a head or neck injury, heavy bleeding that will not stop, or the person is confused or drowsy.
+- **Replant within an hour** if you can. After about 2 hours the chance is low, but try.
+- **Storage if you cannot replant:** milk, or the person's own spit in a clean cup. Never salt water, alcohol or mouthwash.
+- **Baby teeth** are not put back. Stop the bleeding and leave it.
+- **Hold it in** with a folded gauze bite for about 20 minutes, then a soft diet for several days.
+- **Watch for infection** later: swelling, pus, fever. See "Toothache or tooth abscess".
+
+## Know more
+
+### Why speed matters
+Cells on the root die as it dries out. Keeping it wet keeps them alive.
+
+### Other mouth injuries
+Loose or cracked teeth, cut lips and tongue. Rinse with clean water, press with gauze, cold pack on the cheek.
+
+### Prevention
+A mouthguard for contact sports and cycling.
+
+**Train:** Academy course "Family medical care without a clinic".
 
 Source: University of Michigan Health, Knocked-out tooth: first aid; American Association of Endodontists guidance.
 
-Reference only, not medical advice. In an emergency, call 911.
+Reference only, not medical advice. Where help can be reached, call 911.

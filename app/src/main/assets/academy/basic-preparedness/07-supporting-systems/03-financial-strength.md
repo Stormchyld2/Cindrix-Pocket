@@ -1,125 +1,98 @@
 ---
-title: Financial Strength
-minutes: 3
+title: Financial strength
+minutes: 16
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross; this lesson is general information, not financial advice
+readiness: 3
+source: FEMA and Ready.gov (Financial Preparedness; Emergency Financial First Aid Kit); Consumer Financial Protection Bureau (Emergency fund; Disaster recovery); American Red Cross (Financial Preparedness); Federal Trade Commission (disaster scams); this lesson is general information, not financial advice
 ---
-One of the best things you can do to truly be independent is be financially stable!
+[video] Financial strength
 
-**Preparedness is not just about gear and supplies. Financial stability gives you options during emergencies and helps you recover faster from unexpected events.**
+Preparedness is not only gear and supplies. Money gives you options: a hotel room, a tank of gas, a repair, a rental car, a week without a paycheck. A household with sound financial habits is far less vulnerable to job loss, disasters, supply disruptions and medical bills. This lesson is general information, not financial or legal advice. Talk to a qualified professional about your own situation.
 
-A household with strong financial habits is less vulnerable to job loss, natural disasters, supply disruptions, medical expenses, and other emergencies. Building financial preparedness starts with understanding your cash flow and maintaining access to emergency funds.
+Your goal: understand your finances, keep a small emergency cash reserve for when electronic payments fail, and keep more than one way to pay.
 
-**Your goal: Develop awareness of your finances and maintain a small emergency cash reserve that can be used when electronic payment systems are unavailable.**
+## Layer 1: a cash flow plan
+Understanding where your money goes is the foundation. Track all income and spending for two or three months. Sort spending into three groups:
+- **Needs:** housing, food, utilities, insurance, transportation and minimum debt payments.
+- **Wants:** everything else.
+- **Savings and preparedness.**
+Cut waste from wants and move the savings to preparedness. Small, regular amounts beat large, occasional ones.
 
-## Develop a Cash Flow Plan
-Understanding where your money goes is the foundation of financial preparedness.
+## Layer 2: an emergency fund
+Many experts recommend three to six months of essential expenses in an accessible savings account, separate from daily spending. That can be a long road. Start with a **starter fund** of $500 to $1,000, and then build steadily. Even a small fund keeps a flat tire or a medical bill from becoming a crisis, and lets you avoid high-interest debt. Automate a transfer each payday so you never have to think about it.
 
-Track all income and expenses so you can identify spending patterns, reduce waste, and make informed decisions about saving and preparedness investments.
+## Layer 3: cash at home
+Electronic payment systems fail during power cuts, network failures and disasters. ATMs run dry and card readers go dark. Cash in small bills keeps you able to buy fuel, food and supplies for a short disruption.
+- **Target:** a reserve of at least $500 in mixed small bills (ones, fives, tens and twenties), growing as you can. The go-bag has a smaller sum.
+- **Include coins** for vending machines and pay phones.
+- **Store it securely,** in a hidden, fireproof place, split into more than one spot. Never keep it all in one place.
+- **Note:** in a prolonged crisis, cash may lose value or buy less. For short disruptions, cash is one of the most reliable tools.
 
-## Checklist
-- Create a spreadsheet using Google Sheets, Excel, or another spreadsheet tool.
-- Create columns for each paycheck period or month
-- Add rows for all sources of income
-- Add rows for recurring expenses (mortgage/rent, utilities, insurance, subscriptions, etc.)
-- Review recent bank and credit card statements
-- Enter transactions and categorize by type
-- Calculate total monthly income and expenses
-- Identify areas where spending can be reduced
-- Review and update the spreadsheet regularly
+## Layer 4: backup payment options
+Multiple ways to pay add resilience. A credit card with available credit can give temporary purchasing power if cash runs short. Keep one or two cards in good standing, pay them off, and avoid carrying balances. Know your bank's emergency contact numbers, and keep a checkbook or payment app for backup.
 
-## Build an Emergency Cash Reserve
-Electronic payment systems can fail during power outages, network disruptions, natural disasters, or other emergencies. Having cash on hand allows you to purchase goods and services when ATMs, credit card systems, or online banking are unavailable.
+## Layer 5: insurance
+Insurance moves a catastrophic cost to someone else. Review each policy yearly.
+- **Homeowners or renters insurance,** including whether it covers additional living expenses if your home is unusable. Renters need their own policy.
+- **Flood insurance.** Most standard policies do not cover flooding. Check with your agent. Federal flood policies usually have a 30-day waiting period.
+- **Earthquake coverage,** where relevant, which is also separate.
+- **Auto, health, disability and life insurance.**
+Photograph your belongings and store the pictures off site, as in the binder lesson.
 
-A small reserve of cash in various denominations provides flexibility for everyday purchases.
+## Layer 6: debt
+High-interest debt drains your ability to prepare. Pay down the highest-interest balances first, and avoid new debt where you can. If a disaster hits, call lenders early. Many offer hardship programs.
 
-**Success Criteria: You maintain at least $500 in emergency cash with a mix of small denominations.**
+## Layer 7: documents and access
+Keep copies of bank account details, insurance policies, loan papers and key numbers in the binder and in encrypted form. Make sure a trusted person knows how to find them. Check that a partner or a trusted adult can access accounts if you cannot.
 
-Note: In a prolonged crisis, cash may lose value or become less useful. However, during short-term disruptions, cash is often one of the most reliable ways to make purchases when electronic systems are unavailable.
+## Layer 8: income resilience
+The strongest financial buffer is a household that can earn in more than one way. Keep skills and your resume current, build relationships and consider a side income or a skill that is in demand locally.
 
-## Checklist
-- Save twenty $5 bills ($100 total)
-- Save twenty $10 bills ($200 total)
-- Save ten $20 bills ($200 total)
-- Store the cash in a secure, accessible location
+## Spend wisely on preparedness
+Buy what you will use, and buy on sale. Build the cheap layers first: water, food, light, first aid. Do not go into debt for gear. A skill costs less than a gadget.
 
-## Maintain Backup Payment Options
-Having multiple ways to access funds increases resilience during emergencies.
+## Beware of scams
+After disasters, scams surge: fake charities, fake contractors, fake officials, fake aid offers. Protect yourself.
+- Verify before you pay or give personal details.
+- Never pay up front in cash or by gift card.
+- Check a contractor's license and references.
+- Government agencies do not ask for fees for disaster help.
+- Report fraud to the FTC and your local authorities.
 
-A credit card with available credit can provide temporary purchasing power if cash is unavailable or emergency expenses exceed your cash reserve.
+## Five principles
+Insurance review is **hazard assessment** and **mitigation.** Cash and the fund are **preparedness.** Paying with cash when systems fail is **response.** Claims and rebuilding are **recovery.**
 
-## Checklist
-- Keep at least one credit card available for emergencies
-
-## Going deeper: a financial preparedness plan
-This is general information, not financial or legal advice. Talk with a qualified professional about your situation.
-
-### Layer 1: cash flow
-Know where your money goes. Track income and spending for two or three months, then group into **needs** (housing, food, utilities, insurance, transportation, debt payments), **wants,** and **savings.** Reduce wants to fund preparedness and savings.
-
-### Layer 2: emergency fund
-Experts commonly recommend saving **three to six months of essential expenses** in an accessible account. Start with a **starter fund** of $500 to $1,000, then build. Keep it in a savings account, separate from daily spending.
-
-### Layer 3: cash at home
-Keep small bills in a secure place, as in the lesson. Include coins for vending machines and phones. Replace what you use.
-
-### Layer 4: insurance
-- **Homeowners or renters:** know what is covered. Many policies exclude floods and earthquakes.
-- **Flood** insurance (NFIP) takes 30 days to start in most cases, so buy ahead.
-- **Auto, health, life and disability.**
-- **Review** coverage each year.
-
-### Layer 5: debt
-- **Pay down** high-interest debt (credit cards) first.
-- **Avoid** new debt for non-essentials.
-- **Know** your payment options and the rules for hardship programs.
-- **Keep** a good credit score for emergencies.
-
-### Layer 6: documents and access
-- **Copies** of account numbers and contacts stored securely.
-- **Multiple ways** to pay: cash, credit and debit.
-- **Passwords** in a secure manager.
-- **Know** how to reach your bank when the internet is down.
-
-### Layer 7: income resilience
-- **Skills** that earn money.
-- **A second income** if possible.
-- **A network** for finding work.
-
-### Spend wisely on preparedness
-- Buy what you will use.
-- Prioritize **water, food, medicine, communications, and a plan.**
-- Avoid scams that prey on fear.
-- Do not go into debt for gear.
-
-### Scams
-After disasters, scams surge: fake charities, fake contractors and fake officials. Verify, do not pay upfront, and report fraud.
-
-### Checklist
-- A tracked budget
-- A starter emergency fund, then a bigger one
-- Cash reserve in small bills
-- Insurance reviewed
-- Documents stored securely
+- [ ] Track income and spending for a month | Sort into needs, wants and savings
+- [ ] Open a starter emergency fund | $500 to $1,000, then build toward three months
+- [ ] Set an automatic transfer on payday | Even a small amount
+- [ ] Keep $500 or more in small bills at home | Split between two secure places
+- [ ] Hold one or two backup payment methods | A credit card with available credit
+- [ ] Review insurance yearly | Renters, flood and living expenses
+- [ ] Copy account and policy details | Into the binder, encrypted off site
+- [ ] Learn the common disaster scams | Verify before paying
 
 ## Check yourself
-? Why keep cash on hand?
-- It is required
-- It is lighter
-- It earns interest
-+ Electronic payments may fail in an outage
-> Cash works when systems are down.
-
-? What is a common target for an emergency fund?
-- None
-- A year of vacations
-- One dollar
-+ Three to six months of essential expenses
-> Start small and build.
-
-? Which debt should you tackle first?
-+ High-interest debt such as credit cards
-- Nothing
-- Low-interest mortgage only
-- Debts to friends only
-> It costs the most.
+? Why keep emergency cash?
+- To spend on fun
++ Electronic payments can fail, and cash lets you buy essentials in short disruptions
+- Banks are closed
+- Cash is worth more
+> Small bills keep you able to pay when systems are down.
+? What is a good first emergency fund step?
+- Wait for a windfall
++ Start with a starter fund of $500 to $1,000 and build steadily
+- Borrow
+- Ignore it
+> Small regular amounts beat large occasional ones.
+? Does standard homeowners insurance usually cover flooding?
+- Always
++ Usually not, so check and consider separate flood insurance
+- Yes, fully
+- It does not matter
+> Flood coverage is usually a separate policy.
+? How do you spot a disaster scam?
++ They ask for upfront payment or gift cards, or pressure you to act now
+- They give receipts
+- They are licensed
+- They wait
+> Verify before you pay.

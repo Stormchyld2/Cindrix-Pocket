@@ -1,9 +1,12 @@
 ---
 title: Heat illness and dehydration
-minutes: 11
+minutes: 15
 status: complete
-source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; CDC heat illness guidance; Wilderness Medical Society
+readiness: 3
+source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC heat illness guidance; Wilderness Medical Society
 ---
+[video] Heat illness and dehydration
+
 Heat is among the leading weather killers. The body cools by sweating, and fails when it loses too much water and salt, or when it cannot cool.
 
 ## Dehydration
@@ -61,12 +64,22 @@ Temperature inside a car can climb 20 °F in 10 minutes. Children and pets die e
 - **Know the signs.**
 
 ## Checklist
-- Know the signs of heat exhaustion and heat stroke
-- Know how to cool a person fast
-- Water, salt, shade and cooling cloths in the kit
-- Never leave children or pets in a car
+- [ ] Know the signs of heat exhaustion and heat stroke
+- [ ] Know how to cool a person fast
+- [ ] Water, salt, shade and cooling cloths in the kit
+- [ ] Never leave children or pets in a car
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Know the ladder
+Heat illness is a sequence: cramps, exhaustion, then stroke. Catch it early. Heat stroke is a life-threatening emergency.
+
+## Act fast
+- **Heat exhaustion:** heavy sweating, weakness, nausea and headache. Move to shade, loosen clothing, cool with water and fans, and give small sips of water.
+- **Heat stroke:** confusion, hot dry or sweaty skin, high temperature, fainting. **Call 911.** Cool the person aggressively with cold water, wet cloths and ice packs on the neck, armpits and groin while waiting.
+
+## Prevent
+Drink before you are thirsty, rest in the shade, avoid the hottest hours, wear light loose clothing and a hat, and watch the vulnerable: children, older adults and people with medical conditions. Never leave a person or pet in a parked car.
 
 ## Check yourself
 ? Which sign marks heat stroke?

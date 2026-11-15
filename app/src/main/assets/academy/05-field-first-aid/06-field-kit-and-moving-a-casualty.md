@@ -1,9 +1,12 @@
 ---
 title: A field first aid kit, and moving an injured person
-minutes: 10
+minutes: 14
 status: complete
-source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; American Red Cross; Wilderness Medical Society; CERT disaster medical operations
+readiness: 3
+source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); American Red Cross; Wilderness Medical Society; CERT disaster medical operations
 ---
+[video] A field kit and moving a casualty
+
 ## A basic field kit
 Pack in a waterproof bag, in order of use:
 **Bleeding:** tourniquet, hemostatic or plain gauze, compression bandage, gloves.
@@ -51,11 +54,23 @@ Do not leave an injured person alone unless you must get help. If you must, leav
 Write the time of injury, tourniquet, medicines, symptoms and changes. Hand the notes to responders.
 
 ## Checklist
-- A field kit in each pack, and everyone knows the contents
-- Know the carries and how to build a stretcher
-- Know how to call for help with a clear report
+- [ ] A field kit in each pack, and everyone knows the contents
+- [ ] Know the carries and how to build a stretcher
+- [ ] Know how to call for help with a clear report
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Build and learn your kit
+A kit is only as good as the skill of its owner. Buy a basic kit, learn each item and add supplies for your needs. Check the kit each season.
+
+## Core items
+Gloves, gauze and rolled bandages, adhesive bandages, tape, elastic wrap, a tourniquet, trauma shears, tweezers, a thermometer, an emergency blanket, a splint, antiseptic wipes, burn dressings and a small notebook and pencil.
+
+## Moving a casualty
+Move a person only when you must, such as for fire, rising water or danger. Support the head and neck, use a blanket drag, a two-person carry or an improvised stretcher of jackets and poles.
+
+## Keep a record
+Write down the time, what happened, vital signs and what you did. Hand it to the responders.
 
 ## Check yourself
 ? What should you give rescuers when calling for help?

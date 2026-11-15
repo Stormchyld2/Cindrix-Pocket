@@ -5,14 +5,27 @@ status: draft
 reviewer:
 reviewed:
 ---
-**DRAFT. Written from general field guidance and not yet checked line by line against its source or by a qualified person.**
+1. **Orient the map.** Turn it so north on the map points to north on the ground, using a compass or a known landmark.
+2. **Find the legend.** Usually **blue** water, **green** woods, **brown** contour lines and hills, **black** buildings and roads, **white** open ground.
+3. **Contour lines** join points of equal height. Close lines mean **steep**, far apart means **gentle.** Circles are hilltops. V-shaped lines point **uphill** along a valley, and the stream runs in it.
+4. **Scale.** Use the bar scale to measure distance with a string, paper strip or thumb.
+5. **Grid.** To give a position, read **right first, then up.**
+6. Mark your position as soon as you know it and **keep checking against the ground** every few minutes.
 
-1. **Orient the map.** Turn it so north on the map points to north on the ground, using a compass or a landmark you know.
-2. **Find the legend** (the key). It explains the colours and symbols. Usually: **blue** water, **green** woods, **brown** contour lines and hills, **black** buildings and roads, **white** open ground.
-3. **Contour lines** join points of equal height. Lines close together mean a **steep** slope. Lines far apart mean **gentle** ground. Circles of lines are hilltops. V-shaped lines point **uphill** along a valley, and the stream runs in it.
-4. **Scale.** Use the bar scale at the bottom of the map to measure distance with a string, a strip of paper or your thumb.
-5. **Grid.** To give a position, read **right first, then up** (along the corridor, then up the stairs).
-6. Mark your position on the map as soon as you know it. **Keep checking against the ground** every few minutes.
+## If you have less gear
+
+- **No map:** draw one. Sketch the roads, water and landmarks you know and mark north.
+- **A road atlas or phone screenshot** is a poor but usable map.
+
+## Know more
+
+### Common mistakes
+Not orienting the map, ignoring the scale, and never checking against the ground.
+
+### Practice
+Plan a walk from the map and see how well it matches.
+
+**Train:** Academy course "Land navigation".
 
 Source: US Army Ranger Handbook (SH 21-76), paraphrased; US Army map reading guidance (FM 3-25.26).
 

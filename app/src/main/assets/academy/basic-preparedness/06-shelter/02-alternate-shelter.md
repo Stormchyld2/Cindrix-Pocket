@@ -1,119 +1,113 @@
 ---
-title: Alternate Shelter
-minutes: 3
+title: Alternate shelter
+minutes: 15
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross
+readiness: 3
+source: FEMA and Ready.gov (Evacuation; Shelter; Recovering from Disaster); American Red Cross (Evacuation Checklist; Disaster Assistance); CDC (Sheltering safely); National Weather Service (evacuation guidance); FEMA Transitional Sheltering Assistance guidance
 ---
-It's important to plan in advance how you would survive! Remember 3 hours in adverse weather conditions **could mean death** for you or your loved one.
+[video] Your alternate shelter
 
-## Option: RV or Travel Trailer
-An RV or travel trailer can serve as a self-contained backup shelter, and gives you the flexibility to relocate (bug out) if needed.
+Your alternate shelter is the first backup: a place you have already arranged to go when your home cannot be used. Plan it in advance, because in the first hours of an emergency everyone else is looking for the same rooms. In bad weather, three hours of exposure can be fatal, so a plan is not a luxury.
 
-PROS
-- More space and comfort than most temporary options
+An alternate has to be reachable, available, safe and not hit by the same event as your home. Choose at least two: one close, one far.
 
-- Minimal setup, ready to use quickly
+## Close and far
+- **Close,** within a few miles. This suits localized events such as a house fire, a gas leak or a burst pipe. You can walk or drive in minutes and stay near work and school.
+- **Far,** 100 miles or more, in a different region. This suits large disasters such as hurricanes, wildfires or floods that affect a whole city or county.
+Choose places that are not in the same flood zone, fire zone, earthquake fault or power grid as your home.
 
-- Mobile (can relocate if conditions change)
+## Option: stay with friends, family or neighbors
+This is the most useful alternate, and it costs nothing. Talk about it before disaster strikes, and make a simple mutual agreement. If you can, find a **neighborhood contact** who would help you and your family, and promise to do the same for them.
 
-- Often includes built-in water, power, and sleeping systems
+On a single page, write down:
+- The host's name, address and phone numbers, and a second contact.
+- How many people and pets you would bring.
+- How long you might stay.
+- Any needs, such as a ground-floor room or space for medical equipment.
+- Anything you would bring, such as bedding and food.
+- What you offer in return.
 
-CONS
-- Expensive upfront and ongoing maintenance
+**Consider:** in a regional disaster, your hosts may be in the same trouble. Do not assume they can support you fully, and do not become a burden. Bring your own food, water and supplies, and offer help.
 
-- Storage can be difficult if you don't have space
+## Option: hotels and short-term rentals
+A hotel or rental can be a comfortable alternate under the right conditions. They work best in localized events, when infrastructure still works.
 
-- Requires fuel and accessible roads
+**A good option when:**
+- A house fire or localized damage has made your home unusable.
+- You need short-term displacement, such as a forecast storm or an evacuation order for a small area.
+- Power is on, roads are open and businesses are running.
 
-- In large-scale evacuations, traffic and road conditions may limit mobility
+**Not a good option when:**
+- A widespread event, such as a hurricane, wildfire or major earthquake, has everyone leaving.
+- Rooms are booked within hours, or prices surge.
+- The hotel itself has no power or water.
+- Travel routes are blocked.
 
-→ An RV works best for localized events and has the perks of utility (roadtrip, anyone?) during times of normalcy. **In widespread disasters, mobility may be more limited than expected.**
+Hotels are a comfort option, not a survival guarantee. If everyone is evacuating, you are competing with thousands of others for a limited number of rooms. Book early, know pet-friendly places and be ready to fall back on your own plan.
 
-## Option: Stay with Neighbors or Friends
-Discuss the possibility of staying with friends **before disaster strikes**. Don't wait until something happens, have the conversation ahead of time. A simple mutual agreement can go a long way.
+## Option: RV or travel trailer
+An RV or travel trailer can be a self-contained alternate that moves with you.
 
-If possible, find a close **Neighborhood Contact** that would be willing to help you and your family in an emergency.  Pledge to do the same for them!
+**Pros:**
+- Beds, a kitchen and a toilet in one place.
+- It can relocate if the situation changes.
+- Useful in normal times for travel.
+- You control your own food and supplies.
 
-## Best Practices
-- Identify multiple households you could stay with
+**Cons:**
+- Cost, maintenance and storage.
+- Fuel and propane, which need planning.
+- Poor winter performance without proper insulation.
+- Mobility may be limited in widespread disasters, when roads are blocked and fuel is short.
+- Parking space and hookups may be hard to find.
+An RV works best for localized events. In a widespread disaster, plan for less movement than you expect.
 
-- Plan multiple routes to each location
+## Camping as an alternate
+A good tent, sleeping bags and a stove let you shelter in a campground or on your own land. Practice camping once a year so that you know how it works. The Contingency lesson covers this.
 
-- Set expectations (length of stay, supplies, responsibilities)
+## Costs
+Alternate shelter costs money. Set aside an emergency fund to cover a week or two of lodging, gas and food, and see the Financial Strength lesson. Some insurance policies cover "additional living expenses" when your home is unusable. Check yours. After a declared disaster, FEMA may provide help for housing, so register early.
 
-## Things to Consider
-- Will they have enough space?
+## Make it work
+- **Test the plan.** Call your host once a year to confirm. Drive the route to each place, noting gas stations and alternative roads.
+- **Share the plan.** Make sure everyone in the household, including teenagers, knows where you would go and how to get there.
+- **Keep the numbers on paper** in the binder.
+- **Keep gas in the tank.** A half-full tank is the minimum.
 
-- Will you bring your own food, water, and supplies?
+## Five principles
+Choosing close and far options is **hazard assessment** and **mitigation.** Writing the agreement is **preparedness.** Going there is **response,** and the fund and insurance steps are **recovery.**
 
-- Are they affected by the same risks as you?
+- [ ] Choose a close alternate | Within a few miles
+- [ ] Choose a far alternate | 100 miles or more, in another region
+- [ ] Ask your hosts and agree | Write a one-page agreement
+- [ ] Plan for pets, medical needs and access | Carriers, equipment, ground floor
+- [ ] Book-mark pet-friendly hotels | And their numbers
+- [ ] Check your insurance for living expenses | Know what is covered
+- [ ] Set aside a lodging fund | One to two weeks of costs
+- [ ] Drive each route once | Note fuel and alternate roads
 
-→ In a regional disaster, they may be in the same sad boat that you are! Don't assume they can fully support you.
-
-## AirBnB and Hotels
-Hotels and short-term rentals can be a comfortable and effective Alternate shelter option under the right conditions.
-
-## When they are a good option
-These work best during localized disruptions when infrastructure is still functioning. Good scenarios: House fire or localized damage, short-term displacement or evacuation and other small-scale disasters.
-
-Situations where the power is still on, roads are open and majority of businesses are operating normally.
-
-## When they are not
-Hotels and Airbnbs quickly become unreliable in widespread or high-impact events, like:
-
-- Large-scale evacuations (wildfires, hurricanes)
-
-- Regional disasters affecting entire cities or counties
-
-- Power grid failures
-
-- Infrastructure collapse (roads, fuel shortages)
-
-They may become fully booked within hours or prices surge dramatically. It could be there is no power or water at the facility or travel routes blocked
-
-→ Reality check: If everyone is evacuating, you're competing with thousands of people for the same limited rooms.
-
-**Hotels are a comfort option, not a survival guarantee.** They work well when systems are intact, but in major disasters, you need to be ready to fall back on your own shelter plan.
-
-## Checklist
-- Make your Alternate plan
-
-## Going deeper: arranging your alternate shelter
-### A plan with neighbors, friends or family
-Make it specific. On a single page, write:
-- **Who:** the household and their contact details.
-- **Where:** address, directions and an alternate route.
-- **How long:** a reasonable stay (a week or two).
-- **What you bring:** food, water, bedding, medicine and cash.
-- **What you share:** chores, cooking and expenses.
-- **What if they cannot take you?** A second option.
-- **Pets:** whether they are welcome.
-- **Rules:** quiet hours, kids, smoking, guests.
-
-Offer the same in return.
-
-### Distance and diversity
-Choose at least one option **close** (within a few miles) for short events and one **far** (100 miles or more) in a different region, for large disasters. Choose places that are not in the same flood zone, fire zone or fault line as you.
-
-### Hotels and rentals
-- **Book early** when a storm or fire is forecast.
-- **Choose** pet-friendly places if needed.
-- **Keep** a list of hotels outside your region on your route.
-- **Ask** your insurer about loss-of-use coverage and keep receipts.
-- **Bring** your own supplies: hotels may be crowded and out of food.
-
-### RV and trailers
-- **Maintain** the vehicle and keep it fueled.
-- **Know** how to hook up water, power and sewer.
-- **Know** its limits: a long tow in high wind or a crowded evacuation.
-- **Keep** a basic kit in it.
-- **Park** it where it is safe from the hazard.
-
-### Camping as an alternate
-A good tent, sleeping bags and a stove let you shelter in a campground or on your own land. Practice camping each year. See the Contingency lesson.
-
-### Costs
-Alternate shelter costs money. Set aside an emergency fund (see the Financial Strength lesson) to cover a week or two of lodging, gas and food.
-
-### Test the plan
-Call your host once a year to confirm. Drive the route. Make sure everyone knows the plan.
+## Check yourself
+? Why choose both a close and a far alternate shelter?
+- For variety
++ Close suits small local events, far suits large regional disasters
+- To waste time
+- Because the law says so
+> Different events call for different distances.
+? Why are hotels not a survival guarantee?
+- They are always expensive
++ In widespread events they fill up, lose power, or are cut off
+- They do not exist
+- They refuse families
+> Competition and failed infrastructure make them unreliable.
+? What should you do when staying with friends in a regional disaster?
+- Arrive empty-handed
++ Bring your own food, water and supplies and offer help
+- Take over
+- Stay silent
+> Your hosts may be affected too.
+? How often should you confirm arrangements with your host?
+- Never
++ At least once a year
+- Only in a disaster
+- Every ten years
+> Circumstances change.

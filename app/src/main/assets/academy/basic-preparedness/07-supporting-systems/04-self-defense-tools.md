@@ -1,73 +1,94 @@
 ---
-title: Self Defense Tools
-minutes: 3
+title: Self-defense tools
+minutes: 15
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross; this lesson is general information, not legal advice
+readiness: 2
+source: FEMA and Ready.gov (Personal safety; Be Informed); US Department of Justice and FBI (personal safety and situational awareness public guidance); National Shooting Sports Foundation (Project ChildSafe, safe storage); National Rifle Association and USCCA firearm safety rules (public summaries); this lesson is general information, not legal advice
 ---
-Don't outsource your personal protection to anyone else!
+[video] A responsible approach to self-defense
 
-## There may be a day when you call 911 and get a busy signal, or the police just can't respond to your location.
+There may be a day when you dial 911 and get a busy signal, or when help simply cannot reach your location in time. In a widespread emergency, police, fire and medical services are stretched thin, and the first responders may be minutes or hours away. That is not a reason for fear. It is a reason to take personal safety seriously, in a measured, lawful and responsible way.
 
-After a failure of civility occurs, it's too late to try and buy a gun or obtain other means for personal defense. You need to have these items ahead of time.
+This lesson is general information, not legal advice. Laws about weapons, carrying and the use of force differ greatly between states, cities and countries. Learn yours, and get training from certified instructors. The Self-Defense course goes much deeper. This lesson sets out the sensible order of things.
 
-The Self-Defense Skills module has specifics that can help you prepare in this area.
+## Layers, in order
+The most effective protection is not a tool. It is a series of layers, and the tool is the last and rarest.
+1. **Awareness and avoidance.** Most dangerous situations can be avoided by noticing early and leaving. Keep your head up, stay off your phone in unfamiliar places, trust your instincts, park in light and know your exits.
+2. **De-escalation.** Calm words, open hands, distance and a way out. Most confrontations end if one person refuses to escalate. Your goal is to get home safely, not to win.
+3. **Barriers and alarms.** Locks, lights, alarms, dogs and a safe room give you time and make you a harder target. Home security is the next lesson.
+4. **Non-lethal tools.** Pepper spray, a loud personal alarm and a bright flashlight can create distance and attract help.
+5. **Physical skills.** A self-defense or martial arts class teaches you to escape a grab, create space and stay calm under stress. Skills beat gadgets.
+6. **Firearms.** A serious responsibility that needs training, safe storage and a clear knowledge of the law.
 
-## Going deeper: a responsible approach to personal protection
-This lesson is general information, not legal advice. Laws about weapons, carrying and the use of force differ from place to place. Learn yours, and use training from certified instructors.
+## Awareness basics
+- Notice who is around you, and where the exits are.
+- Walk with confidence. Predators tend to choose people who look distracted.
+- Keep your hands free and your keys ready.
+- Avoid isolated, dark places, and travel with company when possible.
+- If something feels wrong, leave and go to a busy, lit place.
+- In a disaster or unrest, avoid crowds, stay out of areas of tension and keep a low profile.
 
-### Layers, in order
-1. **Awareness and avoidance:** most dangerous situations can be avoided by noticing early and leaving. See the Survival basics course.
-2. **De-escalation:** calm words, distance and a way out.
-3. **Barriers and alarms:** locks, lights, alarms and dogs.
-4. **Non-lethal tools:** pepper spray, a loud personal alarm, a flashlight.
-5. **Physical skills:** a self-defense or martial arts class teaches you how to escape a grab.
-6. **Firearms:** a serious responsibility that requires training, secure storage and knowledge of the law.
+## Non-lethal tools
+- **Pepper spray.** Choose a reputable brand, check the legal limits where you live and the expiry date, and practice with a training canister. Wind and close range cause the spray to affect you too. Keep it accessible, not buried in a bag.
+- **Personal alarm.** A loud siren draws attention and can startle someone. Test it.
+- **Flashlight.** A bright light can disorient and helps you see. Carry one anyway.
+- **Whistle.** Louder than a shout and light to carry.
+Know that any tool is useless if it is at the bottom of a bag or at home when you need it, and any tool can be taken and used against you without training.
 
-### If you choose to own a firearm
-- **Take a certified safety course.** Learn the four rules: treat every gun as loaded, never point it at anything you are not willing to destroy, keep your finger off the trigger until ready to shoot, and know your target and what is beyond it.
-- **Store it unloaded and locked,** away from children and unauthorized people, with ammunition separately if needed. A quick-access safe is an option for home defense.
-- **Practice** regularly at a range, and with a qualified instructor.
-- **Know your laws:** purchase, transport, carrying, storage and when you may use force. Many places have a duty to retreat or stand-your-ground rules. A lawyer or a certified instructor can explain them.
-- **Understand the consequences:** using force has legal, moral and emotional costs. Seek counseling after any incident.
-- **Mental health:** keep firearms away from anyone in crisis. If someone in your home is at risk of harming themselves, call 988 and consider temporary storage outside the home.
+## If you choose to own a firearm
+Owning a firearm is a personal decision with serious responsibilities. If you decide to, do it properly.
+- **Know the law:** ownership, purchase, carrying, transport, storage and when force is lawful in your area. The rules vary, and ignorance is no defense.
+- **Get trained.** Take a course from a certified instructor, such as those offered by the NRA, USCCA, local police departments or reputable schools. Practice regularly and in realistic conditions.
+- **Follow the four basic safety rules:** treat every firearm as if it is loaded; never point it at anything you are not willing to destroy; keep your finger off the trigger until you are ready to shoot; and be sure of your target and what is behind it.
+- **Store it safely.** Children, visitors and thieves are the greatest risks. Use a locked safe or lock box, store ammunition separately where practical and consider trigger locks. Safe storage prevents most accidents and thefts.
+- **Think beyond the gun.** Plan how you will deal with the aftermath, including calling for help, medical care and legal support.
+- **Be honest about mental health and stress.** Keep firearms away from anyone in crisis.
 
-### Pepper spray and alarms
-- **Pepper spray** is legal in most places. Learn how to use it, check the range and the expiry, and carry it in your hand, not buried in a bag.
-- **Personal alarms** attract attention and scare off many attackers.
+## Train your mind
+Defensive skills are mostly mental: awareness, decisions and calm. Read about the use of force law, take a class, practice scenarios mentally and know that the best outcome is the one in which nobody gets hurt.
 
-### Training
-Look for courses from certified instructors: the NRA, USCCA, local police, and reputable self-defense schools. Practice in realistic conditions.
+## Medical readiness
+Anyone who carries a defensive tool should also carry first aid and know how to use it, including a tourniquet and bleeding-control skills. Take the Stop the Bleed course. Most deaths from injury are from bleeding that could be controlled in minutes.
 
-### Medical readiness
-Anyone who carries a defensive tool should also carry first aid and know how to use it, including a tourniquet. See the Stop the Bleed course.
+## After an incident
+Get to safety, call 911, and give a short, clear report. Render first aid. Do not tamper with the scene. Say you want a lawyer before giving a detailed statement, and contact your lawyer and your insurance as soon as you can.
 
-### The Self-Defense course
-The Academy's Self-Defense course covers these topics in depth. Take it next.
+## The Self-Defense course
+The Academy's Self-Defense course covers these topics in depth, including awareness, de-escalation, physical skills and legal issues. Take it next.
 
-### Checklist
-- Know your local laws
-- A plan for awareness, avoidance and de-escalation
-- A non-lethal tool, such as pepper spray or an alarm, if you choose
-- Training and safe storage for any firearm
+## Five principles
+Awareness and avoidance are **hazard assessment** and **prevention.** Tools and training are **preparedness.** Acting calmly in the moment is **response.** Medical care, reporting and legal support are **recovery.**
+
+- [ ] Learn the self-defense and weapons laws where you live | Check state and local rules
+- [ ] Practice awareness for one week | Notice exits, people and your surroundings
+- [ ] Buy a personal alarm and a flashlight | And test them | gear
+- [ ] Take a self-defense or awareness class | Local police or certified school
+- [ ] Take a first aid and Stop the Bleed class | Learn tourniquet use
+- [ ] If you own a firearm, set up locked storage | Safe, lock box or locks | gear
+- [ ] Complete a certified firearm safety course | Before relying on it
 
 ## Check yourself
-? What comes first in personal protection?
-- Ignoring warning signs
-- Confronting trouble
+? What is the first and best layer of personal protection?
+- A weapon
 + Awareness and avoidance
-- Buying a weapon
-> The best fight is the one you avoid.
-
-? How should a firearm be stored in a home with children?
-- Loaded on a shelf
-- In a drawer
-- On a table
-+ Locked, unloaded and out of reach
-> Safe storage prevents tragedies.
-
-? What should you learn before relying on any defensive tool?
-- Only the price
-+ The laws where you live and how to use it with training
-- Only the color
-- Nothing
-> Laws and training matter.
+- A loud voice
+- A bigger car
+> Most danger can be avoided by noticing early and leaving.
+? Why get certified training?
+- To look tough
++ Skills and legal knowledge matter more than gadgets
+- To avoid the law
+- To buy cheaper
+> A tool without training can be dangerous to you.
+? What is a key safety rule for firearms?
+- Keep a finger on the trigger
++ Treat every firearm as loaded and keep your finger off the trigger until ready to shoot
+- Point it at friends
+- Store it loaded in a drawer
+> Safe handling and storage prevent most accidents.
+? Why is medical readiness part of self-defense?
+- It is not
++ Bleeding injuries can be fatal in minutes, and anyone armed should also be able to give first aid
+- To look prepared
+- It is a legal rule
+> Stop the Bleed skills save lives.

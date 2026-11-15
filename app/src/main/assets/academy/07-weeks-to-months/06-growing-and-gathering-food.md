@@ -1,9 +1,12 @@
 ---
 title: Growing, preserving and gathering food
-minutes: 12
+minutes: 16
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; USDA National Center for Home Food Preservation; Cooperative Extension; see the Seed Vault course
+readiness: 3
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; USDA National Center for Home Food Preservation; Cooperative Extension; see the Seed Vault course
 ---
+[video] Growing and gathering food
+
 Over months, a garden and preserved food stretch your supplies.
 
 ## Start a garden now
@@ -47,12 +50,39 @@ Chickens, rabbits and goats give eggs, meat and milk. They need space, food, wat
 - **Children, pregnant women and older adults** have special needs.
 
 ## Checklist
-- A garden or containers started
-- Seeds saved and stored
-- Know safe canning rules and have tested recipes
-- A local foraging class, before you rely on wild food
+- [ ] A garden or containers started
+- [ ] Seeds saved and stored
+- [ ] Know safe canning rules and have tested recipes
+- [ ] A local foraging class, before you rely on wild food
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Start before you need it
+Gardening takes a season to learn, and a garden started during a crisis rarely feeds a family. Start small now: pots, a raised bed or a plot. Grow what you eat, such as tomatoes, beans, greens and squash. Save seeds from open-pollinated plants.
+
+## Preserve the harvest
+Learn canning, drying, freezing and fermenting from reliable guides such as the USDA and extension services. Use tested recipes to avoid botulism.
+
+## Wild food
+Do not eat wild plants or mushrooms unless you are certain. Many are poisonous. Take a local class from an expert.
+
+## Plan a small, productive garden
+Start with what grows easily where you live. A small raised bed, say 4 by 8 feet, can produce a surprising amount of greens, beans and tomatoes. Add compost, water regularly and mulch. Keep a notebook of what you plant and when. Check with your county extension service for a local planting calendar.
+
+## Fast growers and good keepers
+**Fast:** radishes, lettuce, spinach and green onions, which are ready in a month or less. **Productive:** beans, zucchini, tomatoes and cucumbers. **Keepers:** potatoes, onions, garlic, winter squash and carrots, which store well. **Calorie crops:** potatoes, corn, beans and squash feed a family.
+
+## Seeds
+Buy open-pollinated or heirloom seeds, which you can save and replant, and keep a stock of them in a cool, dry place. Learn to save seed from beans, tomatoes and lettuce.
+
+## Preserving safely
+Follow tested recipes from the USDA Complete Guide to Home Canning or your extension service. Low-acid foods such as vegetables and meat need a pressure canner to be safe from botulism. Learn to dry, freeze and ferment, and label everything with dates.
+
+## Small livestock
+Chickens give eggs and pest control, rabbits give meat and fertilizer. Check local rules, make sure you can feed and care for them in a crisis and learn basic animal care.
+
+## Wild food
+Never eat a wild plant or mushroom unless an expert has confirmed it. Take local classes with a qualified forager. Learn the poisonous look-alikes. Hunting and fishing require licenses and knowledge of the law.
 
 ## Check yourself
 ? Which canning method is required for low-acid foods like beans and meat?

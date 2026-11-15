@@ -1,9 +1,12 @@
 ---
 title: Health and medicine for the long term
-minutes: 11
+minutes: 15
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; CDC; American Red Cross; FDA drug storage guidance. Never gives medicine amounts
+readiness: 3
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; CDC; American Red Cross; FDA drug storage guidance. Never gives medicine amounts
 ---
+[video] Health and medicine for the long term
+
 Weeks and months without normal medical care mean you must protect health and manage conditions carefully. Talk to your own doctor about your plan.
 
 ## Prescription medicines
@@ -53,12 +56,42 @@ Plan where you would go: hospitals, clinics, field hospitals, community health, 
 Long disruptions wear on people. Keep routines, connection, exercise and light. Watch for depression and anxiety. **988** and the **Disaster Distress Helpline (1-800-985-5990)** are available in the US.
 
 ## Checklist
-- A list of medicines, doctors and pharmacies
-- A talk with your doctor about an emergency supply
-- Vaccines current
-- A health plan for chronic conditions
+- [ ] A list of medicines, doctors and pharmacies
+- [ ] A talk with your doctor about an emergency supply
+- [ ] Vaccines current
+- [ ] A health plan for chronic conditions
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Plan for ongoing health
+In a long disruption, ordinary health problems still happen, and chronic conditions need care. Talk to your doctor and pharmacist about how to keep a safe extra supply of prescription medicines and what to do if you run out. This course does not give medicine amounts. Follow the label and your clinician.
+
+## Prevent first
+Hand washing, clean water, vaccinations, dental care, exercise and sleep prevent most problems.
+
+## Know when to get help
+Serious signs such as chest pain, trouble breathing, heavy bleeding, confusion, severe dehydration or high fever need medical care. Know where help is and how to reach it.
+
+## Mental health
+Stress, grief and fatigue are common. Keep routines, stay connected and seek support.
+
+## Medicines and supplies
+Ask your doctor and pharmacist about keeping an extra supply of any prescription medicine you depend on, how to store it and what to do when it runs short. Keep a written list of your conditions, medicines and doctors. Keep non-prescription basics in your kit: pain and fever relief, antiseptic, bandages and rehydration salts, following label directions. This course does not give medicine amounts.
+
+## Chronic conditions
+People with diabetes, heart conditions, asthma, kidney disease and other long-term conditions need a specific plan. Talk to your clinician about what to do in a long disruption, including diet, monitoring, storage of temperature-sensitive medicines such as insulin, and when to seek help. Register with your utility if you rely on electric medical equipment.
+
+## Prevent most problems
+Wash hands, drink safe water, eat well, sleep, stay active, keep vaccinations current, take care of your teeth and practise safe food handling. Prevention is far more effective than treatment when care is scarce.
+
+## Common problems
+Diarrhea and dehydration, minor wounds, colds, sprains, skin infections and heat or cold injuries. Learn to recognize them, and treat with rest, fluids, clean wound care and seeking help for anything severe.
+
+## Know when to get help
+Chest pain, trouble breathing, severe bleeding, confusion, a high fever that lasts, severe belly pain, stroke signs and signs of serious infection need urgent care. Know the nearest clinic and hospital and how you would get there.
+
+## Mental health
+Grief, fear and exhaustion are normal. Keep routines, stay connected, rest and talk. If distress is severe, seek help. In the United States, call or text 988.
 
 ## Check yourself
 ? Should you stockpile antibiotics without medical guidance?

@@ -1,96 +1,100 @@
 ---
-title: Core Principles of Go-Bag Preparedness
-minutes: 4
+title: Core principles of go-bag preparedness
+minutes: 14
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross
+readiness: 2
+source: FEMA and Ready.gov (Build a Kit; Evacuation); American Red Cross (Survival Kit Supplies); US Forest Service (Ready, Set, Go); principles of emergency management (preparedness and mitigation)
 ---
-When creating your Go-Bag, here are the core ideas to keep in mind:
+[video] Six principles for a go-bag
+
+Any list of what to pack goes out of date, and no list fits every family. Principles do not. If you hold six simple ideas in your head, you can judge any item, any bag and any budget, now or ten years from now. This lesson gives you the six and shows you how to use them as a tool.
 
 ## 1. Action
-Emergencies don't give you warning time, so being prepared before you need to be is key. This is the "Just do it" principle. Even a half-complete bag today beats a perfect bag that you build after an emergency, when you had to learn the lessons of not being prepared the hard way. Preparation must happen before stress hits! This is why the go-bag is taught first - it's the fastest win with the biggest impact.
+Emergencies do not give you time to prepare. Preparation done before stress arrives is worth ten times the same effort done during it, because under stress people forget, panic and make poor choices. A half-built bag today beats a perfect bag you plan to finish later. This is why the go-bag comes first in Tier 3: it is the fastest win with the biggest effect.
+
+Ask: *Is something in the bag today?* If not, put one thing in it before you go to bed.
 
 ## 2. Mobility
-When disaster strikes, you will likely need to move quickly and carry everything on your back. The weight of your Go-Bag matters; we recommend your bag weigh 15-20% of your body weight. If you weigh 175lbs, then aim for your Go-Bag to weigh no more than 35lb to maintain maximum mobility. Your gear must be portable and efficient. A go-bag is not about staying put - if you're using it, you're on the move. This principle forces discipline: if you can't carry it, you don't need it.
+A go-bag exists to be carried. If you are using it, you are on the move, possibly on foot, possibly in the dark. Keep the loaded weight to about 15 to 20 percent of your body weight. A 175 pound adult should aim for 35 pounds or less. Children carry far less, and some adults should carry less than the guideline, depending on health.
+
+Ask: *Could I walk ten miles with this?* Weigh the bag every season and write the weight on a tag. If you cannot carry it, you do not own it.
 
 ## 3. Essentials
-When it comes to what's in your Go-Bag, focus on survival essentials, not convenience. We'll list out everything you need in the checklist section of this lesson and dive deeper into each of these essentials in other courses, but as a general rule, survival essentials include:
-- Water
-- Food
-- Shelter
-- First aid
-- Communication
-- Basic tools
-
-Not sure if something belongs? Check that it fits one of the categories, then picture a worst-case survival situation - would this item actually make the difference between life and death?
-
-"Stay capable, not comfortable."
+"Stay capable, not comfortable." Every item must serve a survival need. Group them under these headings: **water, food, shelter and warmth, first aid, communication, light and fire, tools and navigation.** For each doubtful item, picture the worst realistic three days and ask whether it would make a life-or-death difference. A small comfort item that weighs almost nothing and lifts morale, such as a pack of cards or a favorite snack, is fine. A heavy one is not.
 
 ## 4. Redundancy
-Redundancy, as we covered, means you have more than one way to accomplish something. Your most critical systems must have backups. In real-world conditions, gear breaks, gets lost, runs out of power, or becomes unusable due to weather. Redundancy ensures that when one method fails, you're not left without options. Now, balancing redundancy with mobility is key, so finding small/lightweight backup items is ideal.
+Anything critical will fail at the worst moment: lighters run out, batteries die, filters crack, items get lost or soaked. Redundancy means having a second way to do the thing that matters. Keep the backup small and light so it does not wreck mobility.
 
-## Example 1: Fire Starting (Heat, Water, Survival)
-You should have at least 2-3 ways to start a fire:
-- Bic lighter (fast & easy)
-- Ferro rod (works when wet, long-lasting)
-- Waterproof/stormproof matches
-- Tinder (fatwood, fire rope, cotton + Vaseline)
+Examples:
+- **Fire:** a lighter, waterproof matches and a ferro rod, plus tinder that lights when damp, such as cotton balls rubbed with petroleum jelly or dryer lint in a bag.
+- **Light:** a headlamp for working hands-free, a small flashlight, and a lantern or chemical light stick, with spare batteries or a power bank.
+- **Water:** a bottle, a filter and purification tablets, plus the ability to boil.
+- **Cutting:** a knife and a multi-tool.
+- **Warmth:** a hat, gloves and a wool layer, plus a space blanket.
 
-Scenario: Your lighter runs out of fuel or gets lost - without a backup, you lose the ability to boil water, stay warm, or cook food.
-
-## Example 2: Light (Visibility & Safety)
-Have 3 independent light sources:
-- Headlamp (hands-free, primary use)
-- Handheld flashlight (backup / directional use)
-- Area light or lantern (for camp or group use)
-- Spare batteries or rechargeable options with a battery bank
-
-Scenario: Your headlamp battery dies while moving at night - without backup light, navigation becomes dangerous fast.
-
-If something is mission-critical, assume it will fail once.
+A good rule: if it is mission critical, assume it will fail once.
 
 ## 5. Sustainability
-While you can't carry everything... you can carry ways to generate more things. For example, Water: Carry some, but bring a filter so you can collect more later. Fire starter: Have some tinder ready, like dryer lint, but be prepared to make more later on when the dryer lint runs out (like using a knife to shave wood from branches to make tinder). This separates beginners from people who actually understand the system.
+You cannot carry everything for ever. You can carry the means to make more. Carry some water, plus a filter so you can collect and treat more. Carry some tinder, plus a knife and the skill to shave more from a dry branch. Carry a small stove and learn what else burns. Gear that runs out is a countdown clock. Gear that helps you replace what you used is a system.
 
-## 6. K.I.S.S (Keep It Simple Stupid)
-The only useful plan is one that can be executed; make it too complex and it'll fail in the moment. Simple kits are more usable and easier to maintain. Your system must work when you're overwhelmed.
+This is also where skills matter more than stuff. A person who can build a fire, purify water, give first aid and navigate by map needs far less gear than a person who owns a pile of gear and no skills.
 
-When items are familiar and accessible, you'll feel more confident and comfortable.
-So, test your gear. New stove? Light it up. Make sure you know how to use it.
+## 6. Keep it simple
+A plan that is too complicated will fail in the moment, because in a real emergency you are scared, tired, cold and possibly hurt. You are in your worst mental state, not your best. Choose simple, familiar tools that work with one hand. Test everything. A new stove that you have never lit is a risk, not an asset.
 
-A go-bag is meant for emergencies - this means there is a strong likelihood you are in your worst mental state, not your best. So set yourself up for success by knowing how to use what you've got and don't overcomplicate it.
+Ask: *Could I use this when I am tired, cold and frightened?*
 
-## Going deeper: putting the six principles to work
-Each principle becomes a question you can ask about any item in your bag.
-1. **Action:** Is it in the bag now? If not, put something there today.
-2. **Mobility:** Could I carry this for ten miles? Weigh the bag every season.
-3. **Essentials:** Which category does it serve, and would I miss it? If it serves none, remove it.
-4. **Redundancy:** If this broke or got wet or lost, what is my backup, and is the backup light?
-5. **Sustainability:** Does it let me make more of something (water, fire, light), or does it run out?
-6. **KISS:** Could I use it when tired, cold and frightened, with one hand?
-
-## A pack-audit exercise
-1. **Empty the bag** on a table and sort items by category.
-2. **Remove duplicates** that are not critical.
-3. **Ask** the six questions for each item.
-4. **Repack** with the heavy items near your back and the things you reach for most near the top.
+## Using the principles: the pack audit
+Do this once to build the bag, and again every six months.
+1. **Empty the bag** on a table and sort the contents by category.
+2. **Remove** duplicates that are not critical, and anything that serves no category.
+3. **Apply the six questions** to each item: Is it in the bag? Can I carry it? Does it serve an essential? Is there a backup? Can it help me make more? Can I use it when stressed?
+4. **Repack** with heavy items close to your back and in the middle, and the things you need fast near the top or in outside pockets.
 5. **Weigh it** and walk with it.
-6. **Write** a packing list and tape it inside the bag.
-
-## Redundancy without weight
-- **Fire:** a lighter (2 grams of fuel), a ferro rod and a small tin of tinder weigh almost nothing.
-- **Light:** a headlamp, a tiny keychain light and a power bank.
-- **Water:** a filter, tablets and a bottle for boiling.
-- **Cutting:** a knife and a multi-tool.
-- **Shelter:** a tarp and a space blanket.
-- **Warmth:** a hat, gloves and a wool layer.
+6. **Write** the packing list and tape it inside the bag, with the date of the last audit.
 
 ## Common mistakes
-- **Buying gadgets** instead of skills.
-- **Packing for comfort** instead of survival.
-- **Never testing** the stove, filter or radio.
-- **Forgetting** the seasons. Winter needs more warm gear and summer more water.
-- **Forgetting** family needs: medicine, children's items and pets.
-- **Leaving it in a hot car** where batteries and food spoil.
+- Buying gadgets instead of learning skills.
+- Packing for comfort instead of survival.
+- Never testing the stove, filter, radio or headlamp.
+- Forgetting the season: winter needs more warm clothing, summer more water.
+- Forgetting family needs: children's items, pets, and medical supplies for anyone who needs them.
+- Storing the bag in a hot car or damp garage, where food spoils and batteries die.
+- Packing so full that you cannot find anything.
 
-## Skills beat stuff
-A person who knows how to build a fire, purify water, give first aid and navigate needs far less gear than someone who has gear but no skills. Pair every item with a skill. The Academy courses teach them.
+## Link to the five principles of emergency management
+The six go-bag principles are **preparedness** in action, but they touch the rest. Hazard assessment tells you what to pack for. Response is what the bag lets you do quickly. Mitigation is the small habits that keep the bag working, such as seasonal checks. Recovery begins with the papers and cash in the bag.
+
+- [ ] Weigh the bag | Write the weight on a tag; aim for 15 to 20 percent of body weight at most
+- [ ] Do the pack audit | Empty, sort, remove, repack
+- [ ] Add a backup for each critical item | Fire, light, water, cutting, warmth | gear
+- [ ] Add a way to make more | Filter for water; knife for tinder and kindling | gear
+- [ ] Test one new item | Light the stove, run the filter, run the radio
+- [ ] Tape the packing list inside | Add the date of this audit
+- [ ] Set a reminder | Put a six-month check on the calendar
+
+## Check yourself
+? What does "Action" mean as a go-bag principle?
+- Wait until you have the best gear
++ Start now, because a half-built bag today beats a perfect one later
+- Practice kicking
+- Buy a bag only when warned
+> Preparation must happen before stress arrives.
+? What does "Sustainability" mean for gear?
+- Buying the greenest option
++ Carrying the means to make more of what you use, such as a filter or the skill to make tinder
+- Packing enough for a year
+- Using only organic items
+> Gear that runs out is a countdown clock. Ways to make more are a system.
+? Why prefer simple, familiar gear?
+- It is cheaper
++ In a real emergency you are stressed and tired, so only what you can use easily will work
+- It looks better
+- Complicated gear is illegal
+> Test everything so it is familiar when it matters.
+? What does redundancy mean?
+- Carrying everything twice
++ Having a small, light second way to do each critical task
+- Buying the most expensive item
+- Having two bags
+> Back up the critical few items, not everything.

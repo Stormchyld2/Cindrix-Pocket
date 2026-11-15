@@ -1,9 +1,12 @@
 ---
 title: Cooking and sanitation without power
-minutes: 12
+minutes: 16
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; CDC emergency sanitation; FoodSafety.gov; Sphere Handbook
+readiness: 3
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; CDC emergency sanitation; FoodSafety.gov; Sphere Handbook
 ---
+[video] Cooking and sanitation without power
+
 When the emergency drags on, daily life needs routines for cooking, cleaning and waste.
 
 ## Cooking options
@@ -64,12 +67,42 @@ Three-bucket method:
 - **Watch** for illness and isolate sick people.
 
 ## Checklist
-- A safe outdoor cooking setup and fuel plan
-- A hand-washing station
-- A dish and laundry routine
-- A waste plan for weeks
+- [ ] A safe outdoor cooking setup and fuel plan
+- [ ] A hand-washing station
+- [ ] A dish and laundry routine
+- [ ] A waste plan for weeks
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Plan fuel and stove together
+Choose a stove and fuel you can store safely and use outdoors, such as a camp stove with propane or a rocket stove with wood. Store at least a week of fuel for every household member and practise cooking before you need to.
+
+## Keep it clean
+Wash hands often, use clean water for washing dishes, sanitize with a weak bleach solution made according to the CDC chart and keep waste sealed and away from food and living areas.
+
+## Prevent illness
+Keep flies and pests away, cook food thoroughly and keep food at safe temperatures. Clean the toilet area daily.
+
+## Cooking options compared
+**Camp stove (propane or butane):** simple, clean and fast. Needs fuel canisters, which are heavy and have limited shelf lives in storage but last for years in practice.
+**Liquid-fuel stove:** burns white gas or unleaded fuel. Works in the cold and refills easily.
+**Rocket stove:** burns small sticks efficiently. Needs a supply of dry wood.
+**Charcoal grill:** works well but needs fuel and is outdoors only.
+**Solar oven:** free fuel on sunny days, slow.
+**Wood fire:** a backup if you have a safe outdoor place.
+Choose two methods, store fuel safely and practise.
+
+## Fuel planning
+A rough estimate for a family of four is about one pound of propane per day for basic cooking. A 20 pound tank therefore gives roughly three weeks. Count your fuel, add a margin and rotate.
+
+## Cooking safely
+Cook outdoors, on a firm, flat surface, away from structures. Never use a stove or grill indoors or in a garage. Keep children and pets away. Keep a fire extinguisher or a bucket of water handy.
+
+## Dishwashing with little water
+Scrape dishes, wash in a basin with hot water and a little soap, rinse in a second basin with a splash of dilute bleach as directed on the label, and air dry. Use the same water for several dishes, starting with the cleanest. Paper plates and cups reduce washing when water is scarce.
+
+## Waste and hygiene
+Seal food waste and keep it away from the house. Use a bucket toilet if needed and wash hands often. Keep surfaces clean and keep flies and rodents away. Illness spreads fast when hygiene slips.
 
 ## Check yourself
 ? Where should you cook with a camp stove or grill?

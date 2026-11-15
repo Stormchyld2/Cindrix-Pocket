@@ -1,9 +1,12 @@
 ---
 title: Clothing, layers and staying dry
-minutes: 10
+minutes: 14
 status: complete
-source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; CDC; Wilderness Medical Society; National Outdoor Leadership School guidance; American Red Cross
+readiness: 2
+source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; Wilderness Medical Society; National Outdoor Leadership School guidance; American Red Cross
 ---
+[video] Clothing, layers and staying dry
+
 Good clothing is the first shelter. Dressing well can keep you alive when everything else goes wrong.
 
 ## The rule: COLD
@@ -51,12 +54,34 @@ Good clothing is the first shelter. Dressing well can keep you alive when everyt
 - **Heat cramps, headache,** dizziness and nausea are signs of **heat illness.**
 
 ## Checklist
-- No cotton in cold and wet
-- Layers, a shell, hat and gloves in the go bag
-- Spare socks
-- Know how to improvise insulation
+- [ ] No cotton in cold and wet
+- [ ] Layers, a shell, hat and gloves in the go bag
+- [ ] Spare socks
+- [ ] Know how to improvise insulation
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Clothing is your first shelter
+What you wear keeps you alive before any shelter exists. Dress for the weather you expect and the weather that might happen, and carry spare layers. Wet and wind turn mild weather deadly, so always carry a rain shell.
+
+## The layer system
+- **Base layer:** wicks sweat. Wool or synthetic, never cotton in the cold.
+- **Insulating layer:** traps warm air. Fleece, wool or a puffy jacket.
+- **Shell layer:** blocks wind and rain, with vents.
+- **Extras:** hat, gloves, neck gaiter, spare socks, a space blanket.
+Add or remove layers to avoid sweating. Open vents, take off a layer before you heat up, and put it on before you chill.
+
+## COLD
+Remember **C-O-L-D**: keep clothing **C**lean, avoid **O**verheating, wear **L**ayers and keep it **D**ry.
+
+## Feet and hands
+Feet carry you. Keep them dry, change wet socks at once, check for hot spots and treat blisters early. Keep hands covered and warm, because cold hands make every task harder.
+
+## Improvise
+In an emergency, stuff dry leaves or grass in clothing for insulation, wrap a trash bag over your torso under a jacket, and use a space blanket as a vapor barrier. Avoid anything that makes you sweat inside plastic for long.
+
+## Warning signs
+Shivering that will not stop, numbness, clumsiness, slurred speech or confusion mean hypothermia is starting. Get out of the weather, add dry layers, give warm drinks and food if the person is awake, and call for help.
 
 ## Check yourself
 ? Which fabric is a poor choice in cold and wet?

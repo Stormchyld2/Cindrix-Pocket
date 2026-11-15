@@ -1,9 +1,12 @@
 ---
 title: Lost: stay or go?
-minutes: 11
+minutes: 15
 status: complete
+readiness: 3
 source: U.S. Army FM 3-25.26 Map Reading and Land Navigation; NOAA; National Association for Search and Rescue; search and rescue guidance (Hug-A-Tree program, NASAR)
 ---
+[video] Lost: stay or go?
+
 Getting lost happens to experienced people too. What you do in the first minutes matters.
 
 ## Signs you are lost
@@ -67,6 +70,40 @@ Rescuers search where you were last seen. Staying makes you easier to find.
 > If no one is looking for you, you may need to move. If someone is, stay and be easy to find.
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Why staying usually wins
+Search teams find far more people who stayed put than people who kept moving. A stationary person is easier to find, uses less energy and water and avoids injury and getting more lost. Moving makes sense only when you are sure of where you are going, when you have a clear and safe route, or when staying is dangerous.
+
+## Decide with a short test
+Stay if: someone knows your plan and expects you back, you are injured, it is getting dark, the weather is bad, you have no clear route or you are near a road or trail.
+Go if: you are in immediate danger, no one knows where you are and you have a reliable way out such as a clear trail, a known road or a distinct landmark, and you have the strength and daylight to get there.
+
+## If you stay
+1. **Make yourself visible:** bright clothes, a signal fire, a mirror, a whistle.
+2. **Make a shelter** and keep warm and dry.
+3. **Ration effort,** not water.
+4. **Mark your spot** with a large sign and arrows for searchers.
+5. **Keep a routine:** signal at set times, rest and stay alert.
+
+## If you go
+- Move in daylight only.
+- Leave a note at your starting point with direction and time.
+- Mark your route with tape, cairns or broken twigs.
+- Follow drainages and handrails such as roads, streams and ridges.
+- Never follow a stream into a canyon or off a waterfall, and avoid steep terrain.
+- Stop and rest before exhaustion.
+
+## Never
+Never split from your group, never travel at night without light and training, and never wander off a trail without telling anyone.
+
+## Prevent being lost
+Tell a trusted person your plan and return time. Carry the ten essentials. Check the map before you go. Stay on trails. Turn back early.
+
+- [ ] Leave a written trip plan with someone
+- [ ] Carry the ten essentials on every trip
+- [ ] Practice the stay-or-go test on a hike
+- [ ] Teach children to stay put and hug a tree
+- [ ] Pack a whistle for every person
 
 ## Check yourself
 ? What should you do first when you realize you are lost?

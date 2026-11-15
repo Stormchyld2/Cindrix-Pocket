@@ -1,9 +1,12 @@
 ---
 title: Trip plans, phones and GPS
-minutes: 9
+minutes: 13
 status: complete
+readiness: 3
 source: U.S. Army FM 3-25.26 Map Reading and Land Navigation; NOAA; National Association for Search and Rescue; AdventureSmart and NASAR trip-planning practice; U.S. Geological Survey; National Park Service
 ---
+[video] Trip plans, phones and GPS
+
 Phones and GPS units are powerful, but they fail. Use them, and carry backups.
 
 ## A trip plan
@@ -63,12 +66,36 @@ Leave the plan in writing, and **tell them when you return.**
 10. Extra clothes
 
 ## Checklist
-- A written trip plan left with someone
-- Offline maps and a power bank
-- A paper map and compass
-- The ten essentials in the pack
+- [ ] A written trip plan left with someone
+- [ ] Offline maps and a power bank
+- [ ] A paper map and compass
+- [ ] The ten essentials in the pack
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## The plan is your best rescue tool
+The most effective safety device is a person who knows where you are. Write a trip plan, give it to someone responsible and agree on when they should call for help.
+
+## What a good plan holds
+- Names and phone numbers of everyone on the trip.
+- Vehicle make, color and license plate and where it is parked.
+- Route, campsites and expected times.
+- Gear and the medical needs of the group.
+- A check-in time and what to do if you miss it.
+- Emergency contacts, and the local agency to call.
+
+## Phone tips
+- Download offline maps before you go.
+- Keep the phone in airplane mode to save battery, turning it on to check position.
+- Carry a power bank and a short cable.
+- Learn how to share your location and how to drop a pin.
+- Do not rely on signal. Mountains and canyons kill it.
+
+## The ten essentials
+Navigation (map and compass), sun protection, insulation, illumination, first aid, fire, repair tools, nutrition, hydration and emergency shelter. Pack them every time, even for a short day hike.
+
+## Group rules
+Keep the group together, set the pace by the slowest member, count heads at junctions and agree on turnaround times. Agree on signals and what to do if separated.
 
 ## Check yourself
 ? What should a trip plan include?

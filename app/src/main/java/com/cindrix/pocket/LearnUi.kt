@@ -258,13 +258,18 @@ private fun LessonView(lesson: Lesson, progress: LearnProgress, onBack: () -> Un
 }
 
 /** The carried cards and courses, loaded once when the app opens. */
-class LoadedLibrary(val cards: List<Card>, val courses: List<Course>, val progress: LearnProgress)
+class LoadedLibrary(val cards: List<Card>, val courses: List<Course>, val progress: LearnProgress, val skills: List<SkillDef> = emptyList(), val forage: List<Forage> = emptyList())
 
 @Composable
 fun rememberLibrary(): LoadedLibrary {
     val context = androidx.compose.ui.platform.LocalContext.current
     return remember {
         val lib = Library(AssetSource(context.assets))
-        LoadedLibrary(lib.cards(), lib.courses(), LearnProgress(context))
+        val src = AssetSource(context.assets)
+        LoadedLibrary(
+            lib.cards(), lib.courses(), LearnProgress(context),
+            src.read("skills.csv")?.let { Skills.parse(it) } ?: emptyList(),
+            src.read("forage-seasons.csv")?.let { InSeason.parse(it) } ?: emptyList(),
+        )
     }
 }

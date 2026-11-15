@@ -1,9 +1,12 @@
 ---
 title: Fatigue, sleep and routine
-minutes: 9
+minutes: 13
 status: complete
+readiness: 2
 source: U.S. Army FM 21-76 Survival; Laurence Gonzales, Deep Survival; American Red Cross; CDC sleep guidance; American Academy of Sleep Medicine; military fatigue management practice
 ---
+[video] Fatigue, sleep and routine
+
 Tired people make poor choices, get hurt and get cold. Managing rest is part of survival.
 
 ## What tiredness does
@@ -55,12 +58,30 @@ They tire and chill faster. Make sure they rest, eat and drink. Keep bedtimes.
 If you see these, **stop and rest.** Tell others.
 
 ## Checklist
-- A rest schedule for the household or group
-- A safe sleep spot
-- A daily routine written down
-- Know the signs of too much fatigue
+- [ ] A rest schedule for the household or group
+- [ ] A safe sleep spot
+- [ ] A daily routine written down
+- [ ] Know the signs of too much fatigue
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Fatigue is a hazard
+Tired people make more mistakes, misjudge risks, get irritable and become accident-prone. Many survival failures begin with exhaustion. Treat rest as equipment, not as a reward.
+
+## Sleep is part of the plan
+Adults generally need seven or more hours, but in a crisis even short naps help. A twenty-minute nap can restore alertness. When possible, split watches so that nobody goes more than a day without proper sleep. Give people with jobs that need alertness, such as driving, priority for rest.
+
+## Build a routine
+A simple daily rhythm gives structure: wake and check, breakfast, chores and work, a midday rest, afternoon tasks, an evening meal, a group check-in and a set bedtime. Routines reduce decision fatigue and stabilize mood.
+
+## Create a sleep space
+Quiet, dark, cool and warm enough. Use earplugs and an eye mask. Insulate from the ground. Keep light low in the evening. Avoid heavy meals, alcohol and caffeine late in the day.
+
+## Warning signs of fatigue
+Yawning, drifting, slow reactions, forgetting simple things, irritability and microsleeps. If you notice them while driving, pull over and rest. Do not push on.
+
+## Support the body
+Food, water and gentle movement help. Dehydration and hunger make fatigue worse.
 
 ## Check yourself
 ? What happens after 24 hours without sleep?

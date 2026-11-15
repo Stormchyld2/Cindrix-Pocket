@@ -1,9 +1,12 @@
 ---
 title: Heat, cooling and power for weeks
-minutes: 11
+minutes: 15
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; Ready.gov; CPSC carbon monoxide guidance; U.S. Fire Administration home heating safety
+readiness: 3
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; Ready.gov; CPSC carbon monoxide guidance; U.S. Fire Administration home heating safety
 ---
+[video] Heat, cooling and power for weeks
+
 Days without power are hard. Weeks need a real plan.
 
 ## Heating safely
@@ -46,12 +49,33 @@ Days without power are hard. Weeks need a real plan.
 - **Play** games and read.
 
 ## Checklist
-- A safe heat plan and carbon monoxide alarms
-- A cooling plan for hot spells
-- A generator or solar plan, safely used
-- A list of power priorities
+- [ ] A safe heat plan and carbon monoxide alarms
+- [ ] A cooling plan for hot spells
+- [ ] A generator or solar plan, safely used
+- [ ] A list of power priorities
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Plan safe heat and cooling
+Long outages require safe, sustainable heat and cooling. Use only equipment designed for indoor use, install carbon monoxide alarms and keep fire extinguishers handy. In heat, create a cool room, ventilate at night and drink water.
+
+## Power
+Use solar panels and power banks for small devices and a properly installed generator for essentials, outdoors only. Conserve power and prioritize: medical needs, communication, light and food safety.
+
+## Heating for weeks
+Pick a heating method that is safe, designed for indoor use and has a supply of fuel. Options include a wood stove with a proper chimney, a vented kerosene or propane heater designed for indoors, or a fireplace insert. Have the chimney cleaned, keep three feet of clearance and install carbon monoxide alarms. Keep a fire extinguisher handy, and never use unvented fuel heaters or an oven, a grill or a generator inside.
+
+## Cooling for weeks
+Cool the body first: shade, light clothing, water and rest. Pick a cool room, usually on the lowest floor, and use it during the heat of the day. Close shades on the sunny side, open windows at night, use fans powered by a battery or small panel and use wet cloths on the neck and wrists. Check older neighbors and children. Know the signs of heat stroke.
+
+## Power for weeks
+Decide what matters: medical equipment, communications, light, refrigeration and cooling. A solar panel with a battery station can run small devices indefinitely. A generator, used outdoors with a safe cord and a transfer switch, can power essentials for hours a day. Store fuel safely and rotate it.
+
+## Food and refrigeration
+Plan which food will spoil first. Use a cooler with ice for essentials. Cook and eat perishable food early, and move to shelf-stable food. Keep a thermometer in the fridge and discard food that has been above 40 degrees Fahrenheit for over two hours.
+
+## Comfort and mood
+Warm drinks, music, games and a regular routine help people tolerate long outages. Keep spirits up by keeping busy.
 
 ## Check yourself
 ? Where must a generator run?

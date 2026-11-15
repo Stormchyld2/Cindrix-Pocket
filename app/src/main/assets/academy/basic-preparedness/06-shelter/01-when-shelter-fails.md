@@ -1,91 +1,106 @@
 ---
-title: When Shelter Fails
-minutes: 3
+title: When shelter fails
+minutes: 14
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross
+readiness: 3
+source: FEMA and Ready.gov (Shelter; Recovering from Disaster; Returning Home); American Red Cross (Shelter Safety; Find an Open Shelter); CDC (Shelter and Carbon Monoxide; Hypothermia and Hyperthermia); NOAA (Weather Safety)
 ---
-During my time as a first responder, I've seen firsthand how quickly **people can lose everything**.
+[video] When shelter fails
 
-In the 2014 Washington Oso landslide, I witnessed **a whole neighborhood washed away in an instant**. Homes, belongings, and any sense of normalcy - gone.
+Most of us assume we will always have a roof over our heads. Disasters do not respect that assumption. Fire, flood, landslide, tornado, earthquake, storm damage and gas leaks can make a home unusable in minutes, and the people affected rarely get time to plan. They are suddenly faced with one question: where do we go now?
 
-The people affected didn't get time to plan. They were suddenly faced with one question: Where do we go now?
+Psychologists call the habit of assuming everything will be normal "normalcy bias." It is why people stay too long, pack too little and have no plan for a night away from home. The cure is to decide on your options before you need them.
 
-**If your primary shelter is damaged or destroyed, your priority is to get out of the elements!** Exposure—heat, cold, wind, and precipitation—can become life-threatening faster than most people realize.
+## The priority: get out of the elements
+If your primary shelter is damaged or destroyed, your first priority is to get everyone out of the weather. Exposure to cold, wet, wind and heat can become life-threatening faster than most people realize. In harsh weather a person can be in serious trouble in a few hours. This is the "three hours" of the rule of threes.
 
-## Why This Matters
-Normalcy bias - remember that term? Most people assume they'll always have a roof over their head. But disasters don't give warnings that fit your schedule. If your home is no longer safe, you need pre-planned shelter options, not guesses in the moment.
-
-## PACE Shelter Plan
-In this section, we're going to build out your PACE plan for shelter. Remember, Redundancy is a key principle to being prepared!
-
-**Primary** – Your home
-
-**Alternate** – Planned backup locations
-
-**Contingency** – Less ideal but workable options
-
-**Emergency** – Last-resort survival shelter
-
-## Going deeper: how shelter fails, and what to do first
-Homes fail in different ways:
-- **Fire:** you may have only minutes.
-- **Flood:** water can rise quickly and make a home unusable for months.
-- **Wind and storms:** roofs and walls damaged by tornadoes, hurricanes and falling trees.
-- **Earthquake:** damaged structures, gas leaks and aftershocks.
-- **Landslide and sinkholes.**
-- **Loss of heat or cooling** in extreme weather: the home is intact but unlivable.
-- **Contamination or gas leaks.**
-- **Economic loss:** eviction or foreclosure.
-
-### The first hour
-1. **Get everyone out safely** and away from hazards.
-2. **Account for all people and pets.**
-3. **Get out of the weather:** a car, a neighbor's home or a nearby building.
-4. **Call for help** (911 for life-threatening needs, and your out-of-area contact).
-5. **Contact** the Red Cross (1-800-RED-CROSS) or your local emergency management for shelter locations.
-6. **Take only what you can safely carry,** and the Go-Bag.
-
-### Where to find emergency shelter
-- **Red Cross and community shelters** open during major disasters (check redcross.org or text SHELTER plus your ZIP to 43362 in the US).
-- **Friends, family and neighbors.**
-- **Churches and community centers.**
-- **Hotels** if available.
-- **211** connects you to local services.
-- **FEMA** may provide temporary housing after a declared disaster.
-- **Your insurance:** many policies pay for temporary housing (loss of use coverage). Call them.
-
-### The PACE shelter plan
-Fill this out now:
+## The PACE shelter plan
+Redundancy is the key preparedness principle, and it applies to shelter.
 - **Primary:** your home.
-- **Alternate:** a named friend or relative, or a hotel, with routes.
-- **Contingency:** a tent, vehicle or RV with supplies.
-- **Emergency:** a tarp or bivy kit in your Go-Bag.
+- **Alternate:** planned backup places, such as a relative's house, a friend's home, a hotel or an RV.
+- **Contingency:** less ideal but workable choices, such as a vehicle or a tent.
+- **Emergency:** a last-resort survival shelter, such as a tarp or a bivy.
+The next three lessons take the last three layers one by one.
 
-### Protect your health in a shelter
-- **Wash hands,** and keep your area clean.
-- **Bring** your own medicines, food for special diets and comfort items.
-- **Keep** documents and valuables close.
-- **Be careful** with strangers, and keep children close.
-- **Tell staff** about special needs.
+## How homes fail
+- **Fire.** Smoke and flames; the building may be destroyed.
+- **Flood.** Water damages structure, wiring and heating, and leaves mold and contamination.
+- **Wind and storm.** Roofs lost, windows broken, trees fallen.
+- **Earthquake.** Cracks, shifting and gas leaks, with aftershocks to come.
+- **Landslide and sinkhole.** Sudden loss of ground.
+- **Gas or chemical hazards.** The house may be intact but unsafe to enter.
+- **Long utility failure.** The house stands but is too cold or hot to live in without power.
+
+## The first hour
+1. **Get everyone out safely** and away from the hazard. Do not go back for belongings.
+2. **Account for all people and pets.**
+3. **Get out of the weather.** Use a car, a neighbor's home or a nearby sturdy building.
+4. **Call for help.** Dial 911 for life-threatening needs, then contact your out-of-area contact.
+5. **Find shelter.** Call the American Red Cross (1-800-RED-CROSS) or your local emergency management office for open shelters.
+6. **Take only what you can carry safely,** with the go-bag and the binder.
+7. **Do not re-enter a damaged building** until it has been cleared.
+
+## Where emergency shelter is found
+- **Public shelters** opened by the Red Cross, the county or the city. Find them through local alerts, the Red Cross app or by calling.
+- **Friends, family and neighbors.**
+- **Hotels, motels and short-term rentals.**
+- **Community, faith and school buildings,** which sometimes open as shelters.
+- **Your own vehicle,** in an emergency.
+Public shelters are basic: a floor, a cot or a blanket, and shared facilities. They are a lifeline but often crowded. Many do not accept pets, except service animals, so plan ahead.
+
+## Protect your health in a shelter
+- **Hygiene.** Wash hands often and keep your area clean. Illness spreads quickly in crowded places.
+- **Medicines and equipment.** Keep medicines with you and let staff know about medical needs. This lesson does not give medicine amounts, so follow labels and your clinician.
+- **Safety.** Keep valuables with you, keep children close and note exits.
+- **Carbon monoxide.** Never use a generator or grill indoors.
+- **Rest and warmth.** Keep warm, sleep when you can and eat regularly.
+- **Mental health.** Loss and stress are heavy. Talk, stay with family and seek support if you need it.
+- **Documents.** Keep your binder or copies with you, and register at the shelter so people can find you.
+
+## Think about the people who will struggle most
+Older adults, people with disabilities, infants, pregnant women and people with medical needs are often hit hardest. Plan their shelter first: accessible options, power for medical equipment, and an early departure.
+
+## Write your PACE card for shelter
+Fill this in now.
+- **PRIMARY:** my home.
+- **ALTERNATE:** ________ (close, within a few miles) and ________ (far, 100 miles or more).
+- **CONTINGENCY:** ________ (vehicle, tent or other).
+- **EMERGENCY:** ________ (tarp, bivy and where I would set up).
+Keep the card in your binder and tell your household.
+
+## Five principles
+Naming the ways homes fail is **hazard assessment.** The PACE card is **preparedness.** The first hour is **response.** Choosing safer alternate sites is **mitigation.** Registering and keeping records starts **recovery.**
+
+- [ ] Write the shelter PACE card | Primary, Alternate, Contingency, Emergency
+- [ ] Find your nearest public shelters | And learn how they are announced
+- [ ] Save the Red Cross and local emergency numbers | In your phone and on paper
+- [ ] Choose one close and one far alternate | Different flood, fire and fault zones
+- [ ] Plan for pets | Pet-friendly hotels, relatives or boarding
+- [ ] Plan for anyone with special needs | Access, power and medical supplies
+- [ ] Keep the go-bag and binder together | Ready to grab
 
 ## Check yourself
-? What is the first priority if your home becomes unsafe?
-- Take photos
-+ Get out of the elements and away from hazards
-- Pack all furniture
-- Wait
+? What is the first priority if your shelter fails?
+- Collecting belongings
++ Getting everyone out of the elements and the hazard
+- Taking photos
+- Calling the insurance
 > Exposure can become life-threatening fast.
-
-? How can you find a community shelter in a disaster?
-- Ask no one
-- Drive around
-+ Contact the Red Cross, 211 or local emergency management
-- Guess
-> Official sources have current lists.
-
-? What does the Alternate shelter in a PACE plan mean?
-- A hotel only
-- A tarp only
-- Your home
-+ A planned backup location
-> Plan it in advance.
+? What does the A in PACE stand for?
+- Anywhere
++ Alternate
+- Alarm
+- Always
+> A planned backup location.
+? Why should you not re-enter a damaged building?
+- It is rude
++ It may be unstable or hazardous until cleared
+- It is illegal everywhere
+- It is dirty
+> Wait for clearance.
+? Why plan for pets in advance?
+- Pets dislike shelters
++ Many public shelters do not accept animals
+- Pets need no shelter
+- It is cheaper
+> Know pet-friendly options ahead of time.

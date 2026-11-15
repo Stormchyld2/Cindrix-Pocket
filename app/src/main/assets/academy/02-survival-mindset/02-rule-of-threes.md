@@ -1,9 +1,12 @@
 ---
 title: The rule of threes and your priorities
-minutes: 10
+minutes: 14
 status: complete
+readiness: 2
 source: U.S. Army FM 21-76 Survival; Laurence Gonzales, Deep Survival; American Red Cross; wilderness survival teaching, including the American Red Cross and U.S. Army survival training
 ---
+[video] The rule of threes
+
 The **rule of threes** is a rough guide to how long a person lasts without the basics. It helps you decide what to do first.
 
 ## The rule of threes
@@ -49,6 +52,32 @@ Every hour or two, stop and ask: "What is working? What is not? What is next?"
 > Air, warmth, water, signal, food. In that order, unless the situation says otherwise.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Turning the rule into a plan
+The rule of threes is a rough guide, not a law. A person can survive about three minutes without air, three hours in harsh weather without shelter, three days without water and three weeks without food. The point is the order: deal first with what kills fastest, in order, and be honest about which one you are facing.
+
+## Priorities in practice
+1. **Air.** Get out of smoke, gas, water or collapsed debris. Clear the airway.
+2. **Bleeding and breathing.** Severe bleeding kills in minutes. Stop it first.
+3. **Shelter and warmth.** In cold, wet or wind, get out of the weather and stay dry. In heat, find shade.
+4. **Water.** Find safe water and drink. Do not waste time on food.
+5. **Signaling and rescue.** Make yourself findable.
+6. **Food.** Last. People go weeks without it.
+
+## Weigh the risks
+Every choice has a cost. Walking to find water uses energy and may expose you to weather. Staying put may let you be found. Ask for each action: what does it gain, what does it cost, and what is the worst that could happen? Choose the action with the best balance.
+
+## Save your energy
+Do not waste calories or sweat. Move slowly, rest often, work in cool hours and avoid unnecessary tasks. In heat, sweat is water you cannot afford to lose. In cold, sweat soaks clothes and chills you. Pace everything.
+
+## In a group
+Share the priorities out loud so everyone works on the right thing. Assign tasks by skill and condition: the strongest haul water, the calmest tend the injured, the cleverest plan. Check back every hour and revise the plan when conditions change.
+
+- [ ] Recite the rule of threes
+- [ ] Put the six priorities on a card
+- [ ] Run a priority drill on a scenario
+- [ ] Practice saving energy on a hike
+- [ ] Share the card with the household
 
 ## Check yourself
 ? About how long can a person last without water, as a guide?

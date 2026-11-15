@@ -1,0 +1,32 @@
+item,region,from_month,to_month
+Ramps,both,4,5
+Morel mushrooms,both,4,5
+Fiddlehead ferns,wv,4,5
+Dandelion greens,both,3,5
+Stinging nettle,both,3,5
+Poke shoots (cooked only - raw leaves and berries are poison),both,4,5
+Wild strawberries,both,5,6
+Mulberries,both,5,6
+Black raspberries,both,6,7
+Blackberries,both,6,8
+Elderberries (cooked only),both,8,9
+Blueberries and huckleberries,wv,7,8
+Pawpaw,both,9,10
+Persimmon (ripe after frost),both,9,11
+Black walnuts,both,9,11
+Hickory nuts,both,9,11
+Acorns (leached before eating),both,9,11
+Chestnuts,both,9,10
+Chicken of the woods mushroom,both,6,10
+Hen of the woods mushroom,both,9,10
+White-tailed deer,both,10,1
+Wild turkey (spring),both,4,5
+Wild turkey (fall),both,10,11
+Squirrel,both,9,2
+Rabbit,both,11,2
+Trout,both,3,10
+Catfish,both,5,9
+Crappie and bluegill,both,3,6
+Crayfish,both,4,9
+Wild garlic and onion,both,3,5
+Jerusalem artichoke tubers,both,10,3

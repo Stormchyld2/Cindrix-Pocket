@@ -1,9 +1,12 @@
 ---
 title: Safety, security and getting along with neighbors
-minutes: 11
+minutes: 15
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; FEMA; local law enforcement crime-prevention guidance; community policing research. Not legal advice
+readiness: 3
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; FEMA; local law enforcement crime-prevention guidance; community policing research. Not legal advice
 ---
+[video] Safety, security and neighbors
+
 Longer disruptions can raise crime and tension, but cooperation is the strongest protection. This lesson is general safety information, not legal advice. Follow your local laws.
 
 ## Cooperation first
@@ -57,12 +60,48 @@ Disasters bring scams: fake contractors, charity scams, price-gouging, and fake 
 Fear can make people act poorly. **Stay calm, talk with your group, and keep to the plan.**
 
 ## Checklist
-- A friendly relationship with neighbors
-- Good locks and lighting, and a safe room plan
-- Smoke alarms and extinguishers
-- A good understanding of local laws
+- [ ] A friendly relationship with neighbors
+- [ ] Good locks and lighting, and a safe room plan
+- [ ] Smoke alarms and extinguishers
+- [ ] A good understanding of local laws
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Cooperation is the best security
+The best protection for a household is a community that watches out for each other. Get to know your neighbors, agree on signals and share information.
+
+## Layers
+Lock doors and windows, light the exterior, keep a low profile, know your escape routes and keep a fire plan. Fire is a greater risk than crime in a long emergency.
+
+## Dealing with strangers
+Do not open the door to strangers. Speak through a closed door and ask for identification. Beware scams, especially after disasters.
+
+## Keep calm
+Anger and fear can lead to poor decisions. Pause, breathe and think.
+
+## Cooperation first
+The safest neighborhoods are those where people know each other. Agree with neighbors on a simple plan: who checks on whom, how you will signal for help, who has medical skills and how you will share information. A neighborhood watch that is friendly and focused on safety and helping is better than any lock.
+
+## Layers for the home
+1. **Deter:** lighting, tidy yards and a visible sense that people are home.
+2. **Delay:** strong doors, good locks and window security.
+3. **Detect:** alarms, dogs, neighbors who notice.
+4. **Respond:** a plan to call for help and a safe room.
+
+## Fire safety first
+Fire is far more likely than a break-in. Check smoke and carbon monoxide alarms, keep extinguishers, never leave flames unattended and practise your escape plan.
+
+## At the door and inside
+Do not open the door to strangers. Speak through the door, ask for identification and call the company or agency to verify. If someone enters your home, get your family to the safe room, call 911 and do not confront the intruder.
+
+## Records and documents
+Keep copies of key documents in the binder and off-site, and take photos of your belongings.
+
+## Scams and outsiders
+After disasters, scams surge. Verify, never pay upfront and report fraud. Treat visitors politely and carefully, and do not share information about your supplies.
+
+## Keep your head
+Anger and fear can make you act badly. Pause, breathe, check the facts and choose the response that keeps people safe.
 
 ## Check yourself
 ? What is the strongest protection in a long disruption?

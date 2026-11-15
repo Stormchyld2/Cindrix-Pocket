@@ -1,0 +1,47 @@
+skill,area,proof,must_have
+Make water safe to drink,Water,course:water-and-sanitation,yes
+Find water outdoors and treat it,Water,drill:35-find-and-treat-water,yes
+Store and rotate drinking water,Water,hand,yes
+Light a fire in the rain,Warmth and shelter,drill:33-fire-in-the-rain,yes
+Build a shelter and sleep in it,Warmth and shelter,drill:34-shelter-night,yes
+Stay warm in the cold,Warmth and shelter,drill:42-cold-layers,yes
+Heat and cook safely without power,Warmth and shelter,drill:15-cooking-without-power,yes
+Grow a garden and save seed,Food,course:seed-vault,yes
+Can and dry food safely,Food,course:food-production-and-preservation,yes
+Salt and smoke meat,Food,hand,no
+Know five local wild foods for certain,Food,drill:40-wild-food-five,yes
+Hunt and care for game,Food,course:appalachian-wild-food,yes
+Trap and fish,Food,course:living-off-the-land,yes
+Keep food safe without power,Food,hand,yes
+Stop severe bleeding,Medical,course:stop-the-bleed,yes
+Do CPR,Medical,course:cpr-and-first-aid,yes
+Clean and dress a wound,Medical,drill:38-clean-a-wound,yes
+Care for a sick person at home,Medical,course:family-medical,yes
+Casualty care in the field,Medical,course:casualty-care,yes
+Deliver a baby and care for a newborn,Medical,hand,no
+Care for teeth and mouth emergencies,Medical,hand,no
+Read a map and use a compass,Navigation,course:land-navigation,yes
+Walk a bearing and count paces,Navigation,drill:23-compass-bearing-walk,yes
+Move at night,Navigation,drill:28-night-walk,yes
+Find direction without a compass,Navigation,hand,yes
+Cross water safely,Navigation,drill:37-river-crossing,yes
+Walk far with a load,Navigation,course:mobility,yes
+Signal for help,Navigation,drill:44-signal-for-help,yes
+Use a radio and keep a schedule,Communications,course:communications,yes
+Hold the licence a radio needs,Communications,course:radio-licenses,no
+Run the family communications plan,Communications,drill:18-communications-plan,yes
+Keep a watch and secure the home,Security,course:home-and-site-security,yes
+Handle a firearm safely and shoot straight,Security,course:defensive-marksmanship,yes
+Defend yourself without a weapon,Security,course:self-defense,yes
+Sharpen and care for tools,Trades and repair,drill:45-sharpen-a-knife-and-an-axe,yes
+Sew and mend cloth,Trades and repair,drill:46-sew-a-patch-and-a-seam,yes
+Mend shoes and leather,Trades and repair,drill:47-mend-a-boot-or-strap,no
+Make soap and candles,Trades and repair,drill:48-make-a-small-batch-of-soap,no
+Work wood with hand tools,Trades and repair,drill:50-make-a-wooden-handle-or-stool,no
+Do basic metalwork and welding,Trades and repair,drill:51-cut-and-join-metal-safely,no
+Do basic building repair,Trades and repair,course:basic-building-and-repair,yes
+Work with electricity and batteries,Trades and repair,course:electricity-and-batteries,yes
+Keep a vehicle running,Trades and repair,course:vehicle-readiness-and-safe-driving,yes
+Lead a group in a crisis,Leadership,course:operator-leadership-and-training,yes
+Plan and run an emergency response,Leadership,course:operator-emergency-management,yes
+Teach a skill to someone else,Leadership,hand,yes

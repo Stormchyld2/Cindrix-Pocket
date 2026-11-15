@@ -53,6 +53,7 @@ sealed class Screen {
     object HubScan : Screen()
     object Erased : Screen()
     object Academy : Screen()
+    object Skills : Screen()
     data class Form(val item: BatchItem, val isNew: Boolean, val known: Boolean, val fromScan: Boolean) : Screen()
 }
 
@@ -195,6 +196,7 @@ fun App(state: AppState) {
                 onTrack = { screen = Screen.Track },
                 onCards = { screen = Screen.Cards },
                 onAcademy = { screen = Screen.Academy },
+                onSkills = { screen = Screen.Skills },
                 onHub = { screen = Screen.Hub },
                 onCount = { screen = Screen.Count },
                 onBooks = { screen = Screen.Books },
@@ -319,6 +321,8 @@ fun App(state: AppState) {
             Screen.Cards -> CardsScreen(cards = library.cards, onBack = { screen = Screen.Home })
 
             Screen.Academy -> AcademyScreen(courses = library.courses, progress = library.progress, onBack = { screen = Screen.Home })
+
+            Screen.Skills -> SkillsScreen(skills = library.skills, forage = library.forage, courses = library.courses, progress = library.progress, store = state.store, onBack = { screen = Screen.Home })
 
             Screen.Stock -> InStockScreen(
                 state = state,

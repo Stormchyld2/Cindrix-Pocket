@@ -1,114 +1,117 @@
 ---
-title: Decision Tree: Bug in or bug out?
-minutes: 3
+title: Decision tree - bug in or bug out?
+minutes: 16
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross
+readiness: 3
+source: FEMA and Ready.gov (Evacuation; Shelter in Place; Wildfires; Floods); American Red Cross (Evacuation Checklist; Shelter in Place); NOAA and National Weather Service (watches, warnings and evacuation); CDC (Evacuation and shelter guidance)
 ---
-Disaster strikes - where do you start? A pre-planned decision tree that will guide you step-by-step.
+[video] Bug in or bug out: the decision tree
 
-There are many different types of emergencies you may face, like a natural disaster or catastrophic event. Your immediate actions will depend on the nature of the problem.
+When something goes wrong, the first big decision is simple to state and hard to make: do we stay or do we go? Make it in advance and you decide calmly. Leave it until the moment and you decide in panic, with half the facts, and often too late.
 
-Things to ask yourself: Can you remain in your home with all your supplies? Or is your house no longer safe or inhabitable?
-There may be instances where your neighborhood or city is in danger and evacuation is required -- leaving you no choice but to flee over a long distance.
+"Bug in" means sheltering at home or in place. "Bug out" means leaving to a prepared destination. Neither is better in general. Each fits some emergencies and fails in others. The decision tree is a short series of questions you ask in the same order every time.
 
-Each situation requires advanced planning to maintain a comfortable standard of living for you and your loved ones.
+## Question 1: is my home intact and safe?
+Walk through the home and its surroundings, using your senses and common sense.
+- **Structure.** Cracks in walls, a leaning building or a damaged roof.
+- **Fire.** Active fire, heavy smoke or a wildfire spreading toward you.
+- **Gas.** A smell of gas or hissing. If you smell gas, leave at once and call the gas company from outside. Do not use switches.
+- **Electrical.** Sparks, exposed wiring or downed lines.
+- **Water.** Flooding or serious water damage.
+- **Air.** Smoke, ash or chemical fumes you cannot filter.
+- **Essentials.** Can you still get water, food, warmth and sanitation?
 
-## Location Decision Tree
+If the home fails any of these, it is not safe to stay.
 
-## Question 1: Is my home intact and safe?
-Things to consider:
-- Structural damage (cracks, leaning walls, compromised roof)
-- Fire risk (active fire, heavy smoke, nearby wildfire spread)
-- Utilities hazards
-- Gas leaks (smell, hissing)
-- Electrical issues (sparks, exposed wiring)
-- Flooding or water damage
-- Air quality (smoke, ash, chemical exposure)
-- Access to essentials
-- Water, food, shelter, sanitation
+## Question 2: is my neighborhood or community safer for my family than anywhere else?
+This question weighs outside risk against your ability to leave safely.
+- Is danger coming toward you, such as fire, flood or dangerous conditions?
+- Is there official guidance, such as an evacuation order or shelter-in-place warning?
+- Are the roads open or jammed? Is fuel available?
+- Are hospitals and emergency services working?
+- Is there growing panic, looting or violence?
+- Is there a better place available: a prepared destination or relatives out of the area?
 
-## Question 2: Is my neighborhood / community safer for my family than anywhere else?
-This is about external risk vs. your ability to leave safely. Evaluate:
+## Reading the answers
+- **Yes to both:** shelter in place. Stay, and prepare to stay well.
+- **No to either:** leave. Bug out.
 
-- Is danger coming toward you (fire, flood, unrest)?
-- What is the stability of the area?
-- Is law enforcement present or absent?
-- Is there increasing panic, looting, or violence?
-- Are roads open or congested? What is the fuel availability?
-- Are hospitals functioning?
-- Is there official guidance, like evacuation orders or warnings?
-- Do you have a safer B.O.L or out-of-area contact location ready?
+**Do not wait for certainty.** If things are clearly getting worse, such as fire spreading, water rising or unrest growing, leaving early is almost always safer than leaving late. The most dangerous choice is the late departure: roads are jammed, fuel is gone and darkness is falling.
 
-## IF YES TO BOTH
-Shelter In Place (Bug In)
+## Write your triggers in advance
+Triggers turn a vague worry into a clear action. Write them on a card for the binder, and tape it where everyone can see. Examples:
+- **Official order.** If an evacuation order is issued for our zone, we leave.
+- **Fire.** If smoke or flames are within a mile, or the fire is moving toward us, we leave.
+- **Flood.** If water reaches the end of our street, we leave.
+- **Structure.** If the house is damaged and unsafe, we leave.
+- **Air.** If the air is dangerous and we cannot filter it, we move to a clean room or area, or we leave.
+- **Supplies.** If we run out of water or heat and cannot replace them, we go.
+- **People.** If violence or unrest nearby is getting worse, we go early.
+- **Gut check.** If any adult feels strongly that we should go, we talk and decide at once.
 
-## IF NO TO EITHER
-Abandon Home (Bug Out)
+## Staying put well
+Bugging in is not just sitting still. It is a plan.
+1. **Check everyone** and give first aid.
+2. **Check utilities and safety** and shut off what is dangerous.
+3. **Choose a safe room** if conditions require it.
+4. **Count your supplies:** water, food, light, heat, medicine, hygiene and fuel.
+5. **Set a routine** for meals, rest, news checks and a watch.
+6. **Listen for official updates** on a battery or hand-crank radio.
+7. **Check on neighbors,** especially the elderly and anyone who is alone.
+8. **Keep go-bags by the door,** in case the answer changes.
 
-TIP: Don't wait for certainty. If things are clearly getting worse (fire spreading, unrest escalating, water rising), leaving early is almost always safer than leaving late.
+## Leaving well
+1. **Go early,** and in daylight if possible.
+2. **Take** go-bags, the binder, medicines, phones, chargers, pets and their supplies.
+3. **Tell people** where you are going and leave a note.
+4. **Fuel up** before it is urgent and use your planned route.
+5. **Know a second route.**
+6. **Travel in company** when you can.
 
-Let's talk about what to do in either scenario in the next lesson.
+## What each choice costs
+- **Staying** risks being trapped in a growing hazard, or running out of supplies.
+- **Leaving** risks traffic accidents, fuel shortages, exposure and leaving property unattended.
+- **Leaving too late** combines the worst of both.
 
-## Going deeper: using the tree in real time
-The two questions only work if you answer them honestly and quickly.
+## Reassess at set times
+Your answer is not final. Re-ask the two questions each morning and evening, and whenever something changes. The right answer on Monday can be wrong on Tuesday.
 
-### Triggers: when to go, written in advance
-Write triggers on a card:
-- **Official order:** if an evacuation order is issued for my zone, we leave.
-- **Fire:** if smoke or flames are within a mile, or the wildfire is moving toward us, we leave.
-- **Water:** if floodwater reaches the end of our street, we leave.
-- **Structure:** if the house is damaged and unsafe, we leave.
-- **Air:** if the air is dangerous (smoke or chemicals) and we cannot filter it, we leave or move to a cleaner room or area.
-- **Supplies:** if we run out of water or heat and cannot get more, we go.
-- **People:** if there is violence or unrest nearby that is getting worse, we go early.
-- **Gut check:** if anyone feels strongly that we should go, we talk and decide.
+## Practice the decision
+Once a quarter, pick a scenario, such as a wildfire warning at 2 a.m., and walk the tree out loud. Time how long it takes to load the car. Fix whatever slows you down.
 
-### Staying put well
-If the answer is bug in:
-- **Check utilities** and safety.
-- **Account** for everyone.
-- **Gather** water, food, light and warmth.
-- **Make a one-room plan** if needed.
-- **Listen** for official updates.
-- **Check on neighbors.**
-- **Keep the go-bag ready** in case things change.
+## Five principles in the tree
+Hazard assessment fills the two questions. Preparedness is the triggers and go-bags. Response is the staying or leaving procedure. Mitigation is leaving early, which prevents injury. Recovery begins with your contacts and the note you leave.
 
-### Leaving well
-If the answer is bug out:
-- **Go early,** and in daylight if you can.
-- **Take** go-bags, binder, medicines, pets and phones.
-- **Tell** your contacts where you are going.
-- **Leave** a note.
-- **Fuel up** and use your planned route.
-- **Have** a second route.
-- **Travel** in a group when possible.
-
-### Costs of each choice
-- **Staying** risks being trapped in a hazard, or running out of supplies.
-- **Leaving** risks traffic, accidents, fuel shortages, exposure and leaving home unattended.
-- **Leaving too late** is the most dangerous choice.
-
-### Practice the decision
-Pick a scenario each quarter, such as a wildfire warning, and walk the tree. Time how long it takes to load the car.
+- [ ] Write your triggers on a card | Official order, fire, flood, structure, air, supplies, people, gut check
+- [ ] Walk the tree out loud | Pick one scenario this week
+- [ ] Choose a safe room for sheltering | Warm, close to water and the bathroom plan
+- [ ] Find your zone | Know your evacuation zone number or name
+- [ ] Learn how you will get official alerts | Local alerts and a battery or hand-crank radio | gear
+- [ ] Time a loading drill | Aim to be ready in 15 to 30 minutes
+- [ ] Put the tree in your binder | Print or write it out
 
 ## Check yourself
-? What are the two key questions in the tree?
+? What are the two key questions of the tree?
 + Is my home safe, and is my area safer than anywhere else?
-- Is it Friday, and is it raining?
+- Is it raining, and is it Friday?
 - Do I have a car, and a pet?
 - Is my neighbor leaving?
 > Two yeses mean stay. Any no means go.
-
-? When is leaving safest?
+? When is leaving usually safest?
 - After the roads clog
-+ Early, before conditions worsen
-- Never
++ Early, before conditions get worse
 - At the last minute
+- Never
 > Late departures are the most dangerous.
-
 ? Why write triggers in advance?
 + You can decide calmly instead of under stress
-- They replace a plan
-- They sound official
-- They are required by law
-> Pre-decided triggers speed action.
+- To impress neighbors
+- Because the law requires it
+- To avoid reading the news
+> A clear trigger turns a worry into an action.
+? What should you do about the decision while you bug in?
+- Never revisit it
++ Re-ask the questions each morning and evening and whenever things change
+- Ask only once a week
+- Let the neighbor decide
+> Conditions change, and so can the right answer.

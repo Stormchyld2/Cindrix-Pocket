@@ -1,9 +1,12 @@
 ---
 title: Natural navigation and reading the weather
-minutes: 10
+minutes: 14
 status: complete
+readiness: 2
 source: U.S. Army FM 3-25.26 Map Reading and Land Navigation; NOAA; National Association for Search and Rescue; NOAA National Weather Service; U.S. Army FM 3-25.26; mountaineering practice
 ---
+[video] Natural navigation and weather
+
 Without a compass you can still find direction, and watching the sky can warn you of bad weather.
 
 ## Direction from the sun
@@ -48,11 +51,27 @@ Without a compass you can still find direction, and watching the sky can warn yo
 Check forecasts and dress for what could happen, not what is happening.
 
 ## Checklist
-- Know how to find direction from the sun and stars
-- Know the weather warning signs
-- Know lightning and flash-flood rules
+- [ ] Know how to find direction from the sun and stars
+- [ ] Know the weather warning signs
+- [ ] Know lightning and flash-flood rules
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Use clues, with care
+Natural signs help when a compass is not available, but none is as reliable as a compass. Use several at once, and treat folk rules such as "moss grows on the north side" with skepticism. They are wrong often enough to mislead.
+
+## Practical methods
+- **The shadow stick:** place a stick upright, mark the tip of its shadow, wait 15 minutes, and mark again. A line through the marks runs roughly west to east.
+- **The watch method:** in the northern hemisphere, point the hour hand at the sun and halve the angle to 12 to find south (adjust for daylight saving time).
+- **The stars:** find the North Star from the end of the Big Dipper's bowl.
+- **Terrain:** rivers flow downhill to larger rivers and eventually to the coast or a town. Power lines and roads lead to people.
+
+## Reading the weather
+Falling pressure, thickening and lowering clouds, increasing wind and a ring around the moon often signal a coming storm. A red sky at night and clear dry air often mean a stable pattern. Know the local patterns and check the forecast before any trip.
+
+## Lightning and flash floods
+- **Lightning:** go down from ridges and open ground, avoid isolated trees and water, spread out a group and crouch on an insulating pad if caught in the open. Wait 30 minutes after the last thunder.
+- **Flash floods:** never camp in a dry wash, move to high ground at once when warned, and never drive through flooded roads. Six inches of moving water can knock you off your feet and a foot can float a car.
 
 ## Check yourself
 ? Which tool shows direction from the sun?

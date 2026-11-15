@@ -1,9 +1,12 @@
 ---
 title: Your 72-hour checklist and household drill
-minutes: 9
+minutes: 13
 status: complete
-source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; Ready.gov build a kit and make a plan
+readiness: 4
+source: FEMA/Ready.gov; American Red Cross; Ready.gov build a kit and make a plan
 ---
+[video] Your 72-hour checklist and drill
+
 Put the first module together in one page you can test.
 
 ## The 72-hour checklist
@@ -48,6 +51,38 @@ Run an "outage weekend" at least once a year:
 > A plan you have tested beats a plan you have only written.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Run it as a real test
+A checklist on paper tells you what you intend to have. A drill tells you what you actually have. This weekend, pick a Saturday and run a 24-hour household test, with the main water, power and heating switched off if conditions allow.
+
+## The drill, step by step
+1. **Gather everyone** and explain the scenario: a storm has cut power and water for three days.
+2. **Set the clock.** Note the start time and keep a notepad.
+3. **Live on your supplies.** Use only stored water, camp-stove cooking and battery light.
+4. **Keep a log** of what runs out, what is missing and what surprised you.
+5. **Debrief together** at the end. What worked? What did not? Who did what?
+6. **Fix the list** and restock before the next drill.
+
+## What drills usually reveal
+- Flashlights without batteries, or batteries in the wrong size.
+- No can opener, or no lighter for the stove.
+- Water that tastes of its container.
+- Food the children refuse.
+- A phone charger that does not fit the power bank.
+- A child who cannot tell you your address or phone number.
+- A house that is much colder or hotter than expected.
+
+## Keep it fresh
+Tie the review to events that happen anyway: when the clocks change, review the batteries, alarms and food dates. Replace the water twice a year. Update the list after any move, birth or change in health.
+
+## Next steps
+Take the checklist into the next modules: mindset, shelter, fire and water, navigation, first aid, evasion and long-term planning. Each one adds a layer to the 72-hour foundation.
+
+- [ ] Run a 24-hour household drill
+- [ ] Keep a log of what failed
+- [ ] Debrief with the whole household
+- [ ] Fix and restock the list
+- [ ] Set a twice-a-year review reminder
 
 ## Check yourself
 ? How often should you run a household drill?

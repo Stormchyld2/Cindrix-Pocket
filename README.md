@@ -55,3 +55,13 @@ Pocket's first build is the **field view tools**: the parts that work with no Hu
 - Pocket never writes anything but logs: lists and tracks. Nothing is changed on the Hub without being accepted.
 
 Not done yet: joining the Hub by the invite QR (so the phone's code is the Hub's device ID, not a name made from the callsign), count sheets and check-in sheets, the evacuation and response cards, maps, and the "hub view". The APK is built by GitHub Actions (`CindrixPocket-<version>-android.apk`). Nothing here has been run on a real phone by Claude: it is compiled and unit-tested in CI only.
+
+
+## Skills and season (added 2026-11-15)
+
+The **SKILLS AND SEASON** screen carries two things from Cindrix Ops (docs/51 there) and needs no Hub or network:
+
+- **In season now:** the wild foods and game in season this month for the central Appalachians (West Virginia and Tennessee), from `forage-seasons.csv`. Pick all, West Virginia or Tennessee. Always check the state's seasons and licences, and be certain of every plant.
+- **My skills:** the skills list (`skills.csv`), grouped by area. Tap a skill to mark that you can really do it; a skill backed by an Academy course fills in when every lesson is done. The ticks stay on the phone. They are not sent to the Hub: the Hub's grid counts a skill only when someone signs it off there (sending the ticks as a log is a later step).
+
+`scripts/sync-content.sh` now also carries `skills.csv` and `forage-seasons.csv`, and the cards and Academy were refreshed from Ops (five new courses, the reworked cards, the wild-food and trades cards). Compiled and unit-tested in CI only (`SkillsTest`).

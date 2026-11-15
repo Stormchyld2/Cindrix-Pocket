@@ -1,9 +1,12 @@
 ---
 title: Bites, stings and illness from water and food
-minutes: 11
+minutes: 15
 status: complete
-source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; CDC; American Red Cross; Wilderness Medical Society
+readiness: 3
+source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; American Red Cross; Wilderness Medical Society
 ---
+[video] Bites, stings and water illness
+
 In the field, animals, insects and unclean water cause many problems. Prevention is easier than treatment.
 
 ## Insect and tick prevention
@@ -58,12 +61,24 @@ Any bite or scratch from a wild mammal (bats, raccoons, foxes, skunks) can carry
 Never burn fuel in a closed tent or shelter.
 
 ## Checklist
-- Repellent, long clothing and a tick check routine
-- Water treatment
-- Oral rehydration packets
-- Poison Control number saved
+- [ ] Repellent, long clothing and a tick check routine
+- [ ] Water treatment
+- [ ] Oral rehydration packets
+- [ ] Poison Control number saved
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Prevention first
+Cover up, use repellent as the label directs, check for ticks daily and treat clothing and gear. Keep food sealed and away from camp. Treat all water.
+
+## First aid
+- **Ticks:** remove with fine tweezers, grasping close to the skin, and pull straight out. Clean the area and note the date.
+- **Stings:** remove stinger, wash, cool and watch for allergic reaction. Use an epinephrine auto-injector as prescribed for severe reactions, and call 911.
+- **Snakes:** stay calm, keep still, remove rings, keep the limb at heart level and get to a hospital. Do not cut, suck or use a tourniquet.
+- **Animal bites:** wash well with soap and water and get care. Report to health authorities because rabies is a concern.
+
+## Waterborne illness
+Diarrhea, vomiting and cramps may follow contaminated water or food. The risk is dehydration. Drink small amounts of safe water often and seek care if severe, bloody, lasting or in children or older adults.
 
 ## Check yourself
 ? How should you remove a tick?

@@ -1,9 +1,12 @@
 ---
 title: Signaling for rescue
-minutes: 11
+minutes: 15
 status: complete
+readiness: 3
 source: U.S. Army FM 3-25.26 Map Reading and Land Navigation; NOAA; National Association for Search and Rescue; FM 21-76 chapter on signals; Coast Guard and NASAR signaling practice
 ---
+[video] Signaling for rescue
+
 If you are stuck, make it easy to be found. Signals work best when they are **big, contrasting, unusual and repeated.**
 
 ## The rule of three
@@ -54,6 +57,30 @@ Three of anything is the **international distress signal:** three whistle blasts
 > Big, bright, unusual, repeated, and in threes.
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Be findable
+Rescuers cannot help someone they cannot find. Signaling is about contrast, motion, sound and light that stand out from the background. The more signals you use and the more often, the better your chances.
+
+## Practise the signals
+- **Three of anything** is the international distress signal: three whistle blasts, three fires in a triangle, three shots or three flashes. Repeat after a pause.
+- **Whistle:** carries farther than a voice and takes less energy. Keep it on a cord around your neck.
+- **Mirror or any shiny object:** can flash light for miles. Aim by making a V with two fingers and sweeping the reflection across the target.
+- **Fire and smoke:** a fire at night, and green leaves for smoke by day. Keep tinder ready to flare it when you hear aircraft.
+- **Ground signals:** make a large symbol, at least ten feet long, with contrast, such as an X, an SOS or an arrow, in an open area.
+- **Bright clothing or a tarp** spread out on the ground or hung in a tree.
+- **Phone and radio:** call 911 even with a weak signal, text if a call fails and consider a personal locator beacon or satellite messenger.
+
+## When aircraft or searchers approach
+Stay in the open, stay visible and make large motions. Do not run toward a landing helicopter. Wait for signals from the crew and keep your head down near rotors. Keep signaling until you are certain they have seen you.
+
+## Make a plan to be found
+Leave your plan with someone and agree on when to call for help. Carry a whistle, mirror and bright cloth on every trip. Know how your phone and beacon work before you need them.
+
+- [ ] Carry a whistle and mirror on every trip
+- [ ] Learn the signal of three
+- [ ] Practice flashing a mirror at a distant object
+- [ ] Practice making a ground signal
+- [ ] Carry a personal locator beacon if you travel remote
 
 ## Check yourself
 ? What is the international distress signal?

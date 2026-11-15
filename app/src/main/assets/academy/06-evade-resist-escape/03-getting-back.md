@@ -1,9 +1,12 @@
 ---
 title: Getting back to safety
-minutes: 10
+minutes: 14
 status: complete
+readiness: 3
 source: U.S. Army FM 21-76 and SERE principles for civilians; FEMA; FBI and DHS public safety guidance (Run, Hide, Fight); Army FM 21-76; FEMA reunification guidance; American Red Cross Safe and Well
 ---
+[video] Getting back to safety
+
 After an event, you may need to travel through a damaged or dangerous area to reach home, family or shelter.
 
 ## Before you move
@@ -59,12 +62,42 @@ After an event, you may need to travel through a damaged or dangerous area to re
 - See the Mobility course for what to do if stranded.
 
 ## Checklist
-- A plan for getting home from work or school
-- A pair of comfortable shoes and a small kit at work
-- Rally points and a contact person
-- Know how to use Safe and Well
+- [ ] A plan for getting home from work or school
+- [ ] A pair of comfortable shoes and a small kit at work
+- [ ] Rally points and a contact person
+- [ ] Know how to use Safe and Well
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Plan your route home from everywhere
+Most people are not at home when disaster strikes. Plan how you would get home from work, school and your usual places, with at least two routes, and keep a get-home bag at work and in your car.
+
+## Practice the walk
+Walk or ride your route home once, noting hazards: bridges, tunnels, flood-prone roads, busy highways and unlit stretches. Time it. Learn where you could rest, find water and shelter on the way.
+
+## On the way
+Move in daylight if you can, keep to your planned route, avoid crowds and hazards, keep hydrated and fed and take breaks. Keep a charged phone for contact and a paper map in case it fails.
+
+## If separated from your group
+Go to the agreed meeting place, leave a note, contact your out-of-area contact and stay put there if it is safe, so that people can find you.
+
+## Arriving home
+Approach with caution, check for damage and hazards, and enter only when safe. Let people know you have arrived.
+
+## The get-home bag
+A get-home bag is a lighter cousin of the go-bag, kept at work and in the car. A good one holds comfortable walking shoes and socks, a weather layer, water and a filter, high-energy food, a headlamp, a battery bank and cable, a paper map of your route, a small first aid kit, cash, a whistle and a copy of your contact card. It should weigh less than you can comfortably carry for ten miles.
+
+## A route plan that works
+Build three versions. **Route A** is the shortest and most direct, usually the main roads. **Route B** avoids bridges, tunnels and chokepoints, and often uses side streets. **Route C** is long and avoids the city center completely, or uses a different mode such as a bicycle. Mark each on a paper map with rest points, water, shelter and places of safety such as libraries, fire stations and hospitals. Walk Route A once so that you know the real time and the real conditions.
+
+## Pace and care of your body
+Walking ten miles takes most adults three to four hours. Start slowly, rest for five minutes every hour, keep your feet dry and take care of blisters at the first hot spot. Eat and drink while you walk. Do not exhaust yourself on the first day.
+
+## Meeting other people
+Most people you meet are as scared as you are. Be polite, keep your distance and your hands visible, and share information, not your supplies or plans. If someone is hurt, help if it is safe and call for help. If someone seems dangerous, change direction and leave.
+
+## Arriving home
+Pause across the street and look: damage, smoke, open doors, strangers. Enter slowly, call out, check for gas smell and electric hazards and do a quick damage check. Contact your out-of-area contact and your family. Rest, drink and eat before you do anything else.
 
 ## Check yourself
 ? What should you do about floodwater on the road?

@@ -5,8 +5,6 @@ status: draft
 reviewer:
 reviewed:
 ---
-**DRAFT. Written from general field guidance and not yet checked line by line against its source or by a qualified person.**
-
 1. **Navigation:** map, compass and a way to use them.
 2. **Light:** headlamp or flashlight and spare batteries.
 3. **Sun protection:** hat, sunscreen, sunglasses.
@@ -18,9 +16,26 @@ reviewed:
 9. **Clothing:** extra layers and rain gear for the worst weather.
 10. **Shelter:** a bivy, space blanket or tarp.
 
-**Add:** whistle, mirror, a power bank and cable, a printed card with contacts and medical notes.
+**Add:** whistle, mirror, power bank and cable, a printed card with contacts and medical notes. **Pack for the worst the weather and trip could be.**
 
-**Pack for the worst the weather and the trip could be,** not the best.
+## If you have less gear
+
+- **No kit?** A big trash bag is a poncho, a shelter and a ground sheet. A bandana is a bandage, a filter and a hat.
+- **One pot** boils water, cooks food and holds it. Cord and duct tape fix most things.
+- **Pick the first three:** water, warmth and light. Add the rest as you can.
+
+## Know more
+
+### Common mistakes
+Packing for the nice day. Carrying gear you have never used. No spare batteries. Cotton clothing.
+
+### Practice
+Pack the bag, go for a night out, and note what you did not use and what you missed.
+
+### Check twice a year
+Rotate food, water, batteries and medicines. Re-fit clothing for the season.
+
+**Train:** Academy course "First 72 hours".
 
 Source: The Mountaineers "Ten Essentials" and US Army Ranger Handbook, paraphrased.
 

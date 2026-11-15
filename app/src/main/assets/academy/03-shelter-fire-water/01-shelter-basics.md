@@ -1,9 +1,12 @@
 ---
 title: Building a basic shelter
-minutes: 11
+minutes: 15
 status: complete
-source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; CDC; FM 21-76 chapter on shelters
+readiness: 3
+source: U.S. Army FM 21-76 Survival; American Red Cross; National Park Service and Leave No Trace guidance; FM 21-76 chapter on shelters
 ---
+[video] Building a basic shelter
+
 Outdoors, exposure is the biggest early threat. A shelter keeps off wind, rain, snow and sun, and holds in heat.
 
 ## Choose the site
@@ -54,6 +57,35 @@ A damaged building may be unsafe. If it is sound, use an interior room, and be c
 > Insulate from the ground, block the wind, keep it small and dry, and build before dark.
 
 > This is basic awareness, not a substitute for hands-on training. Practice skills close to home before you depend on them.
+
+## Heat is lost four ways
+Your shelter must fight four kinds of heat loss: conduction (to the ground), convection (to moving air), radiation (to the cold sky) and evaporation (from wet skin and clothes). Insulating from the ground, blocking wind, keeping a roof overhead and staying dry address each one.
+
+## Site choice, in order
+1. **Safe from hazards:** no dead branches, rock fall, flood channels or lone trees.
+2. **Out of the wind,** behind a ridge, a rock or a thicket.
+3. **Near resources:** water, firewood and signaling opportunities, but not right at the water's edge.
+4. **Well drained** and flat, with a slight slope for rain to run away.
+5. **Visible** to searchers if you want to be found.
+
+## Build for warmth
+- **Insulate underneath** with a thick layer of leaves, grass, pine boughs or a pack. This matters more than anything above you.
+- **Keep it small.** A small space warms faster with body heat.
+- **Roof and walls** shed rain and block wind. A tarp, poncho, sheet of plastic or a ring of branches and leaves can do it.
+- **Keep an opening small** and lined up away from the wind.
+- **Ventilate** a little if you burn anything inside.
+
+## Test it
+Lie in the shelter before dark. Check for drips, drafts and ground chill. Improve it while there is light. Plan to spend the night.
+
+## In a vehicle or building
+In a car, stay put, run the engine sparingly with the tailpipe clear, crack a window, dress in layers and make the car visible. In a damaged building, use only sound areas away from hazards and keep out of unstable structures.
+
+- [ ] Practice the four ways heat is lost
+- [ ] Build a debris or tarp shelter in daylight
+- [ ] Sleep out for one night in good weather
+- [ ] Pack a tarp, cord and space blanket in the go-bag
+- [ ] Learn the car shelter safety rules
 
 ## Check yourself
 ? What is the most important thing to build into a shelter floor?

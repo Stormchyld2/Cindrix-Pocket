@@ -1,9 +1,12 @@
 ---
 title: Light, power and staying in contact
-minutes: 10
+minutes: 14
 status: complete
-source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; Ready.gov power outages; FCC and American Red Cross emergency communications
+readiness: 3
+source: FEMA/Ready.gov; American Red Cross; Ready.gov power outages; FCC and American Red Cross emergency communications
 ---
+[video] Light, power and contact
+
 When the power fails you lose light, refrigeration, charging and often phones and internet. Plan for each.
 
 ## Light
@@ -46,6 +49,37 @@ When the power fails you lose light, refrigeration, charging and often phones an
 > Light you can trust, a charged phone and a radio. The rest is a bonus.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## A light and power budget
+Think of batteries as a bank account. Decide in advance what you will spend them on: lighting at night, a radio for news, charging phones. One headlamp per person, a lantern for the main room and spare batteries for each add up to a manageable list. Avoid candles where you can, because fire is the biggest hazard in a dark house.
+
+## Powering your devices
+- Fully charge phones, tablets and power banks when you hear a storm is coming.
+- Turn on low-power mode, dim the screen and close apps.
+- Keep a car charger or a solar panel in the kit. A running car can charge a phone, but never do it in a closed garage.
+- Keep a hand-crank or battery radio for official news, preferably one that receives NOAA weather alerts.
+- Do not run a generator indoors. Keep it at least 20 feet from windows and doors, and use a heavy outdoor cord or a properly installed transfer switch.
+
+## Keep food safe
+Keep the refrigerator and freezer doors shut. A closed refrigerator keeps food safe for about four hours, a full freezer for about 48 hours and a half-full one for about 24. Group food together in the freezer to help it stay cold. If in doubt, throw it out: discard perishable food that has been above 40 degrees Fahrenheit for more than two hours.
+
+## Staying in touch
+- Text before you call. Texts need less capacity.
+- Agree on an out-of-area contact that everyone reports to.
+- Keep a paper list of phone numbers.
+- Use social media only to say you are safe, and share official information, not rumor.
+- Charge your phone only when you need it, and keep calls short.
+
+## A simple evening routine
+Set a time each evening to gather everyone, check light and battery levels, charge essentials, check on neighbors, listen to the radio news and plan the next day. Routine lowers stress.
+
+- [ ] One headlamp or flashlight per person, with spare batteries
+- [ ] A lantern for the main room
+- [ ] Battery or hand-crank radio with weather alerts
+- [ ] Power banks, kept charged
+- [ ] A paper list of key phone numbers
+- [ ] An agreed out-of-area contact
+- [ ] A thermometer for the refrigerator and freezer
 
 ## Check yourself
 ? Which is the safer light source in an outage?

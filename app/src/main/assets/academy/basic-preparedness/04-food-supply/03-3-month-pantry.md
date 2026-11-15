@@ -1,101 +1,104 @@
 ---
-title: 3 Month Pantry
-minutes: 3
+title: Three-month pantry
+minutes: 15
 status: complete
-source: CindrixOps Basic Preparedness course; FEMA/Ready.gov; American Red Cross; USDA
+readiness: 3
+source: USDA (FoodKeeper; Keeping Food Safe During an Emergency; MyPlate budgeting); FEMA and Ready.gov (Food; Emergency Supply List); American Red Cross (Food and Water in an Emergency); USU Extension (Food storage basics)
 ---
-If you're like me, you prefer fresh meat and vegetables, and don't eat a lot of canned or preserved food. I understand this, but by having some of these items in reserve, if things get desperate, you will not be found wanting.
+[video] Building a three-month pantry
 
-> Video (needs internet): https://www.youtube.com/watch?v=t2a6A2-rVdI
+A three-month pantry is simply a stock of the food you already eat, deep enough to cover short-term shortages and disruptions. It protects you from a job loss, a storm, a delivery problem or a price spike. As a bonus, it cuts down on emergency shop trips when you realise you are out of one key ingredient.
 
-A 3 Month Pantry is simply a way to stay prepared for short-term shortages or disruptions. It means having the essentials on hand so you're not caught off guard—and as a bonus, it cuts down on those extra grocery trips when you realize you're missing one key ingredient. Convenient.
+If you prefer fresh meat and vegetables, as many people do, this can feel odd. You do not have to change how you eat. The pantry is a reserve beneath normal eating, not a replacement for it.
 
-You can build your pantry slowly over time or stock up more quickly, depending on your budget. A smart approach is to shop sales and buy in bulk when it makes sense. BOGO on canned chili? That's your moment.
+## How to start
+1. **Pick a pantry location.** A dry, cool place in your home where you can put shelving. It should be easy to reach but separate from your everyday cupboard, so you do not eat into it by accident.
+2. **List what you already eat.** Make a list of the meals and ingredients your household uses regularly. Estimate how much you use and build toward a three-month supply. Use about 2,500 calories per adult per day as a guide.
+3. **Swap in long-lasting versions** where needed: powdered or shelf-stable milk, shelf-stable eggs, dried beans, canned meat and bread-making supplies.
+4. **Shop in stages.** There is no need to do it all at once. Consistency beats perfection. Check progress monthly.
+5. **Watch sales.** A buy-one-get-one on canned chili is your moment.
 
-## How to start your prepper pantry
+## Step by step in practice
+### Step 1: know what you eat
+For two weeks, track what your family eats. Write down your 10 to 15 most common dinners and the ingredients for each.
 
-1. Pick a pantry location: Find a dry place in your home where you can place a shelf; it should be accessible but not the same place as your primary food storage.
-2. Create your list: Start with what you already eat. Make a list of meals and ingredients your household uses regularly. Estimate how much you use and begin building toward a 3-month supply. (A general guide: ~2,500 calories per person, per day.) Tip: Swap in longer-lasting alternatives where needed (think powdered milk, shelf-stable eggs, or bread-making supplies).
-3. Go shopping: Let's re-iterate, there's no need to do it all at once. Consistency beats perfection. Build it in stages and check your progress monthly.
+### Step 2: do the math
+For each meal, work out how many servings your family eats in 90 days. If you have spaghetti once a week for 13 weeks, you need 13 boxes of pasta and 13 jars of sauce. Repeat for each meal and for breakfasts, lunches and snacks.
 
-## Not sure where to start?
-Here are some common things you'll find in prepper's pantries:
-- Pasta
-- Premade sauces
-- Tomato sauce and paste (a great base!)
-- Canned soup
-- Canned vegetables or vegetables
-- Canned beans or chili
-- Top Ramen
-- Condiments,
-- Drink mixes
-- Rice
-- Oatmeal
-- Don't forget infant formula or baby food, as needed
-
-## Checklist
-- Estimate the amount of food you will need to build a "3 Month Prepper Pantry"
-
-## Here is a generic, simple checklist to get you started.
-
-Adjust your numbers based on financial ability and the number of people in the household.
-
-## Checklist
-- One pound boxes Pasta noodles, 12 ea
-- Spaghetti sauce, red,  6 jars/cans
-- Alfredo sauce, 3 jars/cans
-- Variety of canned vegetables, 3 cases
-- Variety of canned fruit and fruit cocktail, 3 cases
-- Canned soup, variety of flavors, 3 cases
-- Canned chili, variety of flavors, 2 cases
-- Condiments, variety, 6 bottles each.
-- Canned meats, variety, 6 cans each.
-- Coffee, whole bean, 3 large bags
-- Honey, 10 small bottles
-- Peanut butter and jelly, 6 jars each.
-- 25 lb. bag of flour, in storage bucket with gamma lid
-
-## Going deeper: building it step by step
-### Step 1: Know what you eat
-For two weeks, track what your family eats. Make a list of your 10 to 15 most common dinners and their ingredients.
-
-### Step 2: Do the math
-For each meal, work out how many servings your family eats in 90 days. Example: spaghetti once a week for 13 weeks means 13 boxes of pasta and 13 jars of sauce.
-
-### Step 3: Add one extra each trip
+### Step 3: add one extra each trip
 Each time you shop, buy one or two extra of the items you use. In a few months you will have a deep pantry without a big bill.
 
-### Step 4: Organize
-- **Shelves** in a cool, dry place.
-- **Group** by category: grains, canned vegetables, soups, proteins, sauces, snacks.
-- **Rotate:** put newer items behind older.
-- **Label** with the purchase date if not on the package.
-- **Keep an inventory** (use the Inventory screen) and review monthly.
+### Step 4: organize
+Group by type, label the shelf and put new items at the back. Keep a list on the shelf door and cross out what you use.
 
-### Cover the gaps
-- **Fats and oils:** cooking oil, shortening, olive oil (note shorter shelf life).
-- **Flour, sugar, salt,** baking powder and yeast.
-- **Powdered milk** and shelf-stable milk.
-- **Spices** and seasonings.
-- **Vitamins.**
-- **Comfort foods.**
-- **Pet food,** infant needs and special diets.
-- **Coffee and tea.**
+## Common things in a pantry
+- **Grains and starches:** rice, pasta, oats, flour, cornmeal, crackers, instant potatoes.
+- **Proteins:** canned tuna, chicken, beans and chili, dried beans and lentils, peanut butter and shelf-stable or freeze-dried meat.
+- **Fruit and vegetables:** canned, dried and freeze-dried.
+- **Fats and baking:** cooking oil, shortening, baking powder, baking soda, yeast, salt, sugar and honey.
+- **Dairy substitutes:** powdered milk and shelf-stable milk.
+- **Meals in a can or box:** soups, stews, sauces, pasta dishes.
+- **Flavor and comfort:** spices, bouillon, coffee, tea, cocoa and sweets.
+- **Baby and special needs:** formula, baby food and medical food.
 
-### Think about cooking
-- A way to cook that does not need electricity, and fuel for it.
-- Water to cook with.
-- Dishwashing and cleaning supplies.
+## Cover the gaps
+- **Water.** Every pantry needs water and a way to treat it.
+- **Cooking.** Include a stove, fuel, a pot, a can opener and matches or lighters.
+- **Nutrition.** Add dried fruit, canned vegetables and vitamins on advice from your clinician. This course does not give medicine amounts.
+- **Special diets.** Gluten, allergies and diabetes need their own plan.
+- **Pets.** Stock animal food.
 
-### Sample simple meals
-- **Chili:** canned beans, canned tomatoes, spices, rice.
-- **Spaghetti:** pasta and sauce, with canned meat or vegetables.
-- **Soup and bread:** canned soup with crackers or bread made from flour.
-- **Rice and beans with canned vegetables.**
-- **Oatmeal and peanut butter** for breakfast.
+## Sample simple meals
+- Rice and beans with spices and canned tomatoes.
+- Pasta with sauce and canned chicken.
+- Oatmeal with dried fruit and powdered milk.
+- Chili with cornbread.
+- Lentil soup with bread.
+- Tuna and crackers with a side of canned vegetables.
+Test your recipes with the pantry ingredients. If you cannot cook it from the pantry, rewrite it.
 
-### Shelf life guide
-Many canned goods last two to five years or more. Check the date and rotate. See the Survival basics course for details.
+## Shelf life guide
+Many canned goods last two to five years or more when stored cool and dry, but quality fades. Treat the date on a can as a quality guide, not a cliff, and check the USDA FoodKeeper chart for specific foods. Rotate so nothing sits for years. Throw out any can that bulges, leaks or spurts when opened.
 
-### Budget
-Spend a set amount each month, buy on sale and in bulk, and avoid waste. A three-month pantry saves money over time because you buy at the best price.
+## Budget
+Spend a set amount each month and buy on sale and in bulk, but only items you will eat. Avoid waste: it is cheaper to buy a bit more each week than to throw out a spoiled bulk buy. Over time a pantry saves money, because you buy at the best price instead of the price on the day you run out.
+
+## Think about cooking without power
+Some pantry food needs cooking and some does not. Make sure that at least half can be eaten cold or heated on a camp stove. Practice cooking on your backup stove, in an open space.
+
+## Five principles
+The pantry is **preparedness.** Rotation and storage are **mitigation.** Cooking from it in a disruption is **response.** It lets a household **recover** from income loss or shortages without panic.
+
+- [ ] Track what you eat for two weeks | List your 10 to 15 common dinners
+- [ ] Choose and clear a pantry location | Cool, dry and separate from your everyday cupboard
+- [ ] Work out 90 days of servings | Per meal and per person
+- [ ] Add one or two extra items each shopping trip | Start with what you use
+- [ ] Add a cooking plan and fuel | Stove, pot, can opener | gear
+- [ ] Label shelves with a list and dates | Put new items at the back
+- [ ] Review monthly | Check progress and expiry dates
+
+## Check yourself
+? What is a three-month pantry?
+- Food you never eat
++ A deeper stock of the foods you already eat, rotated through normal use
+- A bunker
+- Only canned goods
+> It is a buffer beneath normal eating.
+? What is a painless way to build it?
+- Buy everything in one trip
++ Buy one or two extra of what you use each shopping trip
+- Wait for a disaster
+- Borrow food
+> Consistency beats perfection.
+? How should you treat dates on canned food?
+- As a precise cliff
++ As a quality guide, while discarding any can that is bulging, leaking or smells off
+- Ignore them
+- Eat anything
+> Rotate, check and use judgement.
+? Why separate the pantry from your everyday cupboard?
+- To hide it
++ So you do not eat into it by accident and can see what you hold
+- For decoration
+- Because it is cold
+> A separate store is easier to count and rotate.

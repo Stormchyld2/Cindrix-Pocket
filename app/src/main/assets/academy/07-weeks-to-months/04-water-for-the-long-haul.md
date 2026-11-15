@@ -1,9 +1,12 @@
 ---
 title: Water for the long haul
-minutes: 11
+minutes: 15
 status: complete
-source: USDA; FEMA/Ready.gov; CDC; Utah State University Extension food storage research; Brigham Young University food storage studies; CDC; EPA; Texas A&M AgriLife rainwater harvesting guidance; Sphere Handbook
+readiness: 3
+source: USDA; FEMA/Ready.gov; Utah State University Extension food storage research; Brigham Young University food storage studies; CDC; EPA; Texas A&M AgriLife rainwater harvesting guidance; Sphere Handbook
 ---
+[video] Water for the long haul
+
 Stored water covers days. Over weeks and months you need a source.
 
 ## How much, again
@@ -50,12 +53,44 @@ After a flood or contamination, follow guidance from your health department: typ
 - Algae blooms. Do not drink water with **blue-green algae,** which can produce toxins that boiling does not remove.
 
 ## Checklist
-- Know at least two sources of water near home
-- A filter and spare cartridges, and chlorine
-- Large water storage if possible
-- A plan to carry water
+- [ ] Know at least two sources of water near home
+- [ ] A filter and spare cartridges, and chlorine
+- [ ] Large water storage if possible
+- [ ] A plan to carry water
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## Think in weeks and months
+Short-term stored water is not enough for a long emergency. Plan your sources, your treatment and your storage for months. Know how many gallons you need and where the next ones will come from.
+
+## Sources and treatment
+Rain, streams, springs, ponds and wells can all supply water if treated. Pre-filter, filter and then boil or disinfect. Test private wells yearly.
+
+## Conserve
+Use water more than once, collect rain, and use treated gray water for flushing where allowed.
+
+## How much for a long haul
+Plan at least three gallons per person per day for the long haul, plus water for pets, gardens and cleaning. A household of four needs about 12 gallons a day, or roughly 360 gallons a month. Storage alone cannot meet this, so you need sources and treatment.
+
+## Sources, ranked
+1. **Treated tap water,** when it returns.
+2. **Rainwater** from roofs through clean gutters into barrels or tanks.
+3. **Springs and wells,** which may be safe but should be tested.
+4. **Streams and ponds,** which always need treatment.
+5. **Melted snow and ice,** treated.
+Avoid water near sewage, farms, mines and industry.
+
+## Treatment for the long haul
+Use the ladder: sediment removal, filtering with a high-capacity gravity filter, and disinfection by boiling or chlorine. For large volumes, a gravity-fed ceramic or hollow-fiber filter saves fuel. Keep spare filters and clean them as directed.
+
+## A well after a flood
+After a flood, a well may be contaminated. Pump until clear if you can, then disinfect following your health department's instructions, which usually use plain unscented bleach, and have the water tested before drinking.
+
+## Conserve and recycle
+Fix leaks, reuse rinse water for flushing, collect rainwater and use gray water for gardens only if permitted and safe. Never use gray water on edible parts of plants.
+
+## Test and watch
+Test private wells every year. Signs of unsafe water include changes in color, odor, taste or sudden illness in the household.
 
 ## Check yourself
 ? Does boiling remove algae toxins?

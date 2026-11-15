@@ -1,9 +1,12 @@
 ---
 title: Sanitation and hygiene
-minutes: 10
+minutes: 14
 status: complete
-source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; CDC emergency sanitation; FEMA; Sphere Handbook basics
+readiness: 3
+source: FEMA/Ready.gov; American Red Cross; CDC emergency sanitation; FEMA; Sphere Handbook basics
 ---
+[video] Sanitation and hygiene
+
 Disease kills more people after disasters than the disasters themselves. Clean hands and safe toileting are the best protection.
 
 ## Handwashing
@@ -56,6 +59,35 @@ Diarrhea, vomiting and fever can cause dehydration. Give small, frequent sips of
 > Wash your hands, keep human waste away from water and food, and keep the garbage covered.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Why this matters most
+In most disasters the people who die of disease die of dirty water, dirty hands and mishandled waste, not of exotic infections. Diarrheal illness is the most common serious problem in shelters and after floods, and it is almost entirely preventable with a few simple habits. That makes sanitation a top priority, alongside water and food.
+
+## Build a bucket toilet
+1. **Line** a five-gallon bucket with a heavy trash bag.
+2. **Add** a few inches of absorbent material, such as cat litter, sawdust or shredded paper.
+3. **Fit** a toilet seat if you have one, or use a seat made for buckets.
+4. **After each use,** add a scoop of absorbent material.
+5. **Tie the bag** when it is two-thirds full, and place it inside a second bag.
+6. **Store** it away from food and living areas, in a covered container, until it can be collected or disposed of as the authorities direct.
+7. **Wash your hands** every time.
+
+## Handwashing, step by step
+Wet, soap, scrub for 20 seconds including between fingers and under nails, rinse, dry with a clean cloth or paper. A tippy-tap or a jug with a spout saves water. Use hand sanitizer with at least 60 percent alcohol if you have no water, and wash with water when you can.
+
+## Keep clean without much water
+Use wet wipes or a washcloth, wash key areas daily and change underwear and socks. Brush teeth. Keep nails short. Women and girls should have what they need for periods, and everyone should have a way to deal with incontinence if needed.
+
+## When someone is sick
+Keep sick people apart from others if you can, give them their own towel and cup, clean surfaces with a disinfectant, and wash hands after caring for them. Watch for dehydration from vomiting or diarrhea, and call a clinician for severe signs. This course does not give medicine amounts, so follow the label and ask your pharmacist.
+
+- [ ] A bucket toilet kit: bucket, seat, bags and absorbent
+- [ ] Soap and hand sanitizer
+- [ ] A way to wash hands with little water
+- [ ] Trash bags and a lidded container
+- [ ] Wet wipes and a washcloth
+- [ ] Plain unscented bleach for disinfecting surfaces
+- [ ] A thermometer for the sick
 
 ## Check yourself
 ? How long should you wash your hands?

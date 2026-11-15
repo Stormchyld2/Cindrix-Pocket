@@ -9,7 +9,7 @@ import java.time.temporal.ChronoUnit
 import java.util.UUID
 
 /** Everything the screens show, saved to disk on every change. */
-class AppState(private val store: Store) {
+class AppState(val store: Store) {
 
     val batch = mutableStateListOf<BatchItem>()
     private val catalog = LinkedHashMap<String, CatalogEntry>()

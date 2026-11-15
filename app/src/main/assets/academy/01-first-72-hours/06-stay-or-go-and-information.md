@@ -1,9 +1,12 @@
 ---
 title: Stay or go, and how to get reliable information
-minutes: 10
+minutes: 14
 status: complete
-source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; Ready.gov evacuation and shelter-in-place; National Weather Service
+readiness: 3
+source: FEMA/Ready.gov; American Red Cross; Ready.gov evacuation and shelter-in-place; National Weather Service
 ---
+[video] Stay or go
+
 One of the first decisions in an emergency: do you stay or do you leave? Reliable information makes the difference.
 
 ## Where to get information
@@ -61,6 +64,28 @@ Talk through scenarios as a household: a fire, a storm, a chemical spill, a long
 > Get reliable information, decide early, and prefer the choice you can reverse.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Information discipline
+In an emergency, rumors move faster than facts. Pick two or three trusted sources and stick to them: your local emergency management office, the National Weather Service, local radio and the utility. Check at set times rather than constantly, because endless news is draining. Ask of every claim: who said it, what do they know first-hand, and is an official source saying the same?
+
+## Tune your radio and alerts now
+Learn how your area sends alerts: the Wireless Emergency Alerts on your phone, the county's text or email system, outdoor sirens and local radio. Sign up before the emergency. Keep a battery or hand-crank radio, and learn how to find the NOAA Weather Radio frequency for your area.
+
+## The two-question test
+The stay-or-go decision comes down to two questions you met in Basic Preparedness: is my home safe, and is my area safer than anywhere else? Two yeses mean stay. A no to either means leave. Use your written triggers, not your mood.
+
+## Doing either one well
+If you stay: turn off hazardous utilities, make your warm room, count supplies, check neighbors and keep go-bags by the door. If you go: leave early, leave a note, take your binder and go-bags, use your planned route, and tell your out-of-area contact where you are going.
+
+## Practise
+Every quarter, pick a scenario and talk it through in ten minutes at the kitchen table. Time how long it takes to load the car. Update the plan with what you learned.
+
+- [ ] Sign up for local emergency alerts
+- [ ] Save the National Weather Service and utility sources
+- [ ] Keep a battery or hand-crank radio with fresh batteries
+- [ ] Write your stay-or-go triggers on a card
+- [ ] Plan two routes out of the area
+- [ ] Practice a ten-minute scenario talk
 
 ## Check yourself
 ? What is a reliable source of alerts?

@@ -5,22 +5,32 @@ status: draft
 reviewer:
 reviewed:
 ---
-**DRAFT. Not yet reviewed by a qualified person.**
+**Your safety and your family's come before property. Do not go looking for them. If phones work, call 911 when it is safe.**
+1. **Get everyone to one safe room** you can lock or block. Take phones and car keys if they are close.
+2. **Call 911 if you can.** Say your address, that someone is inside, where you are, and who is with you. Text if you cannot talk.
+3. **Stay quiet and out of sight,** low and behind something solid, lights off, phone silent.
+4. **Do not confront them.** Let them take things.
+5. **If you can leave safely,** get out and go to a neighbor or your meeting place.
 
-**Your safety and your family's come before property. Do not go looking for them. Call 911 when it is safe to.**
+## If no help is coming
 
-1. **Get everyone to one safe room** you can lock or block: the room you picked ahead of time. Take phones and car keys if they are close.
-2. **Call 911.** Say your address, that someone is inside, where you are, and who is with you. Stay on the line if you can do it quietly. Text if you cannot talk.
-3. **Stay quiet and out of sight**, low and behind something solid, lights off, phone silent.
-4. **Do not confront them.** Let them take things. If they leave, stay put until police say it is safe.
-5. **If you cannot stay hidden and you can leave safely,** get out and go to a neighbour or your meeting place. Leave your things.
-6. **Only if your life is in immediate danger** and you cannot hide or leave: act together, make noise, and do whatever you must to protect yourselves.
-7. When police arrive: stay calm, keep hands empty and visible, and do what they say.
+- **No police will come soon,** so the plan is yours. Pick the safe room ahead of time and stock it with a light, a radio and a first aid kit.
+- **Barricade the door** with furniture, and keep a way out if there is a window.
+- **If they leave,** stay put for a while before looking. They may still be near.
+- **Only if your life is in immediate danger** and you cannot hide or leave: act together, make noise, and do whatever you must to protect yourselves.
+- **Injuries:** treat bleeding first. See "Severe bleeding".
+- **After:** do not touch anything that matters. Account for everyone. See "After an incident: account for everyone and write it down".
 
-**After:** do not touch anything. Account for everyone. Write down what happened in the Security log once police have finished.
+## Know more
 
-**Call 911 for:** every intruder. Do not wait to be sure.
+### Why not confront
+Property can be replaced. People cannot.
 
-Source: Cindrix starter procedure (an example for your family to edit), built on the U.S. Department of Homeland Security "Run, Hide, Fight" guidance and general police advice. Practise it at home; choose your safe room and meeting place ahead of time.
+### Practice
+Walk the family through the safe room and the way out once a year.
 
-Reference only, not medical or legal advice. In an emergency, call 911.
+**Train:** Academy course "Residential security".
+
+Source: Cindrix starter procedure (an example for your family to edit), built on the U.S. Department of Homeland Security "Run, Hide, Fight" guidance and general police advice. Choose your safe room and meeting place ahead of time.
+
+Reference only, not medical or legal advice. Where help can be reached, call 911.

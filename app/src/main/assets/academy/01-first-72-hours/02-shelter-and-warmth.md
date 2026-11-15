@@ -1,9 +1,12 @@
 ---
 title: Staying warm and sheltered at home
-minutes: 10
+minutes: 14
 status: complete
-source: FEMA/Ready.gov; CDC emergency water treatment; American Red Cross; Ready.gov extreme cold and winter weather; CDC cold weather safety
+readiness: 3
+source: FEMA/Ready.gov; American Red Cross; Ready.gov extreme cold and winter weather; CDC cold weather safety
 ---
+[video] Staying warm at home
+
 Staying put at home is usually the safest choice. The job is to keep the place livable without normal power or heat.
 
 ## Pick one warm room
@@ -45,6 +48,37 @@ Older adults, infants and people with health problems lose or gain heat faster. 
 > A small warm room, dry layers and a working carbon monoxide alarm do more than any gadget.
 
 > This is basic awareness, not a substitute for hands-on training. Rules and local conditions vary, so follow official guidance first.
+
+## Heat is the first thing to fail
+In many winter outages the house loses roughly a few degrees an hour at first, then faster once the walls and furniture are cold. A small, well-chosen room holds heat far better than the whole house. Pick the room with the fewest windows and exterior walls, and make it your living space for the duration.
+
+## Build the warm room
+1. **Shrink the space.** Close doors and hang blankets across doorways and big openings.
+2. **Cover windows** with blankets, cardboard or plastic sheeting, taped at the edges.
+3. **Insulate the floor** with rugs, towels or foam mats. The floor is where cold collects.
+4. **Seal drafts** at the bottom of doors with rolled towels.
+5. **Gather together.** People give off heat. Sleep in the same room under shared blankets.
+6. **Keep fresh air** with a small opening, if you use any fuel-burning heater designed for indoors.
+
+## Body first, room second
+Clothing is your best heater. Keep your head, neck, hands and feet covered, and wear several thin layers instead of one thick one. Dry clothes matter more than anything: damp clothes pull heat away. Eat regular snacks and drink warm liquids, because your body burns food to make heat. Keep moving gently to stay warm, but stop before you sweat.
+
+## Heat safety rules that save lives
+- Never use a gas oven, charcoal grill, camp stove or generator to heat the home, and never run them indoors or in a garage. Carbon monoxide kills quietly.
+- Use only heaters made for indoor use, and follow the manual. Keep them three feet from anything that burns.
+- Never leave a heater or candle burning while you sleep.
+- Test carbon monoxide and smoke alarms, and put battery-powered ones in the warm room.
+- Know the symptoms of carbon monoxide poisoning: headache, dizziness, nausea and confusion. If several people feel sick at once, get outside into fresh air and call 911.
+
+## Heat and cold both kill
+In hot weather, the same plan works in reverse: pick the coolest room, open windows at night, close shades by day, drink often, and wear light, loose clothing. Check on older neighbors, who are at the highest risk. If anyone shows signs of heat stroke, such as confusion, hot dry skin or fainting, call for help and cool them at once.
+
+- [ ] Choose the warm room and clear it
+- [ ] Stock blankets, sleeping bags, hats and gloves
+- [ ] Prepare window covers and draft stoppers
+- [ ] Test smoke and carbon monoxide alarms
+- [ ] Know your safe-heat rules and share them
+- [ ] List neighbors who need a check-in during extreme weather
 
 ## Check yourself
 ? Why choose one small room to keep warm?

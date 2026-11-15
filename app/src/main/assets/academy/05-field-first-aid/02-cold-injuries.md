@@ -1,9 +1,12 @@
 ---
 title: Hypothermia and cold injuries
-minutes: 11
+minutes: 15
 status: complete
-source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); CDC; Wilderness Medical Society hypothermia and frostbite guidelines; CDC cold weather safety
+readiness: 3
+source: American Red Cross; Wilderness Medical Society; Stop the Bleed (American College of Surgeons); Wilderness Medical Society hypothermia and frostbite guidelines; CDC cold weather safety
 ---
+[video] Hypothermia and cold injuries
+
 Cold does not need to be freezing to kill. Wind, wetness and exhaustion can cause **hypothermia** at 50 °F.
 
 ## Hypothermia
@@ -55,12 +58,29 @@ Sunburn of the eyes from bright snow. Wear sunglasses or goggles. If it happens,
 - **Be careful** with children, older adults and people who are ill.
 
 ## Checklist
-- Know the signs of mild, moderate and severe hypothermia
-- Know the steps to warm a person safely
-- Know how to treat frostbite and when not to rewarm
-- Spare layers, a space blanket and a stove in the kit
+- [ ] Know the signs of mild, moderate and severe hypothermia
+- [ ] Know the steps to warm a person safely
+- [ ] Know how to treat frostbite and when not to rewarm
+- [ ] Spare layers, a space blanket and a stove in the kit
 
 > This is basic awareness, not a substitute for a certified course or hands-on training. Call 911 for life-threatening emergencies when you can.
+
+## The cold is quiet
+Hypothermia can begin in mild weather if you are wet, windy and tired. It affects judgement, so victims often do not notice. Watch each other.
+
+## Treat hypothermia
+1. **Get out of the weather** and handle gently, since a cold heart is fragile.
+2. **Remove wet clothing** and replace with dry layers.
+3. **Insulate from the ground** and wrap in blankets, a sleeping bag or a space blanket, including the head.
+4. **Warm the core:** use warm, not hot, packs on the chest, neck and groin.
+5. **Give warm, sweet drinks and food** only if the person is awake and able to swallow.
+6. **Call for help** for anything beyond mild shivering, or if the person is confused or drowsy.
+
+## Frostbite
+Frostbitten skin is white, waxy and numb. Do not rub it. Get inside, remove wet or tight clothing and rewarm in warm, not hot, water (about 99 to 102 degrees Fahrenheit) only if there is no chance of refreezing. Protect it with dry, loose dressings and seek medical care.
+
+## Prevention
+Dress in layers, stay dry, eat and drink, keep moving and never ignore numb or white skin.
 
 ## Check yourself
 ? Which is an early sign of hypothermia?
