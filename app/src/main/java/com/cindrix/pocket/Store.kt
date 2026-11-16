@@ -49,6 +49,11 @@ class Store(val dir: File, private val prefs: SharedPreferences) {
         get() = prefs.getStringSet("my_skills", emptySet())?.toSet() ?: emptySet()
         set(value) { prefs.edit().putStringSet("my_skills", value).apply() }
 
+    /** Plan steps this person ticked: "plan/step|day" (kept on the phone only). */
+    var planTicks: Set<String>
+        get() = prefs.getStringSet("plan_ticks", emptySet())?.toSet() ?: emptySet()
+        set(value) { prefs.edit().putStringSet("plan_ticks", value).apply() }
+
     /** "", "wv" or "tn": which state's wild foods "in season now" shows. */
     var forageRegion: String
         get() = prefs.getString("forage_region", "") ?: ""

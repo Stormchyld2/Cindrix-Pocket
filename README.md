@@ -59,9 +59,18 @@ Not done yet: joining the Hub by the invite QR (so the phone's code is the Hub's
 
 ## Skills and season (added 2026-11-15)
 
-The **SKILLS AND SEASON** screen carries two things from Cindrix Ops (docs/51 there) and needs no Hub or network:
+The **SKILLS** button (screen title "Skills and season") carries two things from Cindrix Ops (docs/51 there) and needs no Hub or network:
 
 - **In season now:** the wild foods and game in season this month for the central Appalachians (West Virginia and Tennessee), from `forage-seasons.csv`. Pick all, West Virginia or Tennessee. Always check the state's seasons and licences, and be certain of every plant.
 - **My skills:** the skills list (`skills.csv`), grouped by area. Tap a skill to mark that you can really do it; a skill backed by an Academy course fills in when every lesson is done. The ticks stay on the phone. They are not sent to the Hub: the Hub's grid counts a skill only when someone signs it off there (sending the ticks as a log is a later step).
 
 `scripts/sync-content.sh` now also carries `skills.csv` and `forage-seasons.csv`, and the cards and Academy were refreshed from Ops (five new courses, the reworked cards, the wild-food and trades cards). Compiled and unit-tested in CI only (`SkillsTest`).
+
+## Plans (added 2026-11-15)
+
+The **PLANS** button opens the plans carried from Cindrix Ops (`content/plans`, 43 files: the long emergency, the remains and water protection plan, keep-it-from-failing plans, and the rest), grouped by kind. Needs no Hub or network.
+
+- Open a plan to read its steps. Tap a step to tick it; tap again to untick. Steps that repeat (`every:`) come back after that many days. A step tied to an Academy lesson ticks itself when the lesson is done.
+- Buttons that open a screen in the Ops program are shown as a plain note ("In the Ops program: ...").
+- Ticks stay on the phone (`planTicks` in `Store`); like the skill ticks they are not sent to the Hub yet.
+- `scripts/sync-content.sh` now also copies `content/plans/*.md` (not the `_` templates). Compiled and unit-tested in CI only (`PlansTest`).
