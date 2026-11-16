@@ -40,6 +40,7 @@ fun SkillsScreen(
     courses: List<Course>,
     progress: LearnProgress,
     store: Store,
+    onSend: () -> Boolean,
     onBack: () -> Unit,
 ) {
     BackHandler(onBack = onBack)
@@ -62,6 +63,7 @@ fun SkillsScreen(
             TextButton(onClick = onBack) { Text("BACK", fontFamily = HeadingFont) }
             Text("Skills and season", fontFamily = HeadingFont, fontSize = 18.sp, modifier = Modifier.weight(1f).padding(start = 4.dp))
         }
+        SendTicks(onSend)
         LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp)) {
             item {
                 Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.surface).padding(14.dp)) {

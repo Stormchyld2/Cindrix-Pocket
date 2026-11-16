@@ -34,6 +34,21 @@ object Sheets {
         return sb.toString()
     }
 
+    fun progressName(device: String, epoch: Long) = "$device-progress-$epoch.txt"
+
+    /**
+     * A person's own ticks: skills they say they can do (dated today) and plan steps they ticked. It is the whole
+     * current state, so the Hub replaces what it held before. Plan steps that came back (repeating) are not sent.
+     */
+    fun progressSheet(device: String, person: String, now: OffsetDateTime, skills: Collection<String>, plans: Map<String, Long>, today: Long): String {
+        val sb = StringBuilder()
+        sb.append("# format: progress-sheet 1\n# device: ").append(device).append("\n# person: ").append(clean(person))
+        sb.append("\n# created: ").append(created(now)).append('\n')
+        for (s in skills.map { clean(it) }.filter { it.isNotEmpty() && it.length <= 120 }.distinct().sorted()) sb.append("skill\t").append(s).append('\t').append(today).append('\n')
+        for ((k, d) in plans.toSortedMap()) if (Regex("[a-z0-9][a-z0-9-]*/[0-9]{1,4}").matches(k)) sb.append("plan\t").append(k).append('\t').append(d).append('\n')
+        return sb.toString()
+    }
+
     fun checkinName(device: String, epoch: Long) = "$device-checkin-$epoch.txt"
 
     /** The Hub wants ids of lower-case letters, digits and dashes. */

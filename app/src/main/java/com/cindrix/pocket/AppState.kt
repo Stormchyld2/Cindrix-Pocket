@@ -107,6 +107,16 @@ class AppState(val store: Store) {
         store.vibrateOn = on
     }
 
+    /** Puts the person's skill and plan ticks in the outbox for the Hub. Returns false when it could not be saved. */
+    fun queueTicks(): Boolean {
+        val now = java.time.OffsetDateTime.now().withSecond(0).withNano(0)
+        val today = System.currentTimeMillis() / 86_400_000L
+        val text = Sheets.progressSheet(deviceCode(), source(), now, store.mySkills, Plans.decode(store.planTicks), today)
+        val ok = outboxStore.add(Sheets.progressName(deviceCode(), now.toEpochSecond()), text)
+        if (ok) refreshOutbox()
+        return ok
+    }
+
     fun source(): String = callsign.ifBlank { "Callsign" }
 
     fun lookup(barcode: String): CatalogEntry? = catalog[barcode]

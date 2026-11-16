@@ -32,7 +32,7 @@ import androidx.compose.ui.unit.sp
 
 /** The plans carried from Cindrix Ops: read the steps, tick them off. Works with no Hub and no network. */
 @Composable
-fun PlansScreen(plans: List<Plan>, progress: LearnProgress, store: Store, onBack: () -> Unit) {
+fun PlansScreen(plans: List<Plan>, progress: LearnProgress, store: Store, onSend: () -> Boolean, onBack: () -> Unit) {
     var open by remember { mutableStateOf<Plan?>(null) }
     BackHandler { if (open != null) open = null else onBack() }
     val done = remember { mutableStateMapOf<String, Long>().also { it.putAll(Plans.decode(store.planTicks)) } }
@@ -44,6 +44,7 @@ fun PlansScreen(plans: List<Plan>, progress: LearnProgress, store: Store, onBack
             TextButton(onClick = { if (open != null) open = null else onBack() }) { Text("BACK", fontFamily = HeadingFont) }
             Text(open?.title ?: "Plans", fontFamily = HeadingFont, fontSize = 18.sp, modifier = Modifier.weight(1f).padding(start = 4.dp))
         }
+        SendTicks(onSend)
         val plan = open
         if (plan == null) {
             val groups = plans.groupBy { it.kind }.toList().sortedBy { (k, _) -> listOf("scenario", "prevent", "checks", "learning", "planning").indexOf(k).let { if (it < 0) 99 else it } }
@@ -91,5 +92,17 @@ fun PlansScreen(plans: List<Plan>, progress: LearnProgress, store: Store, onBack
                 item { Spacer(Modifier.height(24.dp)) }
             }
         }
+    }
+}
+
+/** Sends the person's ticks to the Hub's mailbox through the outbox; the Hub keeps them when the host accepts the sheet. */
+@Composable
+fun SendTicks(onSend: () -> Boolean) {
+    var note by remember { mutableStateOf("") }
+    Row(Modifier.fillMaxWidth().padding(bottom = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+        TextButton(onClick = { note = if (onSend()) "Saved in the outbox. It goes to the Hub when you connect." else "It could not be saved. Your ticks are not lost: try again." }) {
+            Text("SEND MY TICKS TO THE HUB", fontFamily = HeadingFont, fontSize = 12.sp)
+        }
+        if (note.isNotEmpty()) Text(note, fontSize = 11.sp, modifier = Modifier.padding(start = 8.dp))
     }
 }

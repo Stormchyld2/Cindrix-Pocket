@@ -324,8 +324,8 @@ fun App(state: AppState) {
 
             Screen.Academy -> AcademyScreen(courses = library.courses, progress = library.progress, onBack = { screen = Screen.Home })
 
-            Screen.Plans -> PlansScreen(plans = library.plans, progress = library.progress, store = state.store, onBack = { screen = Screen.Home })
-            Screen.Skills -> SkillsScreen(skills = library.skills, forage = library.forage, courses = library.courses, progress = library.progress, store = state.store, onBack = { screen = Screen.Home })
+            Screen.Plans -> PlansScreen(plans = library.plans, progress = library.progress, store = state.store, onSend = { state.queueTicks() }, onBack = { screen = Screen.Home })
+            Screen.Skills -> SkillsScreen(skills = library.skills, forage = library.forage, courses = library.courses, progress = library.progress, store = state.store, onSend = { state.queueTicks() }, onBack = { screen = Screen.Home })
 
             Screen.Stock -> InStockScreen(
                 state = state,

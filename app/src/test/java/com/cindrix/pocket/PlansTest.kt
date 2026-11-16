@@ -70,4 +70,16 @@ Learn it.
         assertEquals(m, Plans.decode(Plans.encode(m)))
         assertTrue(Plans.decode(setOf("junk", "x|notanumber")).isEmpty())
     }
+
+    @Test
+    fun theProgressSheetCarriesSkillsAndPlanStepsInTheHubsFormat() {
+        val now = java.time.OffsetDateTime.parse("2026-11-15T20:00:00-05:00")
+        val text = Sheets.progressSheet("n10", "Sam", now, listOf("Start a fire", "Start a fire", "Purify\twater"), mapOf("long-emergency/3" to 20001L, "bad key" to 5L), 20003)
+        assertEquals(
+            "# format: progress-sheet 1\n# device: n10\n# person: Sam\n# created: 2026-11-15T20:00-05:00\n" +
+                "skill\tPurify water\t20003\nskill\tStart a fire\t20003\nplan\tlong-emergency/3\t20001\n",
+            text,
+        )
+        assertEquals("n10-progress-77.txt", Sheets.progressName("n10", 77))
+    }
 }
