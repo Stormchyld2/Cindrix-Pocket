@@ -1,6 +1,6 @@
 package com.cindrix.pocket
 
-/** One step of a plan carried from Cindrix Ops (`content/plans/*.md`). */
+/** One step of a plan carried from Cindrix Ops (the files in `content/plans`). */
 data class PlanStep(
     val title: String,
     val text: List<String>,
