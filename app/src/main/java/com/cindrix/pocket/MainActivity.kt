@@ -55,6 +55,8 @@ sealed class Screen {
     object Academy : Screen()
     object Skills : Screen()
     object Plans : Screen()
+    object Ask : Screen()
+    object Maps : Screen()
     data class Form(val item: BatchItem, val isNew: Boolean, val known: Boolean, val fromScan: Boolean) : Screen()
 }
 
@@ -199,6 +201,8 @@ fun App(state: AppState) {
                 onAcademy = { screen = Screen.Academy },
                 onSkills = { screen = Screen.Skills },
                 onPlans = { screen = Screen.Plans },
+                onAsk = { screen = Screen.Ask },
+                onMaps = { screen = Screen.Maps },
                 onHub = { screen = Screen.Hub },
                 onCount = { screen = Screen.Count },
                 onBooks = { screen = Screen.Books },
@@ -315,6 +319,10 @@ fun App(state: AppState) {
                 onSaved = { name -> toast("Saved to the outbox: " + name); screen = Screen.Home },
                 onBack = { screen = Screen.Home },
             )
+
+            Screen.Ask -> AskScreen(state = state, library = library, onBack = { screen = Screen.Home })
+
+            Screen.Maps -> MapsScreen(state = state, onBack = { screen = Screen.Home })
 
             Screen.Books -> BooksScreen(state = state, onBack = { screen = Screen.Home })
 

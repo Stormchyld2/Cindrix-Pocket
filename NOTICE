@@ -8,3 +8,8 @@ Other libraries: AndroidX, Jetpack Compose and CameraX, Apache License 2.0.
 
 Pocket logo: the CindrixOps logo, from Cindrix Ops.
 GPS: the phone's own location service (android.location.LocationManager). No Google Play services, no network.
+
+Map page (Maps screen): MapLibre GL JS and Protomaps basemaps, both BSD 3-Clause, bundled into the app by the build
+(mapweb/). Their licence texts are inside the app (assets/map/LICENSES.txt). Map drawing, coordinates and shape code
+is copied from the Cindrix map viewer (Stormchyld2/Cindrix-map-viewer). Map data in a .cmap file keeps its own credits
+(OpenStreetMap contributors; USGS The National Map) and the map page shows them.

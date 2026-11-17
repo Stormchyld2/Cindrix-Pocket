@@ -41,4 +41,16 @@ class HubLinkTest {
         assertEquals("ab12cd34-track-1.txt", HubLink.encodeName("ab12cd34-track-1.txt"))
         assertEquals("a%20b", HubLink.encodeName("a b"))
     }
+
+    @Test
+    fun readsTheHubsStreamedAnswer() {
+        assertEquals(AskEvent.Words(false, "Boil "), HubLink.parseAskEvent("data: {\"replace\":false,\"text\":\"Boil \"}"))
+        assertEquals(AskEvent.Words(true, "Boil water"), HubLink.parseAskEvent("data: {\"replace\":true,\"text\":\"Boil water\"}"))
+        assertEquals(AskEvent.Failed("Type a question first."), HubLink.parseAskEvent("data: {\"error\":\"Type a question first.\"}"))
+        val done = HubLink.parseAskEvent("data: {\"done\":{\"kind\":\"answer\",\"text\":\"Boil it.\",\"sources\":[\"Field guide\"],\"links\":[],\"excerpts\":[\"one minute\"]}}")
+        assertEquals(AskEvent.Done(HubAnswer("Boil it.", listOf("Field guide"), listOf("one minute"))), done)
+        assertNull(HubLink.parseAskEvent(""))
+        assertNull(HubLink.parseAskEvent(": keep-alive"))
+        assertNull(HubLink.parseAskEvent("data: not json"))
+    }
 }

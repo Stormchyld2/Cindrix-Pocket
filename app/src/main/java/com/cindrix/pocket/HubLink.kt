@@ -7,6 +7,17 @@ import java.net.URLEncoder
 /** What the Hub said to a hello: "ok", "erase" or "refused", plus the report names it has accepted. */
 data class Hello(val instruction: String, val accepted: List<String>)
 
+/** The Hub's finished answer to a question: the words, where they came from, and the passages found. */
+data class HubAnswer(val text: String, val sources: List<String>, val excerpts: List<String>)
+
+/** One line of the Hub's streamed answer. */
+sealed class AskEvent {
+    /** Words of the answer so far (`replace`) or more words to add (not `replace`). */
+    data class Words(val replace: Boolean, val text: String) : AskEvent()
+    data class Done(val answer: HubAnswer) : AskEvent()
+    data class Failed(val message: String) : AskEvent()
+}
+
 /**
  * The phone's side of the Hub's trusted-device join (docs/34 and docs/45 in Cindrix-Ops).
  * The parts that read text are plain functions so they can be tested; the network calls are thin.
@@ -33,6 +44,20 @@ object HubLink {
         val list = Regex("\"accepted\"\\s*:\\s*\\[(.*?)]", RegexOption.DOT_MATCHES_ALL).find(json)?.groupValues?.get(1) ?: ""
         val names = Regex("\"((?:[^\"\\\\]|\\\\.)*)\"").findAll(list).map { it.groupValues[1].replace("\\\"", "\"").replace("\\\\", "\\") }.toList()
         return Hello(ins, names)
+    }
+
+    /** Reads one `data: {...}` line of the Hub's answer stream; anything else (blank lines, comments) gives null. */
+    fun parseAskEvent(line: String): AskEvent? {
+        if (!line.startsWith("data:")) return null
+        val o = try { org.json.JSONObject(line.removePrefix("data:").trim()) } catch (_: Exception) { return null }
+        if (o.has("error")) return AskEvent.Failed(o.optString("error").ifBlank { "The Hub could not answer." })
+        val d = o.optJSONObject("done")
+        if (d != null) {
+            fun list(key: String): List<String> = d.optJSONArray(key)?.let { a -> (0 until a.length()).map { a.optString(it) } } ?: emptyList()
+            return AskEvent.Done(HubAnswer(d.optString("text"), list("sources"), list("excerpts")))
+        }
+        if (o.has("text")) return AskEvent.Words(o.optBoolean("replace", false), o.optString("text"))
+        return null
     }
 
     fun encodeName(name: String): String = URLEncoder.encode(name, "UTF-8").replace("+", "%20")
@@ -136,5 +161,44 @@ object HubLink {
         }
     } catch (e: Exception) {
         Result.failure(Exception("The download stopped. (" + (e.message ?: "no answer") + ")"))
+    }
+
+    /**
+     * Asks the Hub's assistant (the Hub searches its books and archives and writes the answer). `onText` gets the answer so
+     * far each time it grows. Call from a background thread.
+     */
+    fun ask(base: String, token: String, question: String, history: List<String>, onText: (String) -> Unit): Result<HubAnswer> = try {
+        val c = open("$base/api/ask_stream", "POST")
+        c.readTimeout = 180000
+        c.doOutput = true
+        c.setRequestProperty("Cookie", "cx=$token")
+        c.setRequestProperty("Content-Type", "application/json")
+        val body = org.json.JSONObject().put("question", question).put("history", org.json.JSONArray(history.take(4))).toString()
+        c.outputStream.use { it.write(body.toByteArray(Charsets.UTF_8)) }
+        val code = c.responseCode
+        if (code == 401 || code == 403) {
+            c.disconnect()
+            Result.failure(Exception("The Hub did not accept this phone. Join it again from the Hub screen."))
+        } else if (code !in 200..299) {
+            c.disconnect()
+            Result.failure(Exception("The Hub could not answer right now."))
+        } else {
+            var text = ""
+            var result: Result<HubAnswer>? = null
+            c.inputStream.bufferedReader(Charsets.UTF_8).useLines { lines ->
+                for (line in lines) {
+                    when (val e = parseAskEvent(line)) {
+                        is AskEvent.Words -> { text = if (e.replace) e.text else text + e.text; onText(text) }
+                        is AskEvent.Done -> { result = Result.success(e.answer); break }
+                        is AskEvent.Failed -> { result = Result.failure(Exception(e.message)); break }
+                        null -> {}
+                    }
+                }
+            }
+            c.disconnect()
+            result ?: if (text.isNotBlank()) Result.success(HubAnswer(text, emptyList(), emptyList())) else Result.failure(Exception("The Hub stopped before it finished answering."))
+        }
+    } catch (e: Exception) {
+        Result.failure(Exception("Could not reach the Hub. (" + (e.message ?: "no answer") + ")"))
     }
 }

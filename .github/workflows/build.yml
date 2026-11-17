@@ -2,7 +2,7 @@ name: Build Pocket APK
 
 on:
   push:
-    branches: [main, field-tools]
+    branches: [main, field-tools, ask-and-maps]
     paths-ignore:
       - "**/*.md"
       - "docs/**"
@@ -23,6 +23,20 @@ jobs:
           java-version: "17"
 
       - uses: gradle/actions/setup-gradle@v4
+
+      # The map page inside the app is the standalone map viewer's own map code. It is built into the app's
+      # assets here (app/src/main/assets/map is not kept in git).
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build the map page
+        working-directory: mapweb
+        run: |
+          npm install --no-audit --no-fund
+          npm test
+          npm run build
+          ls -la ../app/src/main/assets/map
 
       # Optional: if these repository secrets exist, the APK is signed with your own
       # release key. If they do not, the keystore committed in app/ is used.
@@ -64,4 +78,4 @@ jobs:
           TAG="pocket-${VERSION}-build-${GITHUB_RUN_NUMBER}"
           gh release create "$TAG" dist/*.apk --target "$GITHUB_SHA" --prerelease \
             --title "Cindrix Pocket ${VERSION} (build ${GITHUB_RUN_NUMBER})" \
-            --notes "Field view: cards, Academy with quizzes, scanner, new item from a scan, GPS tracking, outbox. Built by CI from ${GITHUB_SHA::7}. Not yet run on a real phone by the builder."
+            --notes "Field view: cards, Academy with quizzes, Ask (Hub assistant when joined, search of the phone otherwise), Maps (phone map files), scanner, new item from a scan, GPS tracking, outbox. Built by CI from ${GITHUB_SHA::7}. Not yet run on a real phone by the builder."

@@ -6,7 +6,7 @@ Offline emergency cards, checklists and books on your phone. Works with no serve
 |---|---|
 | Android app ID | `com.cindrix.pocket` |
 | Platform | Android first |
-| Status | Built on branch `field-tools` (version 0.2.0): scanner, stock list, GPS tracks, outbox, emergency cards, Academy with quizzes, and joining the Hub by invite QR. Built by CI, not yet run on a real phone. |
+| Status | Branch `ask-and-maps` (version 0.3.0) adds **Ask** and **Maps** to everything in 0.2.0 (scanner, stock list, GPS tracks, outbox, cards, Academy, plans, skills, books, joining the Hub by invite QR). Built by CI, not yet run on a real phone. |
 
 ## What it is
 
@@ -74,3 +74,12 @@ The **PLANS** button opens the plans carried from Cindrix Ops (`content/plans`, 
 - Buttons that open a screen in the Ops program are shown as a plain note ("In the Ops program: ...").
 - Ticks stay on the phone (`planTicks` in `Store`); like the skill ticks they are not sent to the Hub yet.
 - `scripts/sync-content.sh` now also copies `content/plans/*.md` (not the `_` templates). Compiled and unit-tested in CI only (`PlansTest`).
+
+
+## Ask and Maps (version 0.3.0, branch `ask-and-maps`)
+
+Pocket runs with or without the Hub. Joined to the Hub it gets more; never less.
+
+- **Ask.** Joined to the Hub, the question goes to the Hub's assistant (it searches the Hub's books and archives and writes the answer). Always, the cards, Academy lessons, plans and saved books on the phone are searched too and listed under it, so Ask still finds the right page with no Hub and no signal. Offline it finds pages; it does not write a summary.
+- **Maps.** Opens the phone map files (`.cmap`) made in Cindrix Ops (Maps, then Send to phone): street, topo and aerial pictures, the pins, areas to avoid, drawings and directions saved with the map, the military grid reference of the map centre, your position, and the track you are recording. Add a file once and it is kept on the phone. It is the standalone Cindrix map viewer's own map code (`mapweb/`) run in a web view that can reach nothing but the open file. The build step `npm run build` in `mapweb/` writes it into the app's assets (CI does this; for a local build run it once first).
+- Not yet: fetching a `.cmap` straight from the Hub (the Hub has no endpoint for that yet), maps packed with zstd (the standalone viewer has the same limit), and a map pack bigger than about 4 million tiles per picture.

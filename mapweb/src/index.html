@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="maplibre-gl.css">
+<link rel="stylesheet" href="page.css">
+<title>Map</title>
+</head>
+<body>
+<div id="map"></div>
+<div id="bar">
+  <div id="name"></div>
+  <div id="kinds" role="group" aria-label="Kind of map"></div>
+  <button id="list" title="Pins, areas, drawings and directions" aria-label="Pins, areas, drawings and directions">LIST<span id="badge"></span></button>
+</div>
+<div id="note" role="alert" hidden></div>
+<div id="side">
+  <button id="locate" title="Show where I am" aria-label="Show where I am">ME</button>
+  <button id="whole" title="Show the whole map" aria-label="Show the whole map">ALL</button>
+  <button id="zin" title="Zoom in" aria-label="Zoom in">+</button>
+  <button id="zout" title="Zoom out" aria-label="Zoom out">−</button>
+</div>
+<div id="foot"><button id="readout" title="Tap to change how the position is written"></button><span id="where"></span></div>
+<div id="panel" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

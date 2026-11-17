@@ -12,8 +12,8 @@ android {
         applicationId = "com.cindrix.pocket"
         minSdk = 26
         targetSdk = 35
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.3.0"
     }
 
     // Signing: if the build provides a release keystore (GitHub Actions secrets), use it.
@@ -84,4 +84,6 @@ dependencies {
     implementation("com.google.zxing:core:3.5.3")
 
     testImplementation("junit:junit:4.13.2")
+    // Android's own JSON reader is only a stub in plain JVM tests
+    testImplementation("org.json:json:20240303")
 }
