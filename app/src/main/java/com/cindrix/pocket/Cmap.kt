@@ -47,21 +47,18 @@ class Cmap private constructor(
     val glyphs: List<CmapGlyph>,
     /** The person's own pins, route, areas to avoid, drawings and directions, as JSON text, exactly as saved. */
     val mapJson: String,
-    private val keys: List<LongArray>,
-    private val offsets: List<LongArray>,
-    private val lengths: List<LongArray>,
+    private val indexes: List<TileIndex>,
 ) {
-    /** Kinds this reader cannot draw yet (zstd packing needs a decoder). */
-    val unsupported: List<String> get() = layers.filter { it.compression == "zstd" }.map { it.kind }
+    /** Kinds this reader cannot draw: a packing other than none, gzip or zstd (the map page unpacks those). */
+    val unsupported: List<String> get() = layers.filter { it.compression !in KNOWN_PACKING }.map { it.kind }
 
     fun tile(kind: String, z: Int, x: Int, y: Int): CmapPiece? {
         val li = layers.indexOfFirst { it.kind == kind }
         if (li < 0 || z < 0 || x < 0 || y < 0) return null
-        val i = keys[li].binarySearch(key(z.toLong(), x.toLong(), y.toLong()))
-        if (i < 0) return null
+        val found = indexes[li].find(z.toLong(), x.toLong(), y.toLong()) ?: return null
         val layer = layers[li]
-        val off = offsets[li][i]
-        val len = lengths[li][i]
+        val off = found.first
+        val len = found.second
         if (off + len > layer.dataLength) throw CmapException(DAMAGED)
         return CmapPiece(readAt(layer.dataOffset + off, len.toInt()), mimeOf(layer.tileType))
     }
@@ -83,13 +80,12 @@ class Cmap private constructor(
     companion object {
         const val DAMAGED = "This map file is damaged or was not finished copying."
         private const val MAX_MANIFEST = 64L * 1024 * 1024
-        /** A phone keeps each layer's tile list in memory (28 bytes a tile here), so a layer is limited. */
-        private const val MAX_TILES = 4_000_000L
+        /** The most tiles one picture may list (20 bytes each, read straight from the file, not kept in memory). */
+        private const val MAX_TILES = 40_000_000L
+        private val KNOWN_PACKING = setOf("none", "gzip", "zstd")
         private const val MAX_GLYPH = 4L * 1024 * 1024
         private val MAGIC = "CMAP0001".toByteArray(Charsets.US_ASCII)
         private val END = "CMAPEND1".toByteArray(Charsets.US_ASCII)
-
-        fun key(z: Long, x: Long, y: Long): Long = (z shl 50) or (x shl 25) or y
 
         fun mimeOf(tileType: String) = when (tileType) {
             "mvt" -> "application/x-protobuf"
@@ -161,34 +157,80 @@ class Cmap private constructor(
                         glyphs.add(g)
                     }
                 }
-                val keys = ArrayList<LongArray>()
-                val offs = ArrayList<LongArray>()
-                val lens = ArrayList<LongArray>()
-                for (l in layers) {
-                    val n = l.indexCount.toInt()
-                    val raw = read(l.indexOffset, n * 20)
-                    var k = LongArray(n)
-                    var o = LongArray(n)
-                    var ln = LongArray(n)
-                    for (i in 0 until n) {
-                        val at = i * 20
-                        k[i] = key(u32(raw, at), u32(raw, at + 4), u32(raw, at + 8))
-                        o[i] = u32(raw, at + 12)
-                        ln[i] = u32(raw, at + 16)
-                    }
-                    // the Cindrix program writes them in order; sort anyway so a lookup never depends on it
-                    if ((1 until n).any { k[it - 1] > k[it] }) {
-                        val order = (0 until n).sortedBy { k[it] }
-                        k = LongArray(n) { k[order[it]] }
-                        o = LongArray(n) { o[order[it]] }
-                        ln = LongArray(n) { ln[order[it]] }
-                    }
-                    keys.add(k); offs.add(o); lens.add(ln)
-                }
+                val indexes = ArrayList<TileIndex>()
+                val channel = f.channel
+                for (l in layers) indexes.add(TileIndex.open(channel, l.indexOffset, l.indexCount))
                 val own = m.opt("map")
                 val mapJson = if (own is JSONObject) own.toString() else "{}"
-                return Cmap(file, m.optString("name", file.nameWithoutExtension), bbox, lat, lon, zoom, layers, glyphs, mapJson, keys, offs, lens)
+                return Cmap(file, m.optString("name", file.nameWithoutExtension), bbox, lat, lon, zoom, layers, glyphs, mapJson, indexes)
             }
+        }
+    }
+}
+
+/**
+ * One picture's tile list (20 bytes a tile: z, x, y, offset, length as little-endian u32), searched where it lies in the
+ * file. A list in order (the Cindrix program writes them that way) is searched through a read-only window onto the
+ * file, so even a map of tens of millions of tiles takes almost no memory.
+ */
+internal abstract class TileIndex {
+    /** (offset, length) of the tile, or null when the list has none. */
+    abstract fun find(z: Long, x: Long, y: Long): Pair<Long, Long>?
+
+    companion object {
+        /** The order the lists are in: by z, then x, then y. Valid while x and y stay under 2^25 (zoom 24 and finer is never cut). */
+        fun key(z: Long, x: Long, y: Long): Long = (z shl 50) or (x shl 25) or y
+
+        fun open(channel: java.nio.channels.FileChannel, offset: Long, count: Long): TileIndex {
+            if (count == 0L) return Mapped(java.nio.ByteBuffer.allocate(0), 0)
+            val buf = try {
+                channel.map(java.nio.channels.FileChannel.MapMode.READ_ONLY, offset, count * 20).order(ByteOrder.LITTLE_ENDIAN)
+            } catch (_: Throwable) {
+                throw CmapException("This map is too big for this phone to open. Make a smaller area in Cindrix Ops.")
+            }
+            var sorted = true
+            var prev = Long.MIN_VALUE
+            for (i in 0 until count.toInt()) {
+                val k = keyAt(buf, i)
+                if (k < prev) { sorted = false; break }
+                prev = k
+            }
+            if (sorted) return Mapped(buf, count.toInt())
+            if (count > 4_000_000L) throw CmapException("This map file is not in order and is too big to fix on a phone. Make it again in Cindrix Ops.")
+            return Sorted(buf, count.toInt())
+        }
+
+        internal fun u32(b: java.nio.ByteBuffer, at: Int): Long = b.getInt(at).toLong() and 0xFFFFFFFFL
+        internal fun keyAt(b: java.nio.ByteBuffer, i: Int): Long = key(u32(b, i * 20), u32(b, i * 20 + 4), u32(b, i * 20 + 8))
+    }
+
+    private class Mapped(val buf: java.nio.ByteBuffer, val n: Int) : TileIndex() {
+        override fun find(z: Long, x: Long, y: Long): Pair<Long, Long>? {
+            val want = key(z, x, y)
+            var lo = 0
+            var hi = n - 1
+            while (lo <= hi) {
+                val mid = (lo + hi) ushr 1
+                val k = keyAt(buf, mid)
+                when {
+                    k < want -> lo = mid + 1
+                    k > want -> hi = mid - 1
+                    else -> return u32(buf, mid * 20 + 12) to u32(buf, mid * 20 + 16)
+                }
+            }
+            return null
+        }
+    }
+
+    /** A list that was not in order, sorted once in memory. */
+    private class Sorted(buf: java.nio.ByteBuffer, n: Int) : TileIndex() {
+        private val order = (0 until n).sortedBy { keyAt(buf, it) }
+        private val keys = LongArray(n) { keyAt(buf, order[it]) }
+        private val offs = LongArray(n) { u32(buf, order[it] * 20 + 12) }
+        private val lens = LongArray(n) { u32(buf, order[it] * 20 + 16) }
+        override fun find(z: Long, x: Long, y: Long): Pair<Long, Long>? {
+            val i = keys.binarySearch(key(z, x, y))
+            return if (i < 0) null else offs[i] to lens[i]
         }
     }
 }

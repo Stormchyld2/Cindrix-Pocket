@@ -64,4 +64,70 @@ class CmapTest {
         val cut = File.createTempFile("cut", ".cmap").apply { writeBytes(whole.copyOf(whole.size - 30)); deleteOnExit() }
         try { Cmap.open(cut); fail() } catch (e: CmapException) { assertEquals(Cmap.DAMAGED, e.message) }
     }
+
+    /**
+     * A map file written the way the Cindrix program writes one: one layer, a tile list of [entries] (z, x, y) in the
+     * order given, and a one-byte tile for each (the byte is the entry's position). [compression] goes in the manifest.
+     */
+    private fun synthetic(entries: Int, order: (Int) -> IntArray, compression: String = "gzip"): File {
+        val f = File.createTempFile("big", ".cmap")
+        f.deleteOnExit()
+        java.io.BufferedOutputStream(f.outputStream(), 1 shl 20).use { out ->
+            fun le(v: Long) = byteArrayOf(v.toByte(), (v shr 8).toByte(), (v shr 16).toByte(), (v shr 24).toByte())
+            out.write("CMAP0001".toByteArray())
+            for (i in 0 until entries) out.write(i and 0xFF)
+            val indexOffset = 8L + entries
+            for (i in 0 until entries) {
+                val e = order(i)
+                out.write(le(e[0].toLong())); out.write(le(e[1].toLong())); out.write(le(e[2].toLong()))
+                out.write(le(i.toLong())); out.write(le(1))
+            }
+            val manifest = """{"format":1,"name":"Synthetic","created":1,"bbox":[-80.2,39.4,-80.0,39.6],"view":{"center":[39.5,-80.1],"zoom":14},
+                "layers":[{"kind":"street","tile_type":"mvt","compression":"$compression","min_zoom":14,"max_zoom":14,"tiles":$entries,
+                "data_offset":8,"data_length":$entries,"index_offset":$indexOffset,"index_count":$entries}],"glyphs":[],"map":{}}""".toByteArray()
+            out.write(manifest)
+            out.write(le(manifest.size.toLong()))
+            out.write("CMAPEND1".toByteArray())
+        }
+        return f
+    }
+
+    // entry i is tile 14 / (i / 1000) / (i % 1000): in order, and unique
+    private val inOrder: (Int) -> IntArray = { i -> intArrayOf(14, i / 1000, i % 1000) }
+
+    @Test
+    fun aMapOfManyTilesIsSearchedWhereItLies() {
+        val m = Cmap.open(synthetic(200_000, inOrder))
+        for (i in listOf(0, 1, 777, 99_999, 150_123, 199_999)) {
+            val p = m.tile("street", 14, i / 1000, i % 1000)
+            assertNotNull("tile $i", p)
+            assertEquals(i and 0xFF, p!!.bytes[0].toInt() and 0xFF)
+        }
+        assertNull(m.tile("street", 14, 200, 0))
+        assertNull(m.tile("street", 13, 0, 0))
+    }
+
+    @Test
+    fun aMapBiggerThanTheOldFourMillionTileLimitStillOpens() {
+        val m = Cmap.open(synthetic(4_200_000, inOrder))
+        val last = 4_199_999
+        assertEquals(last and 0xFF, m.tile("street", 14, last / 1000, last % 1000)!!.bytes[0].toInt() and 0xFF)
+        assertNull(m.tile("street", 14, 4_200, 0))
+    }
+
+    @Test
+    fun aTileListOutOfOrderIsStillFoundWhenSmall() {
+        // reversed on purpose
+        val m = Cmap.open(synthetic(5_000, { i -> inOrder(4_999 - i) }))
+        val p = m.tile("street", 14, 2, 345)
+        assertNotNull(p)
+        // entry at position (4999 - 2345) holds the data byte for that position
+        assertEquals((4_999 - 2_345) and 0xFF, p!!.bytes[0].toInt() and 0xFF)
+    }
+
+    @Test
+    fun zstdPackedPicturesAreOfferedToThePageAndOtherPackingIsNot() {
+        assertTrue(Cmap.open(synthetic(10, inOrder, "zstd")).unsupported.isEmpty())
+        assertEquals(listOf("street"), Cmap.open(synthetic(10, inOrder, "brotli")).unsupported)
+    }
 }

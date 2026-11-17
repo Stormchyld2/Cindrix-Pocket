@@ -34,6 +34,25 @@ class MapFiles(appDir: File) {
         }
     }
 
+    /** Where a map being copied from the Hub waits until it is complete (kept when the copy breaks, so it can carry on). */
+    fun partFor(hubName: String): File = File(dir, "hub-" + safeName(hubName) + ".part")
+
+    /** A finished copy: checked, then kept under its own name. A copy that is not a real map is thrown away. */
+    fun adopt(part: File, displayName: String): Result<File> = try {
+        val m = Cmap.open(part)
+        val dest = File(dir, safeName(displayName.ifBlank { m.name }) + ".cmap")
+        if (dest.exists()) dest.delete()
+        if (!part.renameTo(dest)) throw CmapException("The map could not be saved on this phone.")
+        Result.success(dest)
+    } catch (e: CmapException) {
+        part.delete()
+        Result.failure(Exception(e.message))
+    }
+
+    fun has(name: String): Boolean = File(dir, safeName(name) + ".cmap").isFile
+
+    fun free(): Long = dir.usableSpace
+
     fun remove(file: File) {
         if (file.parentFile == dir) file.delete()
     }
@@ -44,6 +63,13 @@ class MapFiles(appDir: File) {
             val base = name.substringAfterLast('/').removeSuffix(".cmap").removeSuffix(".CMAP")
             val clean = base.filter { it.isLetterOrDigit() || it == '-' || it == '_' || it == ' ' }.trim().take(60)
             return clean.ifEmpty { "map" }
+        }
+
+        /** A plain-words problem when [needBytes] will not fit in [freeBytes] (with some room left over), else null. */
+        fun spaceProblem(needBytes: Long, freeBytes: Long): String? {
+            val room = 64L * 1024 * 1024
+            return if (needBytes + room <= freeBytes) null
+            else "This map needs " + sizeText(needBytes) + " and the phone has " + sizeText(maxOf(0L, freeBytes - room)) + " to spare. Remove a map or free some space first."
         }
 
         fun sizeText(bytes: Long): String = if (bytes >= 1_048_576) "%.1f MB".format(bytes / 1_048_576.0) else "%d KB".format(maxOf(1L, bytes / 1024))

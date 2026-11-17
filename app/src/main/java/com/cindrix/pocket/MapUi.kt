@@ -69,6 +69,10 @@ fun MapsScreen(state: AppState, onBack: () -> Unit) {
     var status by remember { mutableStateOf("") }
     var busy by remember { mutableStateOf(false) }
     var open by remember { mutableStateOf<Cmap?>(null) }
+    val hubMaps = remember { androidx.compose.runtime.mutableStateListOf<HubMap>() }
+    var copying by remember { mutableStateOf("") }
+    var copied by remember { mutableStateOf(0L) }
+    var copyTotal by remember { mutableStateOf(0L) }
 
     val current = open
     if (current != null) {
@@ -93,6 +97,13 @@ fun MapsScreen(state: AppState, onBack: () -> Unit) {
             status = "Copying the map onto this phone…"
             scope.launch {
                 val name = withContext(Dispatchers.IO) { displayName(context, uri) }
+                val size = withContext(Dispatchers.IO) { fileSize(context, uri) }
+                val tooBig = if (size > 0) MapFiles.spaceProblem(size, files.free()) else null
+                if (tooBig != null) {
+                    busy = false
+                    status = tooBig
+                    return@launch
+                }
                 val r = withContext(Dispatchers.IO) {
                     val input = context.contentResolver.openInputStream(uri)
                     if (input == null) Result.failure(Exception("That file could not be opened.")) else files.add(name, input)
@@ -113,12 +124,61 @@ fun MapsScreen(state: AppState, onBack: () -> Unit) {
             Text("Maps", fontFamily = HeadingFont, fontSize = 18.sp)
         }
         Text(
-            "Make a phone map in Cindrix Ops (Maps, then Send to phone), copy the .cmap file to this phone, and add it here. It works with no Hub and no signal.",
+            "Phone maps come from Cindrix Ops (Maps, then Send to phone). Joined to the Hub, copy them over its Wi-Fi; otherwise copy the .cmap file to this phone and add it here. Once on the phone a map works with no Hub and no signal.",
             color = Muted, fontSize = 13.sp, modifier = Modifier.padding(bottom = 8.dp),
         )
         Btn(if (busy) "WORKING…" else "ADD A MAP FILE", { pick.launch(arrayOf("*/*")) }, Modifier.fillMaxWidth(), enabled = !busy)
         LazyColumn(Modifier.weight(1f).padding(top = 12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            item { Text("On this phone (" + mine.size + ")", fontFamily = HeadingFont, color = Blue, fontSize = 16.sp) }
+            if (state.linked) {
+                item { Text("On the Hub", fontFamily = HeadingFont, color = Blue, fontSize = 16.sp, modifier = Modifier.padding(top = 12.dp)) }
+                item {
+                    Btn("LOAD THE HUB'S MAP LIST", {
+                        val base = state.hubBase ?: return@Btn
+                        val token = state.hubToken ?: return@Btn
+                        scope.launch {
+                            status = "Asking the Hub…"
+                            useWifiForHub(context)
+                            val r = withContext(Dispatchers.IO) { HubLink.phoneMapsList(base, token) }
+                            r.onSuccess { hubMaps.clear(); hubMaps.addAll(it); status = if (it.isEmpty()) "The Hub has no phone maps yet. Make one in Cindrix Ops: Maps, then Send to phone." else it.size.toString() + " on the Hub." }
+                            r.onFailure { status = it.message ?: "Could not load the list." }
+                        }
+                    }, Modifier.fillMaxWidth(), outlined = true, enabled = copying.isEmpty())
+                }
+                items(hubMaps.toList(), key = { "hub-" + it.name }) { m ->
+                    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.surface).padding(12.dp)) {
+                        Text(m.name.removeSuffix(".cmap"), fontWeight = FontWeight.Bold)
+                        Text(MapFiles.sizeText(m.bytes) + if (files.has(m.name)) " · already on this phone" else "", fontSize = 12.sp, color = Muted)
+                        if (copying == m.name) {
+                            val pct = if (copyTotal > 0) (copied * 100 / copyTotal).toInt() else 0
+                            Text("Copying… " + pct + "% (" + MapFiles.sizeText(copied) + " of " + MapFiles.sizeText(copyTotal) + ")", fontSize = 13.sp, modifier = Modifier.padding(top = 4.dp))
+                        } else {
+                            TextButton(enabled = copying.isEmpty() && !busy, onClick = {
+                                val base = state.hubBase ?: return@TextButton
+                                val token = state.hubToken ?: return@TextButton
+                                val part = files.partFor(m.name)
+                                val needed = m.bytes - (if (part.isFile) part.length() else 0L)
+                                val tooBig = MapFiles.spaceProblem(needed, files.free())
+                                if (tooBig != null) { status = tooBig; return@TextButton }
+                                copying = m.name; copied = 0L; copyTotal = m.bytes
+                                status = "Copying " + m.name.removeSuffix(".cmap") + " from the Hub. Keep the phone on the Hub's Wi-Fi."
+                                scope.launch {
+                                    useWifiForHub(context)
+                                    val r = withContext(Dispatchers.IO) { HubLink.phoneMapRead(base, token, m.name, part) { a, b -> copied = a; copyTotal = b } }
+                                    val done = if (r.isSuccess) withContext(Dispatchers.IO) { files.adopt(part, m.name.removeSuffix(".cmap")) } else null
+                                    copying = ""
+                                    tick++
+                                    when {
+                                        done == null -> status = r.exceptionOrNull()?.message ?: "The copy stopped."
+                                        done.isSuccess -> { status = "Saved " + m.name.removeSuffix(".cmap") + " on this phone."; openFile(done.getOrThrow()) }
+                                        else -> status = done.exceptionOrNull()?.message ?: "The copy was not a real map."
+                                    }
+                                }
+                            }) { Text(if (files.partFor(m.name).isFile) "CARRY ON COPYING" else "KEEP ON THIS PHONE") }
+                        }
+                    }
+                }
+            }
+            item { Text("On this phone (" + mine.size + ")", fontFamily = HeadingFont, color = Blue, fontSize = 16.sp, modifier = Modifier.padding(top = if (state.linked) 12.dp else 0.dp)) }
             if (mine.isEmpty()) item { Text("No maps yet.", color = Muted) }
             items(mine, key = { it.name }) { f ->
                 Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.surface).padding(12.dp)) {
@@ -133,6 +193,14 @@ fun MapsScreen(state: AppState, onBack: () -> Unit) {
         }
         if (status.isNotBlank()) Text(status, color = Muted, modifier = Modifier.padding(top = 8.dp))
     }
+}
+
+private fun fileSize(context: Context, uri: Uri): Long = try {
+    context.contentResolver.query(uri, arrayOf(OpenableColumns.SIZE), null, null, null)?.use { c ->
+        if (c.moveToFirst() && !c.isNull(0)) c.getLong(0) else -1L
+    } ?: -1L
+} catch (_: Exception) {
+    -1L
 }
 
 private fun displayName(context: Context, uri: Uri): String = try {

@@ -53,4 +53,11 @@ class HubLinkTest {
         assertNull(HubLink.parseAskEvent(": keep-alive"))
         assertNull(HubLink.parseAskEvent("data: not json"))
     }
+
+    @Test
+    fun readsTheHubsPhoneMapList() {
+        val json = """[{"name":"Camp-area.cmap","bytes":123456,"made":1763000000},{"name":"../evil.cmap","bytes":1,"made":1},{"name":"notes.txt","bytes":1,"made":1},{"name":".hidden.cmap","bytes":1,"made":1}]"""
+        assertEquals(listOf(HubMap("Camp-area.cmap", 123456, 1763000000)), HubLink.parsePhoneMaps(json))
+        assertEquals(emptyList<HubMap>(), HubLink.parsePhoneMaps("not json"))
+    }
 }

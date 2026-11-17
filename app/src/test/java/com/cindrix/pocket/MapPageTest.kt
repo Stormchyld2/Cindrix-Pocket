@@ -70,4 +70,23 @@ class MapPageTest {
         assertEquals("map", MapFiles.safeName("...cmap"))
         assertEquals("Camp area", MapFiles.safeName("Camp area.cmap"))
     }
+
+    @Test
+    fun aHubCopyIsKeptOnlyWhenItIsARealMapAndSpaceIsChecked() {
+        val dir = File.createTempFile("maps2", "").let { it.delete(); it.mkdirs(); it }
+        val files = MapFiles(dir)
+        val part = files.partFor("Camp area.cmap")
+        part.writeBytes(fixtureBytes())
+        val ok = files.adopt(part, "Camp area")
+        assertTrue(ok.isSuccess)
+        assertTrue(files.has("Camp area.cmap"))
+        assertFalse(part.exists())
+        val bad = files.partFor("Broken.cmap")
+        bad.writeBytes(fixtureBytes().copyOf(60))
+        assertTrue(files.adopt(bad, "Broken").isFailure)
+        assertFalse(bad.exists())
+        assertFalse(files.has("Broken.cmap"))
+        assertEquals(null, MapFiles.spaceProblem(10L * 1024 * 1024, 500L * 1024 * 1024))
+        assertTrue(MapFiles.spaceProblem(900L * 1024 * 1024, 500L * 1024 * 1024)!!.startsWith("This map needs 900.0 MB"))
+    }
 }

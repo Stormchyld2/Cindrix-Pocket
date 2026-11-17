@@ -1,7 +1,8 @@
-// Tiles reach the map engine through its own tile loader instead of straight from the address, so the program,
-// not the web view, unpacks them. Street tiles are usually gzip-packed inside a .cmap file; unpacking them here
-// works the same on Windows and Android whatever the web view does with packed answers.
+// Tiles reach the map engine through its own tile loader so the page, not the web view, unpacks them.
+// This is the standalone map viewer's tiles.ts (gzip and plain tiles) with one addition: zstd, which Cindrix Ops can
+// write when a map pack was packed that way. The viewer has no zstd decoder yet; this one uses fzstd (MIT).
 import type * as MapLibre from 'maplibre-gl';
+import { decompress } from 'fzstd';
 
 let registered = false;
 let blank: Promise<ArrayBuffer> | null = null;
@@ -13,9 +14,26 @@ export function isGzip(b: ArrayBuffer): boolean {
   return v[0] === 0x1f && v[1] === 0x8b;
 }
 
+/** A zstd frame starts with the four bytes 28 b5 2f fd. */
+export function isZstd(b: ArrayBuffer): boolean {
+  if (b.byteLength < 4) return false;
+  const v = new Uint8Array(b, 0, 4);
+  return v[0] === 0x28 && v[1] === 0xb5 && v[2] === 0x2f && v[3] === 0xfd;
+}
+
 async function gunzip(b: ArrayBuffer): Promise<ArrayBuffer> {
   const stream = new Blob([b]).stream().pipeThrough(new DecompressionStream('gzip'));
   return new Response(stream).arrayBuffer();
+}
+
+/** The tile as the map engine wants it: gzip and zstd packing taken off, anything else left as it is. */
+export async function unpack(b: ArrayBuffer): Promise<ArrayBuffer> {
+  if (isGzip(b)) return gunzip(b);
+  if (isZstd(b)) {
+    const out = decompress(new Uint8Array(b));
+    return out.buffer.slice(out.byteOffset, out.byteOffset + out.byteLength) as ArrayBuffer;
+  }
+  return b;
 }
 
 /** A clear one-pixel picture, for a square of a picture map that the file does not hold. */
@@ -29,7 +47,7 @@ function clearPicture(): Promise<ArrayBuffer> {
   return blank;
 }
 
-/** Make `cmaptile://<kind>/<z>/<x>/<y>` addresses work. `base` is where the program serves the open map's tiles. */
+/** Make `cmaptile://<kind>/<z>/<x>/<y>` addresses work. `base` is where the app serves the open map's tiles. */
 export function registerTileProtocol(ml: typeof MapLibre, base: string): void {
   if (registered) return;
   registered = true;
@@ -40,8 +58,6 @@ export function registerTileProtocol(ml: typeof MapLibre, base: string): void {
     // A square the map does not hold (outside its area, or finer than it was cut): empty, not a fault.
     if (res.status === 404 || res.status === 204) return { data: kind === 'street' ? new ArrayBuffer(0) : await clearPicture() };
     if (!res.ok) throw new Error('The map file could not give a tile (' + res.status + ').');
-    let data = await res.arrayBuffer();
-    if (isGzip(data)) data = await gunzip(data);
-    return { data };
+    return { data: await unpack(await res.arrayBuffer()) };
   });
 }

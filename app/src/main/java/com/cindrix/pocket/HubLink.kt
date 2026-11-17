@@ -10,6 +10,9 @@ data class Hello(val instruction: String, val accepted: List<String>)
 /** The Hub's finished answer to a question: the words, where they came from, and the passages found. */
 data class HubAnswer(val text: String, val sources: List<String>, val excerpts: List<String>)
 
+/** A finished phone map the Hub keeps (Cindrix Ops, Maps > Send to phone). */
+data class HubMap(val name: String, val bytes: Long, val made: Long)
+
 /** One line of the Hub's streamed answer. */
 sealed class AskEvent {
     /** Words of the answer so far (`replace`) or more words to add (not `replace`). */
@@ -58,6 +61,19 @@ object HubLink {
         }
         if (o.has("text")) return AskEvent.Words(o.optBoolean("replace", false), o.optString("text"))
         return null
+    }
+
+    /** The Hub's list of phone maps; names that are not plain `.cmap` file names are left out. */
+    fun parsePhoneMaps(json: String): List<HubMap> = try {
+        val a = org.json.JSONArray(json)
+        (0 until a.length()).mapNotNull { i ->
+            val o = a.optJSONObject(i) ?: return@mapNotNull null
+            val name = o.optString("name")
+            if (!name.endsWith(".cmap") || name.contains('/') || name.contains('\\') || name.startsWith(".")) null
+            else HubMap(name, o.optLong("bytes"), o.optLong("made"))
+        }
+    } catch (_: Exception) {
+        emptyList()
     }
 
     fun encodeName(name: String): String = URLEncoder.encode(name, "UTF-8").replace("+", "%20")
@@ -200,5 +216,71 @@ object HubLink {
         }
     } catch (e: Exception) {
         Result.failure(Exception("Could not reach the Hub. (" + (e.message ?: "no answer") + ")"))
+    }
+
+    /** The phone maps the Hub has made, newest first. Only a phone that joined with an invite may ask. */
+    fun phoneMapsList(base: String, token: String): Result<List<HubMap>> = try {
+        val (code, text) = post(base, token, "/api/phone_maps_list", "{}")
+        when {
+            code in 200..299 -> Result.success(parsePhoneMaps(text))
+            code == 401 || code == 403 -> Result.failure(Exception("The Hub did not accept this phone. Join it again from the Hub screen."))
+            else -> Result.failure(Exception("The Hub did not give its map list."))
+        }
+    } catch (e: Exception) {
+        Result.failure(Exception("Could not reach the Hub. (" + (e.message ?: "no answer") + ")"))
+    }
+
+    /**
+     * Copies one phone map from the Hub into [part]. If [part] already holds the start of this map (a broken earlier try) the
+     * copy carries on from there. [onProgress] gets (bytes so far, bytes in all). Call from a background thread.
+     */
+    fun phoneMapRead(base: String, token: String, name: String, part: java.io.File, onProgress: (Long, Long) -> Unit): Result<Unit> = try {
+        var have = if (part.isFile) part.length() else 0L
+        val c = open("$base/api/phone_map_read?name=" + URLEncoder.encode(name, "UTF-8"), "GET")
+        c.readTimeout = 60000
+        c.setRequestProperty("Cookie", "cx=$token")
+        if (have > 0) c.setRequestProperty("Range", "bytes=$have-")
+        val code = c.responseCode
+        when {
+            code == 416 -> {
+                // the Hub's file is shorter than what is kept: start over
+                c.disconnect()
+                part.delete()
+                Result.failure(Exception("The copy had to start again. Tap to try once more."))
+            }
+            code == 401 || code == 403 -> {
+                c.disconnect()
+                Result.failure(Exception("The Hub did not accept this phone. Join it again from the Hub screen."))
+            }
+            code !in 200..299 -> {
+                c.disconnect()
+                Result.failure(Exception("The Hub could not give that map. It may have been removed."))
+            }
+            else -> {
+                if (code == 200) have = 0L // the Hub sent the whole file, not the rest
+                val total = have + c.contentLengthLong.coerceAtLeast(0L)
+                java.io.FileOutputStream(part, code == 206).use { out ->
+                    c.inputStream.use { input ->
+                        val buf = ByteArray(64 * 1024)
+                        var done = have
+                        var lastReport = 0L
+                        while (true) {
+                            val n = input.read(buf)
+                            if (n < 0) break
+                            out.write(buf, 0, n)
+                            done += n
+                            val now = System.currentTimeMillis()
+                            if (now - lastReport > 250) { lastReport = now; onProgress(done, total) }
+                        }
+                        onProgress(done, total)
+                        if (total > 0 && done < total) throw java.io.IOException("the Wi-Fi dropped")
+                    }
+                }
+                c.disconnect()
+                Result.success(Unit)
+            }
+        }
+    } catch (e: Exception) {
+        Result.failure(Exception("The copy stopped (" + (e.message ?: "no answer") + "). What arrived is kept; tap the map again to carry on."))
     }
 }

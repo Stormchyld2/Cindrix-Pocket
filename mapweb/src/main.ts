@@ -8,7 +8,7 @@ import { layers as basemapLayers, namedFlavor } from '@protomaps/basemaps';
 import { toDms, toMgrs } from './lib/coords';
 import { drawingFeatures, fmtLength, labelPoint } from './lib/mapdraw';
 import { readOverlays, routeLine, type Overlays } from './lib/overlays';
-import { registerTileProtocol } from './lib/tiles';
+import { registerTileProtocol } from './tiles';
 
 type Kind = 'street' | 'topo' | 'aerial';
 const KIND_NAMES: Record<Kind, string> = { street: 'Street', topo: 'Topo', aerial: 'Aerial' };

@@ -29,4 +29,4 @@ const lic = (name) => {
   const pkg = JSON.parse(readFileSync(join(dir, 'package.json'), 'utf8'));
   return `${name} ${pkg.version}, licence: ${pkg.license}. The package carries no separate licence file; see ${pkg.homepage ?? 'its project page'}.`;
 };
-writeFileSync(join(out, 'LICENSES.txt'), 'MapLibre GL JS (BSD-3-Clause)\n\n' + lic('maplibre-gl') + '\n\nProtomaps basemaps (BSD-3-Clause)\n\n' + lic('@protomaps/basemaps'));
+writeFileSync(join(out, 'LICENSES.txt'), 'MapLibre GL JS (BSD-3-Clause)\n\n' + lic('maplibre-gl') + '\n\nProtomaps basemaps (BSD-3-Clause)\n\n' + lic('@protomaps/basemaps') + '\n\nfzstd, zstd decoder (MIT)\n\n' + lic('fzstd'));

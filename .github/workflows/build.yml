@@ -24,19 +24,17 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
-      # The map page inside the app is the standalone map viewer's own map code. It is built into the app's
-      # assets here (app/src/main/assets/map is not kept in git).
+      # The map page inside the app is the standalone map viewer's own map code. Its checks run here; the Gradle
+      # build below then builds it into the app's assets by itself (app/src/main/assets/map is not kept in git).
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
 
-      - name: Build the map page
+      - name: Check the map page code
         working-directory: mapweb
         run: |
           npm install --no-audit --no-fund
           npm test
-          npm run build
-          ls -la ../app/src/main/assets/map
 
       # Optional: if these repository secrets exist, the APK is signed with your own
       # release key. If they do not, the keystore committed in app/ is used.
@@ -55,6 +53,11 @@ jobs:
           POCKET_KEY_ALIAS: ${{ secrets.POCKET_KEY_ALIAS }}
           POCKET_KEY_PASSWORD: ${{ secrets.POCKET_KEY_PASSWORD }}
         run: ./gradlew --no-daemon testDebugUnitTest assembleRelease
+
+      - name: The map page is in the APK
+        run: |
+          unzip -l app/build/outputs/apk/release/app-release.apk | grep -E "assets/map/(app.js|index.html|page.css|maplibre-gl.css|LICENSES.txt)" | tee /tmp/mapfiles
+          test "$(wc -l < /tmp/mapfiles)" -eq 5
 
       - name: Name the APK
         run: |

@@ -87,3 +87,32 @@ dependencies {
     // Android's own JSON reader is only a stub in plain JVM tests
     testImplementation("org.json:json:20240303")
 }
+
+// The map page (Maps screen) is the standalone map viewer's map code, built from ../mapweb into app/src/main/assets/map.
+// A normal build does this by itself: it needs Node.js 22 or newer installed once, nothing else.
+val mapweb = rootProject.file("mapweb")
+val npmCommand = if (System.getProperty("os.name").lowercase().contains("windows")) "npm.cmd" else "npm"
+
+val installMapPage by tasks.registering(Exec::class) {
+    workingDir = mapweb
+    commandLine(npmCommand, "install", "--no-audit", "--no-fund")
+    onlyIf {
+        val done = File(mapweb, "node_modules/.package-lock.json")
+        !done.exists() || done.lastModified() < File(mapweb, "package.json").lastModified()
+    }
+    doFirst {
+        val ok = try { ProcessBuilder(npmCommand, "--version").redirectErrorStream(true).start().also { it.inputStream.readBytes() }.waitFor() == 0 } catch (e: Exception) { false }
+        if (!ok) throw GradleException("The map page in Cindrix Pocket is built with Node.js. Install Node.js 22 or newer once (https://nodejs.org), then build again.")
+    }
+}
+
+val buildMapPage by tasks.registering(Exec::class) {
+    dependsOn(installMapPage)
+    workingDir = mapweb
+    commandLine(npmCommand, "run", "build")
+    inputs.dir(File(mapweb, "src"))
+    inputs.files(File(mapweb, "package.json"), File(mapweb, "build.mjs"))
+    outputs.dir(layout.projectDirectory.dir("src/main/assets/map"))
+}
+
+tasks.named("preBuild") { dependsOn(buildMapPage) }
