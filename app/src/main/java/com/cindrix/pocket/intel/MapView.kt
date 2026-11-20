@@ -96,7 +96,7 @@ class MapCamera {
 fun layerOf(k: Kind): Kind = when (k) { Kind.HAZARD, Kind.SPACE, Kind.HEALTH -> Kind.HAZARD; else -> k }
 
 @Composable
-fun WorldMap(vm: OverwatchViewModel, cam: MapCamera, modifier: Modifier = Modifier) {
+fun WorldMap(vm: IntelVm, cam: MapCamera, modifier: Modifier = Modifier) {
     val ctx = LocalContext.current
     val land = remember { loadLand(ctx) }
     val pins = vm.items.filter { vm.onMap(it) }
