@@ -74,3 +74,11 @@ The **PLANS** button opens the plans carried from Cindrix Ops (`content/plans`, 
 - Buttons that open a screen in the Ops program are shown as a plain note ("In the Ops program: ...").
 - Ticks stay on the phone (`planTicks` in `Store`); like the skill ticks they are not sent to the Hub yet.
 - `scripts/sync-content.sh` now also copies `content/plans/*.md` (not the `_` templates). Compiled and unit-tested in CI only (`PlansTest`).
+
+## Intel
+
+The INTEL button on the home screen opens the intel-gathering part of Cindrix Overwatch: world map, Intel dashboard (top 10 for early warning, channels, troop movements), feed, brief, DEFCON readings and your own feeds. The code is ported from the Overwatch Android app and lives in `app/src/main/java/com/cindrix/pocket/intel`.
+
+- Field view stays quiet: Intel makes no network requests until you tap Refresh. Saved history (30 days) is readable with no internet.
+- Not carried over from Overwatch: Watchtower cameras, the lock, the VPN and the AI helper.
+- The Hub's erase order also removes the saved Intel history and settings.

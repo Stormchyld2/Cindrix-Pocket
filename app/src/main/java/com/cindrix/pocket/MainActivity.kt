@@ -35,6 +35,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.cindrix.pocket.intel.IntelApp
+import com.cindrix.pocket.intel.IntelVm
 
 /** Which screen is showing. */
 sealed class Screen {
@@ -55,6 +58,7 @@ sealed class Screen {
     object Academy : Screen()
     object Skills : Screen()
     object Plans : Screen()
+    object Intel : Screen()
     data class Form(val item: BatchItem, val isNew: Boolean, val known: Boolean, val fromScan: Boolean) : Screen()
 }
 
@@ -199,6 +203,7 @@ fun App(state: AppState) {
                 onAcademy = { screen = Screen.Academy },
                 onSkills = { screen = Screen.Skills },
                 onPlans = { screen = Screen.Plans },
+                onIntel = { screen = Screen.Intel },
                 onHub = { screen = Screen.Hub },
                 onCount = { screen = Screen.Count },
                 onBooks = { screen = Screen.Books },
@@ -317,6 +322,8 @@ fun App(state: AppState) {
             )
 
             Screen.Books -> BooksScreen(state = state, onBack = { screen = Screen.Home })
+
+            Screen.Intel -> IntelApp(vm = viewModel<IntelVm>(), onBack = { screen = Screen.Home })
 
             Screen.Contact -> ContactCardScreen(state = state, onBack = { screen = Screen.Home })
 

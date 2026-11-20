@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <!-- only used to talk to the Hub on its own Wi-Fi after the person joins it; nothing goes to the internet -->
+    <!-- Talks to the Hub on its own Wi-Fi after the person joins it. The Intel screen also reads public news and alert feeds over https, but only when the person taps Refresh. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />

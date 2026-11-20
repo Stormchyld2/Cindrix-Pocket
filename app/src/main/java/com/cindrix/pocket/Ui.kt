@@ -136,6 +136,7 @@ fun HomeScreen(
     onAcademy: () -> Unit,
     onSkills: () -> Unit,
     onPlans: () -> Unit,
+    onIntel: () -> Unit,
     onHub: () -> Unit,
     onCount: () -> Unit,
     onBooks: () -> Unit,
@@ -165,6 +166,8 @@ fun HomeScreen(
             Btn("PLANS", onPlans, Modifier.weight(1f))
             Btn("SKILLS", onSkills, Modifier.weight(1f))
         }
+        Spacer(Modifier.height(8.dp))
+        Btn("INTEL", onIntel, Modifier.fillMaxWidth())
         Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Btn("BOOKS", onBooks, Modifier.weight(1f), outlined = true)

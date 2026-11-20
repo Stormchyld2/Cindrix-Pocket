@@ -79,6 +79,7 @@ fun HubScreen(state: AppState, onScanQr: () -> Unit, onErased: () -> Unit, invit
                 h.instruction == "erase" -> {
                     // erase first, then tell the Hub it is done (the Hub waits for this)
                     state.wipeEverything()
+                    com.cindrix.pocket.intel.eraseIntelData(context)
                     withContext(Dispatchers.IO) { HubLink.erased(base, token) }
                     onErased()
                 }
